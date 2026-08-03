@@ -1,46 +1,329 @@
 {
   "date": "2026-08-03",
   "tradingDate": "2026-08-03",
-  "generatedAt": "2026-08-03T01:08:16.105Z",
+  "generatedAt": "2026-08-03T11:44:42.534Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-08-03",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5888,
-  "unpriced": 5888,
+  "breadthComplete": false,
+  "breadthCounted": 0,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3831.38,
-      "change": -0.88,
-      "changePct": -0.02
+      "price": 3809.66,
+      "change": -22.6,
+      "changePct": -0.59
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13578.93,
-      "change": 0,
-      "changePct": 0
+      "price": 13448.29,
+      "change": -130.64,
+      "changePct": -0.96
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3343.96,
-      "change": 0,
-      "changePct": 0
+      "price": 3302.55,
+      "change": -41.41,
+      "changePct": -1.24
     }
   ],
-  "total": 5888,
+  "total": 0,
   "up": 0,
   "down": 0,
   "flat": 0,
-  "limitUpCount": 0,
+  "limitUpCount": 75,
   "downLimitCount": 0,
-  "topSector": "待补充",
-  "topSectorCount": 0,
-  "sectorLimitUps": [],
-  "consecutiveLimitUps": [],
-  "errors": []
+  "topSector": "电网设备",
+  "topSectorCount": 8,
+  "sectorLimitUps": [
+    {
+      "sector": "电网设备",
+      "count": 8
+    },
+    {
+      "sector": "通用设备",
+      "count": 6
+    },
+    {
+      "sector": "化学制品",
+      "count": 4
+    },
+    {
+      "sector": "电力",
+      "count": 4
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 3
+    },
+    {
+      "sector": "计算机设",
+      "count": 3
+    },
+    {
+      "sector": "塑料",
+      "count": 3
+    },
+    {
+      "sector": "通信设备",
+      "count": 3
+    },
+    {
+      "sector": "光伏设备",
+      "count": 3
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 2
+    },
+    {
+      "sector": "环保设备",
+      "count": 2
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "自动化设",
+      "count": 2
+    },
+    {
+      "sector": "专业工程",
+      "count": 2
+    },
+    {
+      "sector": "造纸",
+      "count": 2
+    },
+    {
+      "sector": "专用设备",
+      "count": 2
+    },
+    {
+      "sector": "教育",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
+      "count": 1
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "航空装备",
+      "count": 1
+    },
+    {
+      "sector": "一般零售",
+      "count": 1
+    },
+    {
+      "sector": "煤炭开采",
+      "count": 1
+    },
+    {
+      "sector": "房地产开",
+      "count": 1
+    },
+    {
+      "sector": "电池",
+      "count": 1
+    },
+    {
+      "sector": "特钢Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "其他电源",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "休闲食品",
+      "count": 1
+    },
+    {
+      "sector": "互联网电",
+      "count": 1
+    },
+    {
+      "sector": "半导体",
+      "count": 1
+    },
+    {
+      "sector": "种植业",
+      "count": 1
+    },
+    {
+      "sector": "工程机械",
+      "count": 1
+    },
+    {
+      "sector": "农产品加",
+      "count": 1
+    },
+    {
+      "sector": "基础建设",
+      "count": 1
+    },
+    {
+      "sector": "出版",
+      "count": 1
+    },
+    {
+      "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "医疗器械",
+      "count": 1
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "炼化及贸",
+      "count": 1
+    }
+  ],
+  "consecutiveLimitUps": [
+    {
+      "code": "003032",
+      "name": "传智教育",
+      "boards": 6,
+      "sector": "教育",
+      "changePct": 9.988649368286133
+    },
+    {
+      "code": "605179",
+      "name": "一鸣食品",
+      "boards": 5,
+      "sector": "饮料乳品",
+      "changePct": 10.015487670898438
+    },
+    {
+      "code": "002827",
+      "name": "高争民爆",
+      "boards": 4,
+      "sector": "化学制品",
+      "changePct": 10
+    },
+    {
+      "code": "000820",
+      "name": "神雾节能",
+      "boards": 3,
+      "sector": "环保设备",
+      "changePct": 9.943181991577148
+    },
+    {
+      "code": "000593",
+      "name": "德龙汇能",
+      "boards": 2,
+      "sector": "燃气Ⅱ",
+      "changePct": 9.988180160522461
+    },
+    {
+      "code": "000595",
+      "name": "新能股份",
+      "boards": 2,
+      "sector": "电力",
+      "changePct": 9.963099479675293
+    },
+    {
+      "code": "000815",
+      "name": "美利云",
+      "boards": 2,
+      "sector": "IT服务Ⅱ",
+      "changePct": 10.013175010681152
+    },
+    {
+      "code": "000967",
+      "name": "盈峰环境",
+      "boards": 2,
+      "sector": "环保设备",
+      "changePct": 10.06369400024414
+    },
+    {
+      "code": "001223",
+      "name": "欧克科技",
+      "boards": 2,
+      "sector": "自动化设",
+      "changePct": 10.006082534790039
+    },
+    {
+      "code": "002131",
+      "name": "利欧股份",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10.085836410522461
+    },
+    {
+      "code": "002354",
+      "name": "天娱数科",
+      "boards": 2,
+      "sector": "广告营销",
+      "changePct": 9.984639167785645
+    },
+    {
+      "code": "002896",
+      "name": "中大力德",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 9.993868827819824
+    },
+    {
+      "code": "002963",
+      "name": "豪尔赛",
+      "boards": 2,
+      "sector": "装修装饰",
+      "changePct": 9.984871864318848
+    },
+    {
+      "code": "003001",
+      "name": "中岩大地",
+      "boards": 2,
+      "sector": "专业工程",
+      "changePct": 9.979209899902344
+    },
+    {
+      "code": "603106",
+      "name": "恒银科技",
+      "boards": 2,
+      "sector": "计算机设",
+      "changePct": 10.0401611328125
+    },
+    {
+      "code": "603261",
+      "name": "立航科技",
+      "boards": 2,
+      "sector": "航空装备",
+      "changePct": 10.002202987670898
+    },
+    {
+      "code": "603682",
+      "name": "锦和商管",
+      "boards": 2,
+      "sector": "一般零售",
+      "changePct": 10
+    }
+  ],
+  "errors": [
+    "breadth: fetch failed"
+  ]
 }
