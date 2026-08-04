@@ -1,0 +1,385 @@
+{
+  "date": "2026-08-04",
+  "tradingDate": "2026-08-04",
+  "generatedAt": "2026-08-04T08:53:27.197Z",
+  "source": "GitHub Actions · 东方财富公开接口",
+  "dataDate": "2026-08-04",
+  "dataScope": "沪深京A股",
+  "breadthProvider": "东方财富延迟行情",
+  "breadthComplete": true,
+  "breadthCounted": 5889,
+  "unpriced": 360,
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3822.28,
+      "change": 12.62,
+      "changePct": 0.33
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 13885.71,
+      "change": 437.42,
+      "changePct": 3.25
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 3488.97,
+      "change": 186.42,
+      "changePct": 5.64
+    }
+  ],
+  "total": 5889,
+  "up": 3642,
+  "down": 1747,
+  "flat": 140,
+  "limitUpCount": 138,
+  "downLimitCount": 0,
+  "topSector": "元件",
+  "topSectorCount": 15,
+  "sectorLimitUps": [
+    {
+      "sector": "元件",
+      "count": 15
+    },
+    {
+      "sector": "通信设备",
+      "count": 9
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 8
+    },
+    {
+      "sector": "通用设备",
+      "count": 7
+    },
+    {
+      "sector": "计算机设",
+      "count": 6
+    },
+    {
+      "sector": "电网设备",
+      "count": 6
+    },
+    {
+      "sector": "医疗服务",
+      "count": 5
+    },
+    {
+      "sector": "汽车零部",
+      "count": 5
+    },
+    {
+      "sector": "塑料",
+      "count": 4
+    },
+    {
+      "sector": "化学制药",
+      "count": 4
+    },
+    {
+      "sector": "自动化设",
+      "count": 4
+    },
+    {
+      "sector": "专用设备",
+      "count": 4
+    },
+    {
+      "sector": "装修装饰",
+      "count": 3
+    },
+    {
+      "sector": "光学光电",
+      "count": 3
+    },
+    {
+      "sector": "包装印刷",
+      "count": 3
+    },
+    {
+      "sector": "软件开发",
+      "count": 3
+    },
+    {
+      "sector": "电子化学",
+      "count": 3
+    },
+    {
+      "sector": "教育",
+      "count": 2
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "广告营销",
+      "count": 2
+    },
+    {
+      "sector": "专业工程",
+      "count": 2
+    },
+    {
+      "sector": "化学原料",
+      "count": 2
+    },
+    {
+      "sector": "小金属",
+      "count": 2
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "消费电子",
+      "count": 2
+    },
+    {
+      "sector": "通信服务",
+      "count": 2
+    },
+    {
+      "sector": "家居用品",
+      "count": 2
+    },
+    {
+      "sector": "数字媒体",
+      "count": 2
+    },
+    {
+      "sector": "半导体",
+      "count": 2
+    },
+    {
+      "sector": "环保设备",
+      "count": 1
+    },
+    {
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "出版",
+      "count": 1
+    },
+    {
+      "sector": "医疗器械",
+      "count": 1
+    },
+    {
+      "sector": "养殖业",
+      "count": 1
+    },
+    {
+      "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "照明设备",
+      "count": 1
+    },
+    {
+      "sector": "玻璃玻纤",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "其他电源",
+      "count": 1
+    },
+    {
+      "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "互联网电",
+      "count": 1
+    },
+    {
+      "sector": "生物制品",
+      "count": 1
+    },
+    {
+      "sector": "调味发酵",
+      "count": 1
+    },
+    {
+      "sector": "其他电子",
+      "count": 1
+    },
+    {
+      "sector": "化学制品",
+      "count": 1
+    },
+    {
+      "sector": "综合Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "一般零售",
+      "count": 1
+    },
+    {
+      "sector": "金属新材",
+      "count": 1
+    },
+    {
+      "sector": "专业服务",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "基础建设",
+      "count": 1
+    }
+  ],
+  "consecutiveLimitUps": [
+    {
+      "code": "003032",
+      "name": "传智教育",
+      "boards": 7,
+      "sector": "教育",
+      "changePct": 10.010319709777832
+    },
+    {
+      "code": "000820",
+      "name": "神雾节能",
+      "boards": 4,
+      "sector": "环保设备",
+      "changePct": 10.077519416809082
+    },
+    {
+      "code": "000593",
+      "name": "德龙汇能",
+      "boards": 3,
+      "sector": "燃气Ⅱ",
+      "changePct": 9.994626998901367
+    },
+    {
+      "code": "000595",
+      "name": "新能股份",
+      "boards": 3,
+      "sector": "电力",
+      "changePct": 10.067113876342773
+    },
+    {
+      "code": "000815",
+      "name": "美利云",
+      "boards": 3,
+      "sector": "IT服务Ⅱ",
+      "changePct": 10
+    },
+    {
+      "code": "002354",
+      "name": "天娱数科",
+      "boards": 3,
+      "sector": "广告营销",
+      "changePct": 10.055866241455078
+    },
+    {
+      "code": "002963",
+      "name": "豪尔赛",
+      "boards": 3,
+      "sector": "装修装饰",
+      "changePct": 9.972489356994629
+    },
+    {
+      "code": "603106",
+      "name": "恒银科技",
+      "boards": 3,
+      "sector": "计算机设",
+      "changePct": 9.975668907165527
+    },
+    {
+      "code": "000533",
+      "name": "顺钠股份",
+      "boards": 2,
+      "sector": "电网设备",
+      "changePct": 10.043667793273926
+    },
+    {
+      "code": "001229",
+      "name": "魅视科技",
+      "boards": 2,
+      "sector": "计算机设",
+      "changePct": 10.005717277526855
+    },
+    {
+      "code": "001331",
+      "name": "胜通能源",
+      "boards": 2,
+      "sector": "燃气Ⅱ",
+      "changePct": 9.997664451599121
+    },
+    {
+      "code": "002361",
+      "name": "神剑股份",
+      "boards": 2,
+      "sector": "塑料",
+      "changePct": 10.009910583496094
+    },
+    {
+      "code": "002421",
+      "name": "达实智能",
+      "boards": 2,
+      "sector": "IT服务Ⅱ",
+      "changePct": 10.126582145690918
+    },
+    {
+      "code": "002792",
+      "name": "通宇通讯",
+      "boards": 2,
+      "sector": "通信设备",
+      "changePct": 9.984698295593262
+    },
+    {
+      "code": "300615",
+      "name": "欣天科技",
+      "boards": 2,
+      "sector": "通信设备",
+      "changePct": 20.03835105895996
+    },
+    {
+      "code": "601700",
+      "name": "风范股份",
+      "boards": 2,
+      "sector": "电网设备",
+      "changePct": 10.037175178527832
+    },
+    {
+      "code": "601858",
+      "name": "中国科传",
+      "boards": 2,
+      "sector": "出版",
+      "changePct": 10.01838207244873
+    },
+    {
+      "code": "603222",
+      "name": "济民健康",
+      "boards": 2,
+      "sector": "医疗器械",
+      "changePct": 10.02538013458252
+    },
+    {
+      "code": "605167",
+      "name": "利柏特",
+      "boards": 2,
+      "sector": "专业工程",
+      "changePct": 10
+    }
+  ],
+  "errors": []
+}
