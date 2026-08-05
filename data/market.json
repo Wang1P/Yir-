@@ -1,49 +1,367 @@
 {
   "date": "2026-08-05",
   "tradingDate": "2026-08-05",
-  "generatedAt": "2026-08-05T00:56:53.424Z",
+  "generatedAt": "2026-08-05T10:46:50.288Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-08-05",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5889,
-  "unpriced": 5889,
+  "unpriced": 357,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3822.25,
-      "change": -0.03,
-      "changePct": 0
+      "price": 3878.43,
+      "change": 56.15,
+      "changePct": 1.47
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13885.71,
-      "change": 0,
-      "changePct": 0
+      "price": 14144.2,
+      "change": 258.49,
+      "changePct": 1.86
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3488.97,
-      "change": 0,
-      "changePct": 0
+      "price": 3535.14,
+      "change": 46.17,
+      "changePct": 1.32
     }
   ],
   "total": 5889,
-  "up": 0,
-  "down": 0,
-  "flat": 0,
-  "netInflow": 0,
-  "netInflowCount": 0,
+  "up": 3725,
+  "down": 1621,
+  "flat": 186,
+  "netInflow": 51188697757,
+  "netInflowCount": 5532,
   "netInflowComplete": false,
-  "limitUpCount": 0,
+  "limitUpCount": 103,
   "downLimitCount": 0,
-  "topSector": "待补充",
-  "topSectorCount": 0,
-  "sectorLimitUps": [],
-  "consecutiveLimitUps": [],
+  "topSector": "汽车零部",
+  "topSectorCount": 7,
+  "sectorLimitUps": [
+    {
+      "sector": "汽车零部",
+      "count": 7
+    },
+    {
+      "sector": "小金属",
+      "count": 6
+    },
+    {
+      "sector": "消费电子",
+      "count": 6
+    },
+    {
+      "sector": "光学光电",
+      "count": 6
+    },
+    {
+      "sector": "通信设备",
+      "count": 5
+    },
+    {
+      "sector": "元件",
+      "count": 5
+    },
+    {
+      "sector": "电网设备",
+      "count": 4
+    },
+    {
+      "sector": "通用设备",
+      "count": 4
+    },
+    {
+      "sector": "半导体",
+      "count": 4
+    },
+    {
+      "sector": "化学制品",
+      "count": 4
+    },
+    {
+      "sector": "化学原料",
+      "count": 3
+    },
+    {
+      "sector": "计算机设",
+      "count": 3
+    },
+    {
+      "sector": "专用设备",
+      "count": 3
+    },
+    {
+      "sector": "塑料",
+      "count": 3
+    },
+    {
+      "sector": "教育",
+      "count": 2
+    },
+    {
+      "sector": "玻璃玻纤",
+      "count": 2
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "自动化设",
+      "count": 2
+    },
+    {
+      "sector": "贵金属",
+      "count": 2
+    },
+    {
+      "sector": "工业金属",
+      "count": 2
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "农化制品",
+      "count": 2
+    },
+    {
+      "sector": "金属新材",
+      "count": 2
+    },
+    {
+      "sector": "电子化学",
+      "count": 2
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "包装印刷",
+      "count": 1
+    },
+    {
+      "sector": "医疗服务",
+      "count": 1
+    },
+    {
+      "sector": "证券Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "军工电子",
+      "count": 1
+    },
+    {
+      "sector": "饰品",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
+      "count": 1
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1
+    },
+    {
+      "sector": "工程咨询",
+      "count": 1
+    },
+    {
+      "sector": "通信服务",
+      "count": 1
+    },
+    {
+      "sector": "航海装备",
+      "count": 1
+    },
+    {
+      "sector": "家电零部",
+      "count": 1
+    },
+    {
+      "sector": "非金属材",
+      "count": 1
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "特钢Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "专业工程",
+      "count": 1
+    }
+  ],
+  "consecutiveLimitUps": [
+    {
+      "code": "003032",
+      "name": "传智教育",
+      "boards": 8,
+      "sector": "教育",
+      "changePct": 10.03752326965332
+    },
+    {
+      "code": "000593",
+      "name": "德龙汇能",
+      "boards": 4,
+      "sector": "燃气Ⅱ",
+      "changePct": 10.014655113220215
+    },
+    {
+      "code": "002963",
+      "name": "豪尔赛",
+      "boards": 4,
+      "sector": "装修装饰",
+      "changePct": 10.006254196166992
+    },
+    {
+      "code": "300615",
+      "name": "欣天科技",
+      "boards": 3,
+      "sector": "通信设备",
+      "changePct": 19.968050003051758
+    },
+    {
+      "code": "601700",
+      "name": "风范股份",
+      "boards": 3,
+      "sector": "电网设备",
+      "changePct": 9.966216087341309
+    },
+    {
+      "code": "000510",
+      "name": "新金路",
+      "boards": 2,
+      "sector": "化学原料",
+      "changePct": 10.034130096435547
+    },
+    {
+      "code": "000811",
+      "name": "冰轮环境",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10.005574226379395
+    },
+    {
+      "code": "000962",
+      "name": "东方钽业",
+      "boards": 2,
+      "sector": "小金属",
+      "changePct": 9.991477966308594
+    },
+    {
+      "code": "001267",
+      "name": "汇绿生态",
+      "boards": 2,
+      "sector": "通信设备",
+      "changePct": 10.009354591369629
+    },
+    {
+      "code": "002080",
+      "name": "中材科技",
+      "boards": 2,
+      "sector": "玻璃玻纤",
+      "changePct": 10.00676155090332
+    },
+    {
+      "code": "002348",
+      "name": "高乐股份",
+      "boards": 2,
+      "sector": "文娱用品",
+      "changePct": 9.981851577758789
+    },
+    {
+      "code": "002425",
+      "name": "凯撒文化",
+      "boards": 2,
+      "sector": "游戏Ⅱ",
+      "changePct": 10.158730506896973
+    },
+    {
+      "code": "002428",
+      "name": "云南锗业",
+      "boards": 2,
+      "sector": "小金属",
+      "changePct": 10.001330375671387
+    },
+    {
+      "code": "002552",
+      "name": "宝鼎科技",
+      "boards": 2,
+      "sector": "元件",
+      "changePct": 10.011185646057129
+    },
+    {
+      "code": "002579",
+      "name": "中京电子",
+      "boards": 2,
+      "sector": "元件",
+      "changePct": 10
+    },
+    {
+      "code": "002655",
+      "name": "共达电声",
+      "boards": 2,
+      "sector": "消费电子",
+      "changePct": 9.995936393737793
+    },
+    {
+      "code": "002674",
+      "name": "兴业科技",
+      "boards": 2,
+      "sector": "纺织制造",
+      "changePct": 10.008170127868652
+    },
+    {
+      "code": "002957",
+      "name": "科瑞技术",
+      "boards": 2,
+      "sector": "自动化设",
+      "changePct": 10.008578300476074
+    },
+    {
+      "code": "002975",
+      "name": "博杰股份",
+      "boards": 2,
+      "sector": "自动化设",
+      "changePct": 9.997400283813477
+    },
+    {
+      "code": "002980",
+      "name": "华盛昌",
+      "boards": 2,
+      "sector": "电网设备",
+      "changePct": 9.997110366821289
+    }
+  ],
   "errors": []
 }
