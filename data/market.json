@@ -1,49 +1,335 @@
 {
   "date": "2026-08-06",
   "tradingDate": "2026-08-06",
-  "generatedAt": "2026-08-06T00:53:32.728Z",
+  "generatedAt": "2026-08-06T10:49:20.321Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-08-06",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5891,
-  "unpriced": 5891,
+  "unpriced": 358,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3878.33,
-      "change": -0.1,
-      "changePct": 0
+      "price": 3900.35,
+      "change": 21.92,
+      "changePct": 0.57
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 14144.2,
-      "change": 0,
-      "changePct": 0
+      "price": 14110.12,
+      "change": -34.08,
+      "changePct": -0.24
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3535.14,
-      "change": 0,
-      "changePct": 0
+      "price": 3515.56,
+      "change": -19.58,
+      "changePct": -0.55
     }
   ],
   "total": 5891,
-  "up": 0,
-  "down": 0,
-  "flat": 0,
-  "netInflow": 0,
-  "netInflowCount": 0,
+  "up": 2789,
+  "down": 2590,
+  "flat": 154,
+  "netInflow": -38311474089,
+  "netInflowCount": 5533,
   "netInflowComplete": false,
-  "limitUpCount": 0,
+  "limitUpCount": 79,
   "downLimitCount": 0,
-  "topSector": "待补充",
-  "topSectorCount": 0,
-  "sectorLimitUps": [],
-  "consecutiveLimitUps": [],
+  "topSector": "通信设备",
+  "topSectorCount": 8,
+  "sectorLimitUps": [
+    {
+      "sector": "通信设备",
+      "count": 8
+    },
+    {
+      "sector": "化学制品",
+      "count": 7
+    },
+    {
+      "sector": "煤炭开采",
+      "count": 7
+    },
+    {
+      "sector": "元件",
+      "count": 6
+    },
+    {
+      "sector": "专用设备",
+      "count": 4
+    },
+    {
+      "sector": "计算机设",
+      "count": 4
+    },
+    {
+      "sector": "软件开发",
+      "count": 4
+    },
+    {
+      "sector": "半导体",
+      "count": 3
+    },
+    {
+      "sector": "电子化学",
+      "count": 3
+    },
+    {
+      "sector": "电网设备",
+      "count": 2
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "医疗服务",
+      "count": 2
+    },
+    {
+      "sector": "化学制药",
+      "count": 2
+    },
+    {
+      "sector": "水泥",
+      "count": 2
+    },
+    {
+      "sector": "医药商业",
+      "count": 2
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "小金属",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
+      "count": 1
+    },
+    {
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "军工电子",
+      "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "饰品",
+      "count": 1
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "通信服务",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
+      "count": 1
+    },
+    {
+      "sector": "其他电源",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "通用设备",
+      "count": 1
+    },
+    {
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
+      "sector": "农产品加",
+      "count": 1
+    },
+    {
+      "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "房地产开",
+      "count": 1
+    },
+    {
+      "sector": "化学原料",
+      "count": 1
+    },
+    {
+      "sector": "多元金融",
+      "count": 1
+    }
+  ],
+  "consecutiveLimitUps": [
+    {
+      "code": "603221",
+      "name": "爱丽家居",
+      "boards": 10,
+      "sector": "家居用品",
+      "changePct": 9.982254028320312
+    },
+    {
+      "code": "002963",
+      "name": "豪尔赛",
+      "boards": 5,
+      "sector": "装修装饰",
+      "changePct": 10.005684852600098
+    },
+    {
+      "code": "300615",
+      "name": "欣天科技",
+      "boards": 4,
+      "sector": "通信设备",
+      "changePct": 19.973369598388672
+    },
+    {
+      "code": "601700",
+      "name": "风范股份",
+      "boards": 4,
+      "sector": "电网设备",
+      "changePct": 9.984639167785645
+    },
+    {
+      "code": "001267",
+      "name": "汇绿生态",
+      "boards": 3,
+      "sector": "通信设备",
+      "changePct": 10.005669593811035
+    },
+    {
+      "code": "002425",
+      "name": "凯撒文化",
+      "boards": 3,
+      "sector": "游戏Ⅱ",
+      "changePct": 10.086455345153809
+    },
+    {
+      "code": "002428",
+      "name": "云南锗业",
+      "boards": 3,
+      "sector": "小金属",
+      "changePct": 9.998790740966797
+    },
+    {
+      "code": "002552",
+      "name": "宝鼎科技",
+      "boards": 3,
+      "sector": "元件",
+      "changePct": 9.989831924438477
+    },
+    {
+      "code": "002975",
+      "name": "博杰股份",
+      "boards": 3,
+      "sector": "自动化设",
+      "changePct": 9.998817443847656
+    },
+    {
+      "code": "600397",
+      "name": "江钨装备",
+      "boards": 3,
+      "sector": "专用设备",
+      "changePct": 10.032573699951172
+    },
+    {
+      "code": "600721",
+      "name": "百花医药",
+      "boards": 3,
+      "sector": "医疗服务",
+      "changePct": 9.988518714904785
+    },
+    {
+      "code": "600892",
+      "name": "大晟文化",
+      "boards": 3,
+      "sector": "游戏Ⅱ",
+      "changePct": 10.096153259277344
+    },
+    {
+      "code": "603773",
+      "name": "沃格光电",
+      "boards": 3,
+      "sector": "光学光电",
+      "changePct": 10.00381851196289
+    },
+    {
+      "code": "002214",
+      "name": "大立科技",
+      "boards": 2,
+      "sector": "军工电子",
+      "changePct": 10.033670425415039
+    },
+    {
+      "code": "002649",
+      "name": "博彦科技",
+      "boards": 2,
+      "sector": "IT服务Ⅱ",
+      "changePct": 10.038986206054688
+    },
+    {
+      "code": "002721",
+      "name": "金一文化",
+      "boards": 2,
+      "sector": "饰品",
+      "changePct": 10.112359046936035
+    },
+    {
+      "code": "002971",
+      "name": "和远气体",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 10
+    },
+    {
+      "code": "600206",
+      "name": "有研新材",
+      "boards": 2,
+      "sector": "半导体",
+      "changePct": 9.997488021850586
+    },
+    {
+      "code": "603078",
+      "name": "江化微",
+      "boards": 2,
+      "sector": "电子化学",
+      "changePct": 10.00643539428711
+    },
+    {
+      "code": "603823",
+      "name": "百合花",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 9.995059967041016
+    }
+  ],
   "errors": []
 }
