@@ -1,63 +1,83 @@
 {
   "date": "2026-08-07",
   "tradingDate": "2026-08-07",
-  "generatedAt": "2026-08-07T01:51:54.224Z",
+  "generatedAt": "2026-08-07T09:16:03.942Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-08-07",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5892,
-  "unpriced": 371,
+  "unpriced": 357,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3898.26,
-      "change": -2.09,
-      "changePct": -0.05
+      "price": 3940.04,
+      "change": 39.69,
+      "changePct": 1.02
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 14148.65,
-      "change": 38.53,
-      "changePct": 0.27
+      "price": 14311.01,
+      "change": 200.89,
+      "changePct": 1.42
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3533.41,
-      "change": 17.85,
-      "changePct": 0.51
+      "price": 3563.12,
+      "change": 47.56,
+      "changePct": 1.35
     }
   ],
   "total": 5892,
-  "up": 1101,
-  "down": 4341,
-  "flat": 79,
-  "netInflow": -9638667223,
-  "netInflowCount": 5521,
+  "up": 2856,
+  "down": 2536,
+  "flat": 143,
+  "netInflow": 36347875194,
+  "netInflowCount": 5535,
   "netInflowComplete": false,
-  "limitUpCount": 26,
+  "limitUpCount": 74,
   "downLimitCount": 0,
-  "topSector": "化学制药",
-  "topSectorCount": 6,
+  "topSector": "元件",
+  "topSectorCount": 11,
   "sectorLimitUps": [
+    {
+      "sector": "元件",
+      "count": 11
+    },
+    {
+      "sector": "医疗服务",
+      "count": 8
+    },
     {
       "sector": "化学制药",
       "count": 6
     },
     {
-      "sector": "元件",
+      "sector": "通信设备",
+      "count": 4
+    },
+    {
+      "sector": "半导体",
       "count": 4
     },
     {
       "sector": "化学制品",
-      "count": 2
+      "count": 3
     },
     {
-      "sector": "通信设备",
+      "sector": "生物制品",
+      "count": 3
+    },
+    {
+      "sector": "汽车零部",
+      "count": 3
+    },
+    {
+      "sector": "小金属",
       "count": 2
     },
     {
@@ -65,15 +85,23 @@
       "count": 2
     },
     {
-      "sector": "汽车零部",
+      "sector": "贵金属",
       "count": 2
     },
     {
-      "sector": "医疗服务",
-      "count": 1
+      "sector": "通用设备",
+      "count": 2
     },
     {
-      "sector": "半导体",
+      "sector": "专业工程",
+      "count": 2
+    },
+    {
+      "sector": "装修装饰",
+      "count": 2
+    },
+    {
+      "sector": "光学光电",
       "count": 1
     },
     {
@@ -81,7 +109,27 @@
       "count": 1
     },
     {
+      "sector": "非金属材",
+      "count": 1
+    },
+    {
       "sector": "特钢Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "电子化学",
+      "count": 1
+    },
+    {
+      "sector": "服装家纺",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
       "count": 1
     },
     {
@@ -89,7 +137,39 @@
       "count": 1
     },
     {
-      "sector": "装修装饰",
+      "sector": "医疗器械",
+      "count": 1
+    },
+    {
+      "sector": "电池",
+      "count": 1
+    },
+    {
+      "sector": "水泥",
+      "count": 1
+    },
+    {
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
+      "count": 1
+    },
+    {
+      "sector": "光伏设备",
+      "count": 1
+    },
+    {
+      "sector": "专用设备",
+      "count": 1
+    },
+    {
+      "sector": "食品加工",
+      "count": 1
+    },
+    {
+      "sector": "金属新材",
       "count": 1
     },
     {
@@ -97,11 +177,25 @@
       "count": 1
     },
     {
-      "sector": "通用设备",
+      "sector": "计算机设",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
+    {
+      "code": "001267",
+      "name": "汇绿生态",
+      "boards": 4,
+      "sector": "通信设备",
+      "changePct": 9.99742317199707
+    },
+    {
+      "code": "002428",
+      "name": "云南锗业",
+      "boards": 4,
+      "sector": "小金属",
+      "changePct": 10.002198219299316
+    },
     {
       "code": "002552",
       "name": "宝鼎科技",
@@ -117,11 +211,25 @@
       "changePct": 10.02087688446045
     },
     {
+      "code": "603773",
+      "name": "沃格光电",
+      "boards": 4,
+      "sector": "光学光电",
+      "changePct": 9.996528625488281
+    },
+    {
       "code": "002971",
       "name": "和远气体",
       "boards": 3,
       "sector": "化学制品",
       "changePct": 10.012121200561523
+    },
+    {
+      "code": "600206",
+      "name": "有研新材",
+      "boards": 3,
+      "sector": "半导体",
+      "changePct": 10.002284049987793
     },
     {
       "code": "002194",
@@ -143,6 +251,13 @@
       "boards": 2,
       "sector": "医药商业",
       "changePct": 10.008481979370117
+    },
+    {
+      "code": "600601",
+      "name": "方正科技",
+      "boards": 2,
+      "sector": "元件",
+      "changePct": 10
     },
     {
       "code": "603228",
