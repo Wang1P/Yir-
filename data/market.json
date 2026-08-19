@@ -1,103 +1,75 @@
 {
   "date": "2026-08-19",
-  "tradingDate": "2026-08-18",
-  "generatedAt": "2026-08-18T23:48:50.900Z",
+  "tradingDate": "2026-08-19",
+  "generatedAt": "2026-08-19T08:55:10.095Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-08-18",
+  "dataDate": "2026-08-19",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5899,
-  "unpriced": 359,
+  "unpriced": 358,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3990.3,
-      "change": 7.65,
-      "changePct": 0.19
+      "price": 3894.42,
+      "change": -95.88,
+      "changePct": -2.4
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 14622.5,
-      "change": -81.77,
-      "changePct": -0.56
+      "price": 13890.15,
+      "change": -732.35,
+      "changePct": -5.01
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3705.56,
-      "change": -34.6,
-      "changePct": -0.93
+      "price": 3473.49,
+      "change": -232.07,
+      "changePct": -6.26
     }
   ],
   "total": 5899,
-  "up": 2121,
-  "down": 3292,
-  "flat": 127,
-  "netInflow": -66430830131,
-  "netInflowCount": 5540,
+  "up": 449,
+  "down": 5069,
+  "flat": 23,
+  "netInflow": -194656283300,
+  "netInflowCount": 5541,
   "netInflowComplete": false,
-  "limitUpCount": 79,
+  "limitUpCount": 36,
   "downLimitCount": 0,
-  "topSector": "种植业",
-  "topSectorCount": 13,
+  "topSector": "农产品加",
+  "topSectorCount": 3,
   "sectorLimitUps": [
     {
-      "sector": "种植业",
-      "count": 13
+      "sector": "农产品加",
+      "count": 3
     },
     {
-      "sector": "汽车零部",
-      "count": 5
+      "sector": "房地产服",
+      "count": 3
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 3
+    },
+    {
+      "sector": "厨卫电器",
+      "count": 3
     },
     {
       "sector": "化学制药",
-      "count": 4
-    },
-    {
-      "sector": "农产品加",
-      "count": 4
-    },
-    {
-      "sector": "一般零售",
-      "count": 4
-    },
-    {
-      "sector": "通用设备",
-      "count": 4
-    },
-    {
-      "sector": "养殖业",
       "count": 3
     },
     {
-      "sector": "化学制品",
-      "count": 3
-    },
-    {
-      "sector": "光学光电",
-      "count": 3
-    },
-    {
-      "sector": "休闲食品",
+      "sector": "电网设备",
       "count": 2
     },
     {
-      "sector": "家居用品",
-      "count": 2
-    },
-    {
-      "sector": "农化制品",
-      "count": 2
-    },
-    {
-      "sector": "饲料",
-      "count": 2
-    },
-    {
-      "sector": "软件开发",
+      "sector": "专用设备",
       "count": 2
     },
     {
@@ -105,31 +77,15 @@
       "count": 2
     },
     {
-      "sector": "电子化学",
+      "sector": "家居用品",
+      "count": 2
+    },
+    {
+      "sector": "农化制品",
       "count": 1
     },
     {
-      "sector": "其他电子",
-      "count": 1
-    },
-    {
-      "sector": "计算机设",
-      "count": 1
-    },
-    {
-      "sector": "塑料",
-      "count": 1
-    },
-    {
-      "sector": "元件",
-      "count": 1
-    },
-    {
-      "sector": "服装家纺",
-      "count": 1
-    },
-    {
-      "sector": "饮料乳品",
+      "sector": "光学光电",
       "count": 1
     },
     {
@@ -137,15 +93,35 @@
       "count": 1
     },
     {
-      "sector": "房地产开",
+      "sector": "种植业",
       "count": 1
     },
     {
-      "sector": "专用设备",
+      "sector": "炼化及贸",
       "count": 1
     },
     {
-      "sector": "军工电子",
+      "sector": "电池",
+      "count": 1
+    },
+    {
+      "sector": "航运港口",
+      "count": 1
+    },
+    {
+      "sector": "装修建材",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "煤炭开采",
+      "count": 1
+    },
+    {
+      "sector": "通用设备",
       "count": 1
     },
     {
@@ -153,180 +129,59 @@
       "count": 1
     },
     {
-      "sector": "照明设备",
-      "count": 1
-    },
-    {
-      "sector": "专业工程",
-      "count": 1
-    },
-    {
-      "sector": "电网设备",
-      "count": 1
-    },
-    {
       "sector": "半导体",
-      "count": 1
-    },
-    {
-      "sector": "医药商业",
-      "count": 1
-    },
-    {
-      "sector": "IT服务Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "工业金属",
-      "count": 1
-    },
-    {
-      "sector": "贸易Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "家电零部",
-      "count": 1
-    },
-    {
-      "sector": "工程机械",
-      "count": 1
-    },
-    {
-      "sector": "化学纤维",
-      "count": 1
-    },
-    {
-      "sector": "出版",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "600613",
-      "name": "神奇制药",
-      "boards": 4,
-      "sector": "化学制药",
-      "changePct": 10.070921897888184
-    },
-    {
-      "code": "002820",
-      "name": "桂发祥",
-      "boards": 3,
-      "sector": "休闲食品",
-      "changePct": 10.044842720031738
-    },
-    {
-      "code": "300684",
-      "name": "中石科技",
-      "boards": 3,
-      "sector": "电子化学",
-      "changePct": 20.00494956970215
-    },
-    {
-      "code": "600353",
-      "name": "旭光电子",
-      "boards": 3,
-      "sector": "其他电子",
-      "changePct": 9.991209983825684
-    },
-    {
-      "code": "603089",
-      "name": "正裕工业",
-      "boards": 3,
-      "sector": "汽车零部",
-      "changePct": 9.972041130065918
-    },
-    {
       "code": "000505",
       "name": "京粮控股",
-      "boards": 2,
+      "boards": 3,
       "sector": "农产品加",
-      "changePct": 10.048623085021973
-    },
-    {
-      "code": "000735",
-      "name": "罗 牛 山",
-      "boards": 2,
-      "sector": "养殖业",
-      "changePct": 9.964412689208984
-    },
-    {
-      "code": "001229",
-      "name": "魅视科技",
-      "boards": 2,
-      "sector": "计算机设",
-      "changePct": 9.993425369262695
-    },
-    {
-      "code": "300313",
-      "name": "天山生物",
-      "boards": 2,
-      "sector": "养殖业",
-      "changePct": 20.03727912902832
+      "changePct": 10.014727592468262
     },
     {
       "code": "600127",
       "name": "金健米业",
-      "boards": 2,
+      "boards": 3,
       "sector": "农产品加",
-      "changePct": 10.061920166015625
-    },
-    {
-      "code": "600313",
-      "name": "农发种业",
-      "boards": 2,
-      "sector": "种植业",
-      "changePct": 10.064934730529785
-    },
-    {
-      "code": "603221",
-      "name": "爱丽家居",
-      "boards": 2,
-      "sector": "家居用品",
-      "changePct": 10.011000633239746
+      "changePct": 9.98593521118164
     },
     {
       "code": "603395",
       "name": "红四方",
-      "boards": 2,
+      "boards": 3,
       "sector": "农化制品",
-      "changePct": 10.016695022583008
+      "changePct": 10.015174865722656
     },
     {
-      "code": "603580",
-      "name": "艾艾精工",
+      "code": "000020",
+      "name": "深华发Ａ",
       "boards": 2,
-      "sector": "塑料",
-      "changePct": 10
+      "sector": "光学光电",
+      "changePct": 10.00800609588623
     },
     {
-      "code": "603823",
-      "name": "百合花",
+      "code": "000526",
+      "name": "学大教育",
       "boards": 2,
-      "sector": "化学制品",
-      "changePct": 10.001280784606934
+      "sector": "教育",
+      "changePct": 9.98874568939209
     },
     {
-      "code": "603936",
-      "name": "博敏电子",
+      "code": "002953",
+      "name": "日丰股份",
       "boards": 2,
-      "sector": "元件",
-      "changePct": 10.011507987976074
+      "sector": "电网设备",
+      "changePct": 10.03752326965332
     },
     {
-      "code": "603958",
-      "name": "哈森股份",
+      "code": "600371",
+      "name": "万向德农",
       "boards": 2,
-      "sector": "服装家纺",
-      "changePct": 10.011919021606445
-    },
-    {
-      "code": "605179",
-      "name": "一鸣食品",
-      "boards": 2,
-      "sector": "饮料乳品",
-      "changePct": 10
+      "sector": "种植业",
+      "changePct": 9.950860023498535
     }
   ],
   "errors": []
