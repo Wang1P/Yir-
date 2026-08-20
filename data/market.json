@@ -1,107 +1,123 @@
 {
   "date": "2026-08-20",
-  "tradingDate": "2026-08-19",
-  "generatedAt": "2026-08-19T23:49:29.648Z",
+  "tradingDate": "2026-08-20",
+  "generatedAt": "2026-08-20T08:56:49.572Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-08-19",
+  "dataDate": "2026-08-20",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
-  "breadthCounted": 5899,
-  "unpriced": 358,
+  "breadthCounted": 5900,
+  "unpriced": 359,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3894.42,
-      "change": -95.88,
-      "changePct": -2.4
+      "price": 3903.72,
+      "change": 9.3,
+      "changePct": 0.24
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13890.15,
-      "change": -732.35,
-      "changePct": -5.01
+      "price": 13972.78,
+      "change": 82.63,
+      "changePct": 0.59
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3473.49,
-      "change": -232.07,
-      "changePct": -6.26
+      "price": 3495.59,
+      "change": 22.1,
+      "changePct": 0.64
     }
   ],
-  "total": 5899,
-  "up": 449,
-  "down": 5069,
-  "flat": 23,
-  "netInflow": -194656283300,
+  "total": 5900,
+  "up": 4096,
+  "down": 1347,
+  "flat": 98,
+  "netInflow": -4533955966,
   "netInflowCount": 5541,
   "netInflowComplete": false,
-  "limitUpCount": 36,
+  "limitUpCount": 79,
   "downLimitCount": 0,
-  "topSector": "农产品加",
-  "topSectorCount": 3,
+  "topSector": "生物制品",
+  "topSectorCount": 14,
   "sectorLimitUps": [
     {
-      "sector": "农产品加",
-      "count": 3
-    },
-    {
-      "sector": "房地产服",
-      "count": 3
-    },
-    {
-      "sector": "焦炭Ⅱ",
-      "count": 3
-    },
-    {
-      "sector": "厨卫电器",
-      "count": 3
+      "sector": "生物制品",
+      "count": 14
     },
     {
       "sector": "化学制药",
+      "count": 12
+    },
+    {
+      "sector": "医疗服务",
+      "count": 4
+    },
+    {
+      "sector": "医疗器械",
+      "count": 4
+    },
+    {
+      "sector": "专用设备",
+      "count": 3
+    },
+    {
+      "sector": "通信设备",
       "count": 3
     },
     {
       "sector": "电网设备",
+      "count": 3
+    },
+    {
+      "sector": "中药Ⅱ",
       "count": 2
     },
     {
-      "sector": "专用设备",
+      "sector": "一般零售",
       "count": 2
     },
     {
-      "sector": "化学原料",
+      "sector": "塑料",
       "count": 2
+    },
+    {
+      "sector": "元件",
+      "count": 2
+    },
+    {
+      "sector": "专业工程",
+      "count": 2
+    },
+    {
+      "sector": "通用设备",
+      "count": 2
+    },
+    {
+      "sector": "互联网电",
+      "count": 2
+    },
+    {
+      "sector": "化学制品",
+      "count": 2
+    },
+    {
+      "sector": "家电零部",
+      "count": 2
+    },
+    {
+      "sector": "农产品加",
+      "count": 1
     },
     {
       "sector": "家居用品",
-      "count": 2
-    },
-    {
-      "sector": "农化制品",
       "count": 1
     },
     {
-      "sector": "光学光电",
-      "count": 1
-    },
-    {
-      "sector": "教育",
-      "count": 1
-    },
-    {
-      "sector": "种植业",
-      "count": 1
-    },
-    {
-      "sector": "炼化及贸",
-      "count": 1
-    },
-    {
-      "sector": "电池",
+      "sector": "饰品",
       "count": 1
     },
     {
@@ -109,79 +125,90 @@
       "count": 1
     },
     {
-      "sector": "装修建材",
+      "sector": "综合Ⅱ",
       "count": 1
     },
     {
-      "sector": "中药Ⅱ",
+      "sector": "电力",
       "count": 1
     },
     {
-      "sector": "煤炭开采",
+      "sector": "装修装饰",
       "count": 1
     },
     {
-      "sector": "通用设备",
+      "sector": "旅游及景",
       "count": 1
     },
     {
-      "sector": "食品加工",
+      "sector": "房地产开",
       "count": 1
     },
     {
-      "sector": "半导体",
+      "sector": "种植业",
+      "count": 1
+    },
+    {
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
+      "count": 1
+    },
+    {
+      "sector": "医药商业",
+      "count": 1
+    },
+    {
+      "sector": "服装家纺",
+      "count": 1
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "000505",
-      "name": "京粮控股",
-      "boards": 3,
-      "sector": "农产品加",
-      "changePct": 10.014727592468262
-    },
-    {
       "code": "600127",
       "name": "金健米业",
-      "boards": 3,
+      "boards": 4,
       "sector": "农产品加",
-      "changePct": 9.98593521118164
+      "changePct": 9.974424362182617
     },
     {
-      "code": "603395",
-      "name": "红四方",
-      "boards": 3,
-      "sector": "农化制品",
-      "changePct": 10.015174865722656
-    },
-    {
-      "code": "000020",
-      "name": "深华发Ａ",
+      "code": "001277",
+      "name": "速达股份",
       "boards": 2,
-      "sector": "光学光电",
-      "changePct": 10.00800609588623
+      "sector": "专用设备",
+      "changePct": 10.009099960327148
     },
     {
-      "code": "000526",
-      "name": "学大教育",
+      "code": "002412",
+      "name": "汉森制药",
       "boards": 2,
-      "sector": "教育",
-      "changePct": 9.98874568939209
+      "sector": "中药Ⅱ",
+      "changePct": 9.97624683380127
     },
     {
-      "code": "002953",
-      "name": "日丰股份",
+      "code": "603801",
+      "name": "志邦家居",
       "boards": 2,
-      "sector": "电网设备",
-      "changePct": 10.03752326965332
-    },
-    {
-      "code": "600371",
-      "name": "万向德农",
-      "boards": 2,
-      "sector": "种植业",
-      "changePct": 9.950860023498535
+      "sector": "家居用品",
+      "changePct": 10.045661926269531
     }
   ],
   "errors": []
