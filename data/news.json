@@ -1,11 +1,11 @@
 {
   "date": "2026-08-21",
   "dataDate": "",
-  "generatedAt": "2026-08-20T23:51:47.767Z",
+  "generatedAt": "2026-08-21T08:58:50.168Z",
   "source": "fallback",
   "stale": true,
   "news": [],
   "financeSignals": [],
-  "error": "429 Too Many Requests",
+  "error": "403 Forbidden",
   "message": "实时新闻获取失败，未写入旧新闻。"
 }
