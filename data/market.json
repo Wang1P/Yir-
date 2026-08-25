@@ -1,55 +1,49 @@
 {
   "date": "2026-08-25",
-  "tradingDate": "2026-08-24",
-  "generatedAt": "2026-08-24T23:48:58.020Z",
+  "tradingDate": "2026-08-25",
+  "generatedAt": "2026-08-25T09:00:45.432Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-08-24",
+  "dataDate": "2026-08-25",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
-  "breadthCounted": 5901,
-  "unpriced": 356,
-  "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "price": 3882.01,
-      "change": -23.19,
-      "changePct": -0.59
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "price": 13794.29,
-      "change": -299.88,
-      "changePct": -2.13
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "price": 3431.89,
-      "change": -113.69,
-      "changePct": -3.21
-    }
-  ],
-  "total": 5901,
-  "up": 1460,
-  "down": 3965,
-  "flat": 120,
-  "netInflow": -80129940660,
-  "netInflowCount": 5545,
+  "breadthCounted": 5903,
+  "unpriced": 357,
+  "indices": [],
+  "total": 5903,
+  "up": 4234,
+  "down": 1245,
+  "flat": 67,
+  "netInflow": 8232786221,
+  "netInflowCount": 5546,
   "netInflowComplete": false,
-  "limitUpCount": 46,
+  "limitUpCount": 65,
   "downLimitCount": 0,
-  "topSector": "电力",
-  "topSectorCount": 3,
+  "topSector": "通用设备",
+  "topSectorCount": 4,
   "sectorLimitUps": [
     {
-      "sector": "电力",
+      "sector": "通用设备",
+      "count": 4
+    },
+    {
+      "sector": "一般零售",
       "count": 3
     },
     {
-      "sector": "电池",
+      "sector": "包装印刷",
+      "count": 3
+    },
+    {
+      "sector": "装修装饰",
+      "count": 3
+    },
+    {
+      "sector": "汽车零部",
+      "count": 3
+    },
+    {
+      "sector": "农化制品",
       "count": 3
     },
     {
@@ -57,27 +51,35 @@
       "count": 2
     },
     {
-      "sector": "化学制药",
-      "count": 2
-    },
-    {
       "sector": "通信设备",
       "count": 2
     },
     {
-      "sector": "一般零售",
+      "sector": "种植业",
       "count": 2
     },
     {
-      "sector": "房地产开",
+      "sector": "家居用品",
       "count": 2
     },
     {
-      "sector": "电网设备",
+      "sector": "化学制药",
       "count": 2
     },
     {
-      "sector": "汽车零部",
+      "sector": "工程咨询",
+      "count": 2
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "专用设备",
+      "count": 2
+    },
+    {
+      "sector": "消费电子",
       "count": 2
     },
     {
@@ -85,11 +87,7 @@
       "count": 2
     },
     {
-      "sector": "煤炭开采",
-      "count": 2
-    },
-    {
-      "sector": "航运港口",
+      "sector": "化学制品",
       "count": 2
     },
     {
@@ -97,31 +95,27 @@
       "count": 1
     },
     {
-      "sector": "服装家纺",
+      "sector": "煤炭开采",
       "count": 1
     },
     {
-      "sector": "贵金属",
+      "sector": "工程机械",
       "count": 1
     },
     {
-      "sector": "工业金属",
+      "sector": "酒店餐饮",
       "count": 1
     },
     {
-      "sector": "塑料",
+      "sector": "房地产服",
       "count": 1
     },
     {
-      "sector": "专业工程",
+      "sector": "电池",
       "count": 1
     },
     {
-      "sector": "焦炭Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "轨交设备",
+      "sector": "旅游及景",
       "count": 1
     },
     {
@@ -129,15 +123,11 @@
       "count": 1
     },
     {
-      "sector": "种植业",
+      "sector": "电网设备",
       "count": 1
     },
     {
-      "sector": "其他电源",
-      "count": 1
-    },
-    {
-      "sector": "家居用品",
+      "sector": "特钢Ⅱ",
       "count": 1
     },
     {
@@ -145,23 +135,27 @@
       "count": 1
     },
     {
-      "sector": "通用设备",
+      "sector": "生物制品",
       "count": 1
     },
     {
-      "sector": "航空装备",
+      "sector": "电机Ⅱ",
       "count": 1
     },
     {
-      "sector": "养殖业",
+      "sector": "自动化设",
       "count": 1
     },
     {
-      "sector": "医药商业",
+      "sector": "医疗器械",
       "count": 1
     },
     {
-      "sector": "环境治理",
+      "sector": "地面兵装",
+      "count": 1
+    },
+    {
+      "sector": "造纸",
       "count": 1
     },
     {
@@ -169,7 +163,27 @@
       "count": 1
     },
     {
-      "sector": "专用设备",
+      "sector": "小金属",
+      "count": 1
+    },
+    {
+      "sector": "医药商业",
+      "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "专业工程",
+      "count": 1
+    },
+    {
+      "sector": "基础建设",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
       "count": 1
     }
   ],
@@ -177,73 +191,68 @@
     {
       "code": "002412",
       "name": "汉森制药",
-      "boards": 4,
+      "boards": 5,
       "sector": "中药Ⅱ",
-      "changePct": 10.00981330871582
+      "changePct": 9.991079330444336
     },
     {
       "code": "000017",
       "name": "深中华A",
-      "boards": 3,
+      "boards": 4,
       "sector": "饰品",
-      "changePct": 9.98593521118164
-    },
-    {
-      "code": "000931",
-      "name": "中 关 村",
-      "boards": 3,
-      "sector": "化学制药",
-      "changePct": 10.019646644592285
-    },
-    {
-      "code": "603958",
-      "name": "哈森股份",
-      "boards": 3,
-      "sector": "服装家纺",
-      "changePct": 10.024331092834473
-    },
-    {
-      "code": "002017",
-      "name": "东信和平",
-      "boards": 2,
-      "sector": "通信设备",
-      "changePct": 9.979352951049805
-    },
-    {
-      "code": "002716",
-      "name": "湖南白银",
-      "boards": 2,
-      "sector": "贵金属",
-      "changePct": 9.980806350708008
+      "changePct": 9.974424362182617
     },
     {
       "code": "003040",
       "name": "楚天龙",
-      "boards": 2,
+      "boards": 3,
       "sector": "通信设备",
-      "changePct": 10.007819175720215
+      "changePct": 10.021322250366211
     },
     {
       "code": "600785",
       "name": "新华百货",
-      "boards": 2,
+      "boards": 3,
       "sector": "一般零售",
-      "changePct": 9.958932876586914
+      "changePct": 9.990663528442383
     },
     {
-      "code": "601212",
-      "name": "白银有色",
+      "code": "002041",
+      "name": "登海种业",
       "boards": 2,
-      "sector": "工业金属",
-      "changePct": 10.016420364379883
+      "sector": "种植业",
+      "changePct": 10.00981330871582
     },
     {
-      "code": "603330",
-      "name": "天洋新材",
+      "code": "002084",
+      "name": "海鸥住工",
       "boards": 2,
-      "sector": "塑料",
-      "changePct": 10.03009033203125
+      "sector": "家居用品",
+      "changePct": 10.126582145690918
+    },
+    {
+      "code": "002445",
+      "name": "中南文化",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10.089020729064941
+    },
+    {
+      "code": "600508",
+      "name": "上海能源",
+      "boards": 2,
+      "sector": "煤炭开采",
+      "changePct": 10.020242691040039
+    },
+    {
+      "code": "600984",
+      "name": "建设机械",
+      "boards": 2,
+      "sector": "工程机械",
+      "changePct": 10.022271156311035
     }
   ],
-  "errors": []
+  "errors": [
+    "indices: 502 Bad Gateway"
+  ]
 }
