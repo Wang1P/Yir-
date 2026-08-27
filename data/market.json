@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "tradingDate": "2026-08-27",
-  "generatedAt": "2026-08-27T04:39:45.283Z",
+  "generatedAt": "2026-08-27T19:04:41.552Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-08-27",
   "dataScope": "沪深京A股",
@@ -13,59 +13,63 @@
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3935.99,
-      "change": 23.47,
-      "changePct": 0.6
+      "price": 3956.57,
+      "change": 44.05,
+      "changePct": 1.13
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 14005.93,
-      "change": 164.6,
-      "changePct": 1.19
+      "price": 14048.88,
+      "change": 207.55,
+      "changePct": 1.5
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3466.4,
-      "change": 51.52,
-      "changePct": 1.51
+      "price": 3473.35,
+      "change": 58.47,
+      "changePct": 1.71
     }
   ],
   "total": 5904,
-  "up": 3067,
-  "down": 2295,
-  "flat": 185,
-  "netInflow": 34276753179,
+  "up": 3394,
+  "down": 1944,
+  "flat": 209,
+  "netInflow": 54134342503,
   "netInflowCount": 5547,
   "netInflowComplete": false,
-  "limitUpCount": 65,
+  "limitUpCount": 77,
   "downLimitCount": 0,
-  "topSector": "元件",
-  "topSectorCount": 6,
+  "topSector": "通信设备",
+  "topSectorCount": 5,
   "sectorLimitUps": [
     {
-      "sector": "元件",
-      "count": 6
+      "sector": "通信设备",
+      "count": 5
+    },
+    {
+      "sector": "半导体",
+      "count": 5
     },
     {
       "sector": "种植业",
       "count": 4
     },
     {
-      "sector": "通信设备",
-      "count": 3
+      "sector": "元件",
+      "count": 4
+    },
+    {
+      "sector": "塑料",
+      "count": 4
     },
     {
       "sector": "电网设备",
       "count": 3
     },
     {
-      "sector": "塑料",
-      "count": 3
-    },
-    {
-      "sector": "半导体",
+      "sector": "汽车零部",
       "count": 3
     },
     {
@@ -85,15 +89,15 @@
       "count": 2
     },
     {
-      "sector": "贵金属",
-      "count": 2
-    },
-    {
-      "sector": "汽车零部",
+      "sector": "证券Ⅱ",
       "count": 2
     },
     {
       "sector": "食品加工",
+      "count": 2
+    },
+    {
+      "sector": "农产品加",
       "count": 2
     },
     {
@@ -106,6 +110,10 @@
     },
     {
       "sector": "房地产开",
+      "count": 2
+    },
+    {
+      "sector": "非金属材",
       "count": 2
     },
     {
@@ -125,10 +133,6 @@
       "count": 1
     },
     {
-      "sector": "证券Ⅱ",
-      "count": 1
-    },
-    {
       "sector": "环保设备",
       "count": 1
     },
@@ -141,11 +145,19 @@
       "count": 1
     },
     {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
       "sector": "电力",
       "count": 1
     },
     {
       "sector": "地面兵装",
+      "count": 1
+    },
+    {
+      "sector": "林业Ⅱ",
       "count": 1
     },
     {
@@ -157,15 +169,15 @@
       "count": 1
     },
     {
+      "sector": "贵金属",
+      "count": 1
+    },
+    {
+      "sector": "基础建设",
+      "count": 1
+    },
+    {
       "sector": "工业金属",
-      "count": 1
-    },
-    {
-      "sector": "自动化设",
-      "count": 1
-    },
-    {
-      "sector": "农产品加",
       "count": 1
     },
     {
@@ -174,6 +186,18 @@
     },
     {
       "sector": "软件开发",
+      "count": 1
+    },
+    {
+      "sector": "医疗服务",
+      "count": 1
+    },
+    {
+      "sector": "炼化及贸",
+      "count": 1
+    },
+    {
+      "sector": "多元金融",
       "count": 1
     },
     {
@@ -189,7 +213,7 @@
       "count": 1
     },
     {
-      "sector": "非金属材",
+      "sector": "自动化设",
       "count": 1
     }
   ],
@@ -277,6 +301,20 @@
       "boards": 2,
       "sector": "农化制品",
       "changePct": 10.011573791503906
+    },
+    {
+      "code": "600095",
+      "name": "湘财股份",
+      "boards": 2,
+      "sector": "证券Ⅱ",
+      "changePct": 10.034602165222168
+    },
+    {
+      "code": "600479",
+      "name": "千金药业",
+      "boards": 2,
+      "sector": "中药Ⅱ",
+      "changePct": 9.981851577758789
     },
     {
       "code": "600969",
