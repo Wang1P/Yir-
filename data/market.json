@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "tradingDate": "2026-08-28",
-  "generatedAt": "2026-08-28T07:02:14.761Z",
+  "generatedAt": "2026-08-28T20:12:17.140Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-08-28",
   "dataScope": "沪深京A股",
@@ -36,7 +36,7 @@
   "up": 3013,
   "down": 2390,
   "flat": 144,
-  "netInflow": -34586025070,
+  "netInflow": -34586025073,
   "netInflowCount": 5547,
   "netInflowComplete": false,
   "limitUpCount": 82,
