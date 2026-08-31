@@ -1,53 +1,151 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "tradingDate": "2026-08-31",
-  "generatedAt": "2026-08-31T01:31:52.506Z",
+  "generatedAt": "2026-08-31T16:10:25.032Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-08-31",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5905,
-  "unpriced": 353,
-  "indices": [],
+  "unpriced": 359,
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3986.3,
+      "change": 34.12,
+      "changePct": 0.86
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 14015,
+      "change": 61.93,
+      "changePct": 0.44
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 3438.68,
+      "change": 14.28,
+      "changePct": 0.42
+    }
+  ],
   "total": 5905,
-  "up": 1389,
-  "down": 3912,
-  "flat": 251,
-  "netInflow": -4479532816,
-  "netInflowCount": 5551,
+  "up": 3181,
+  "down": 2218,
+  "flat": 147,
+  "netInflow": -5404589595,
+  "netInflowCount": 5545,
   "netInflowComplete": false,
-  "limitUpCount": 24,
+  "limitUpCount": 88,
   "downLimitCount": 0,
-  "topSector": "房地产开",
-  "topSectorCount": 6,
+  "topSector": "通用设备",
+  "topSectorCount": 7,
   "sectorLimitUps": [
     {
-      "sector": "房地产开",
+      "sector": "通用设备",
+      "count": 7
+    },
+    {
+      "sector": "汽车零部",
       "count": 6
     },
     {
-      "sector": "房地产服",
+      "sector": "家居用品",
       "count": 4
     },
     {
-      "sector": "种植业",
+      "sector": "房地产开",
+      "count": 4
+    },
+    {
+      "sector": "影视院线",
+      "count": 4
+    },
+    {
+      "sector": "装修装饰",
+      "count": 4
+    },
+    {
+      "sector": "通信设备",
       "count": 3
     },
     {
-      "sector": "家居用品",
+      "sector": "出版",
+      "count": 3
+    },
+    {
+      "sector": "元件",
+      "count": 3
+    },
+    {
+      "sector": "包装印刷",
+      "count": 3
+    },
+    {
+      "sector": "数字媒体",
+      "count": 3
+    },
+    {
+      "sector": "消费电子",
       "count": 2
     },
     {
-      "sector": "一般零售",
+      "sector": "种植业",
       "count": 2
     },
     {
       "sector": "证券Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "农化制品",
+      "count": 2
+    },
+    {
+      "sector": "化学原料",
+      "count": 2
+    },
+    {
+      "sector": "计算机设",
+      "count": 2
+    },
+    {
+      "sector": "专用设备",
+      "count": 2
+    },
+    {
+      "sector": "服装家纺",
+      "count": 2
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "电视广播",
+      "count": 2
+    },
+    {
+      "sector": "半导体",
+      "count": 2
+    },
+    {
+      "sector": "光学光电",
+      "count": 2
+    },
+    {
+      "sector": "塑料",
       "count": 1
     },
     {
-      "sector": "休闲食品",
+      "sector": "房地产服",
       "count": 1
     },
     {
@@ -55,7 +153,15 @@
       "count": 1
     },
     {
-      "sector": "农化制品",
+      "sector": "一般零售",
+      "count": 1
+    },
+    {
+      "sector": "通信服务",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
       "count": 1
     },
     {
@@ -67,7 +173,43 @@
       "count": 1
     },
     {
+      "sector": "家电零部",
+      "count": 1
+    },
+    {
       "sector": "其他电源",
+      "count": 1
+    },
+    {
+      "sector": "化学制品",
+      "count": 1
+    },
+    {
+      "sector": "厨卫电器",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
+      "count": 1
+    },
+    {
+      "sector": "电池",
+      "count": 1
+    },
+    {
+      "sector": "煤炭开采",
+      "count": 1
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
+      "sector": "金属新材",
       "count": 1
     }
   ],
@@ -78,6 +220,13 @@
       "boards": 6,
       "sector": "家居用品",
       "changePct": 10
+    },
+    {
+      "code": "002855",
+      "name": "捷荣技术",
+      "boards": 5,
+      "sector": "消费电子",
+      "changePct": 9.972677230834961
     },
     {
       "code": "600371",
@@ -94,11 +243,18 @@
       "changePct": 10
     },
     {
-      "code": "600162",
-      "name": "香江控股",
+      "code": "002396",
+      "name": "星网锐捷",
       "boards": 3,
-      "sector": "房地产开",
-      "changePct": 10.074626922607422
+      "sector": "通信设备",
+      "changePct": 10.002725601196289
+    },
+    {
+      "code": "002886",
+      "name": "沃特股份",
+      "boards": 3,
+      "sector": "塑料",
+      "changePct": 10
     },
     {
       "code": "600540",
@@ -106,6 +262,13 @@
       "boards": 3,
       "sector": "种植业",
       "changePct": 10.099010467529297
+    },
+    {
+      "code": "603269",
+      "name": "海鸥股份",
+      "boards": 3,
+      "sector": "通用设备",
+      "changePct": 10.009016990661621
     },
     {
       "code": "000011",
@@ -122,13 +285,6 @@
       "changePct": 9.848484992980957
     },
     {
-      "code": "000716",
-      "name": "黑芝麻",
-      "boards": 2,
-      "sector": "休闲食品",
-      "changePct": 10.052909851074219
-    },
-    {
       "code": "002679",
       "name": "福建金森",
       "boards": 2,
@@ -136,18 +292,39 @@
       "changePct": 10.028116226196289
     },
     {
-      "code": "002918",
-      "name": "蒙娜丽莎",
+      "code": "003005",
+      "name": "竞业达",
       "boards": 2,
-      "sector": "家居用品",
-      "changePct": 9.97352123260498
+      "sector": "IT服务Ⅱ",
+      "changePct": 9.980039596557617
     },
     {
-      "code": "600354",
-      "name": "敦煌种业",
+      "code": "600227",
+      "name": "赤天化",
       "boards": 2,
-      "sector": "种植业",
-      "changePct": 9.98781967163086
+      "sector": "农化制品",
+      "changePct": 10.043667793273926
+    },
+    {
+      "code": "600551",
+      "name": "时代出版",
+      "boards": 2,
+      "sector": "出版",
+      "changePct": 10
+    },
+    {
+      "code": "600691",
+      "name": "潞化科技",
+      "boards": 2,
+      "sector": "农化制品",
+      "changePct": 9.863945960998535
+    },
+    {
+      "code": "600722",
+      "name": "金牛化工",
+      "boards": 2,
+      "sector": "化学原料",
+      "changePct": 10.019646644592285
     },
     {
       "code": "601086",
@@ -157,21 +334,12 @@
       "changePct": 9.952038764953613
     },
     {
-      "code": "603086",
-      "name": "先达股份",
+      "code": "603559",
+      "name": "中通国脉",
       "boards": 2,
-      "sector": "农化制品",
-      "changePct": 9.952607154846191
-    },
-    {
-      "code": "605188",
-      "name": "国光连锁",
-      "boards": 2,
-      "sector": "一般零售",
-      "changePct": 10.022438049316406
+      "sector": "通信服务",
+      "changePct": 10.02087688446045
     }
   ],
-  "errors": [
-    "indices: 502 Bad Gateway"
-  ]
+  "errors": []
 }
