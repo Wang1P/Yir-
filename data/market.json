@@ -1,59 +1,83 @@
 {
   "date": "2026-09-01",
   "tradingDate": "2026-09-01",
-  "generatedAt": "2026-09-01T01:59:52.282Z",
+  "generatedAt": "2026-09-01T13:30:30.000Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-01",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5907,
-  "unpriced": 349,
+  "unpriced": 360,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3980.99,
-      "change": -5.31,
-      "changePct": -0.13
+      "price": 3979.89,
+      "change": -6.41,
+      "changePct": -0.16
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13862.15,
-      "change": -152.85,
-      "changePct": -1.09
+      "price": 13872.38,
+      "change": -142.62,
+      "changePct": -1.02
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3378.32,
-      "change": -60.36,
-      "changePct": -1.76
+      "price": 3393.43,
+      "change": -45.25,
+      "changePct": -1.32
     }
   ],
   "total": 5907,
-  "up": 3284,
-  "down": 2107,
-  "flat": 167,
-  "netInflow": -12532430172,
-  "netInflowCount": 5558,
+  "up": 3386,
+  "down": 2040,
+  "flat": 121,
+  "netInflow": -30449903005,
+  "netInflowCount": 5546,
   "netInflowComplete": false,
-  "limitUpCount": 47,
+  "limitUpCount": 83,
   "downLimitCount": 0,
   "topSector": "种植业",
-  "topSectorCount": 6,
+  "topSectorCount": 8,
   "sectorLimitUps": [
     {
       "sector": "种植业",
-      "count": 6
+      "count": 8
     },
     {
       "sector": "一般零售",
       "count": 6
     },
     {
+      "sector": "汽车零部",
+      "count": 4
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 3
+    },
+    {
+      "sector": "出版",
+      "count": 3
+    },
+    {
+      "sector": "影视院线",
+      "count": 3
+    },
+    {
       "sector": "农产品加",
+      "count": 3
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 3
+    },
+    {
+      "sector": "多元金融",
       "count": 3
     },
     {
@@ -61,7 +85,11 @@
       "count": 2
     },
     {
-      "sector": "影视院线",
+      "sector": "消费电子",
+      "count": 2
+    },
+    {
+      "sector": "化学制品",
       "count": 2
     },
     {
@@ -69,16 +97,32 @@
       "count": 2
     },
     {
-      "sector": "出版",
+      "sector": "游戏Ⅱ",
       "count": 2
     },
     {
-      "sector": "多元金融",
+      "sector": "光学光电",
       "count": 2
     },
     {
-      "sector": "消费电子",
-      "count": 1
+      "sector": "化学原料",
+      "count": 2
+    },
+    {
+      "sector": "通信设备",
+      "count": 2
+    },
+    {
+      "sector": "医药商业",
+      "count": 2
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 2
+    },
+    {
+      "sector": "专用设备",
+      "count": 2
     },
     {
       "sector": "房地产服",
@@ -89,23 +133,11 @@
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
-      "count": 1
-    },
-    {
       "sector": "煤炭开采",
       "count": 1
     },
     {
-      "sector": "游戏Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "物流",
-      "count": 1
-    },
-    {
-      "sector": "化学原料",
+      "sector": "白酒Ⅱ",
       "count": 1
     },
     {
@@ -117,7 +149,7 @@
       "count": 1
     },
     {
-      "sector": "通信设备",
+      "sector": "电力",
       "count": 1
     },
     {
@@ -125,7 +157,15 @@
       "count": 1
     },
     {
+      "sector": "广告营销",
+      "count": 1
+    },
+    {
       "sector": "工业金属",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
       "count": 1
     },
     {
@@ -137,7 +177,11 @@
       "count": 1
     },
     {
-      "sector": "汽车零部",
+      "sector": "饰品",
+      "count": 1
+    },
+    {
+      "sector": "物流",
       "count": 1
     },
     {
@@ -145,15 +189,31 @@
       "count": 1
     },
     {
-      "sector": "元件",
+      "sector": "证券Ⅱ",
       "count": 1
     },
     {
-      "sector": "化学制品",
+      "sector": "医疗器械",
       "count": 1
     },
     {
-      "sector": "饮料乳品",
+      "sector": "造纸",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "地面兵装",
+      "count": 1
+    },
+    {
+      "sector": "服装家纺",
+      "count": 1
+    },
+    {
+      "sector": "化学制药",
       "count": 1
     },
     {
@@ -161,7 +221,7 @@
       "count": 1
     },
     {
-      "sector": "专用设备",
+      "sector": "软件开发",
       "count": 1
     }
   ],
@@ -216,6 +276,13 @@
       "changePct": 9.981851577758789
     },
     {
+      "code": "600551",
+      "name": "时代出版",
+      "boards": 3,
+      "sector": "出版",
+      "changePct": 10.060606002807617
+    },
+    {
       "code": "601086",
       "name": "国芳集团",
       "boards": 3,
@@ -228,6 +295,20 @@
       "boards": 2,
       "sector": "影视院线",
       "changePct": 10
+    },
+    {
+      "code": "001330",
+      "name": "博纳影业",
+      "boards": 2,
+      "sector": "影视院线",
+      "changePct": 9.98217487335205
+    },
+    {
+      "code": "002909",
+      "name": "集泰股份",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 9.966776847839355
     },
     {
       "code": "300413",
