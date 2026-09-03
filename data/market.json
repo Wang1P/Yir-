@@ -1,49 +1,238 @@
 {
   "date": "2026-09-03",
   "tradingDate": "2026-09-03",
-  "generatedAt": "2026-09-03T01:21:20.381Z",
+  "generatedAt": "2026-09-03T12:49:53.059Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-03",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5908,
-  "unpriced": 587,
+  "unpriced": 358,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3941.38,
-      "change": -0.01,
-      "changePct": 0
+      "price": 3942.09,
+      "change": 0.7,
+      "changePct": 0.02
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13611.55,
-      "change": 0,
-      "changePct": 0
+      "price": 13625.12,
+      "change": 13.57,
+      "changePct": 0.1
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3312.24,
-      "change": 0,
-      "changePct": 0
+      "price": 3312.54,
+      "change": 0.3,
+      "changePct": 0.01
     }
   ],
   "total": 5908,
-  "up": 2449,
-  "down": 1938,
-  "flat": 934,
-  "netInflow": 0,
-  "netInflowCount": 0,
+  "up": 1846,
+  "down": 3570,
+  "flat": 134,
+  "netInflow": -12077439004,
+  "netInflowCount": 5549,
   "netInflowComplete": false,
-  "limitUpCount": 21,
+  "limitUpCount": 44,
   "downLimitCount": 0,
-  "topSector": "待补充",
-  "topSectorCount": 0,
-  "sectorLimitUps": [],
-  "consecutiveLimitUps": [],
+  "topSector": "汽车零部",
+  "topSectorCount": 4,
+  "sectorLimitUps": [
+    {
+      "sector": "汽车零部",
+      "count": 4
+    },
+    {
+      "sector": "一般零售",
+      "count": 3
+    },
+    {
+      "sector": "通用设备",
+      "count": 3
+    },
+    {
+      "sector": "包装印刷",
+      "count": 3
+    },
+    {
+      "sector": "电网设备",
+      "count": 2
+    },
+    {
+      "sector": "化学制药",
+      "count": 2
+    },
+    {
+      "sector": "电力",
+      "count": 2
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "化学制品",
+      "count": 1
+    },
+    {
+      "sector": "出版",
+      "count": 1
+    },
+    {
+      "sector": "旅游及景",
+      "count": 1
+    },
+    {
+      "sector": "航空装备",
+      "count": 1
+    },
+    {
+      "sector": "房地产开",
+      "count": 1
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
+      "count": 1
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "软件开发",
+      "count": 1
+    },
+    {
+      "sector": "电子化学",
+      "count": 1
+    },
+    {
+      "sector": "种植业",
+      "count": 1
+    },
+    {
+      "sector": "旅游零售",
+      "count": 1
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "化学原料",
+      "count": 1
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1
+    },
+    {
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "工业金属",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
+      "count": 1
+    },
+    {
+      "sector": "航运港口",
+      "count": 1
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "元件",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
+      "count": 1
+    }
+  ],
+  "consecutiveLimitUps": [
+    {
+      "code": "601086",
+      "name": "国芳集团",
+      "boards": 5,
+      "sector": "一般零售",
+      "changePct": 10
+    },
+    {
+      "code": "002909",
+      "name": "集泰股份",
+      "boards": 4,
+      "sector": "化学制品",
+      "changePct": 10.027472496032715
+    },
+    {
+      "code": "605577",
+      "name": "龙版传媒",
+      "boards": 4,
+      "sector": "出版",
+      "changePct": 10.038910865783691
+    },
+    {
+      "code": "002059",
+      "name": "云南旅游",
+      "boards": 2,
+      "sector": "旅游及景",
+      "changePct": 10.095237731933594
+    },
+    {
+      "code": "002297",
+      "name": "博云新材",
+      "boards": 2,
+      "sector": "航空装备",
+      "changePct": 10
+    },
+    {
+      "code": "002300",
+      "name": "太阳电缆",
+      "boards": 2,
+      "sector": "电网设备",
+      "changePct": 9.960680961608887
+    },
+    {
+      "code": "002708",
+      "name": "光洋股份",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 10.028247833251953
+    },
+    {
+      "code": "600657",
+      "name": "信达地产",
+      "boards": 2,
+      "sector": "房地产开",
+      "changePct": 10.163934707641602
+    },
+    {
+      "code": "603270",
+      "name": "金帝股份",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10.009443283081055
+    }
+  ],
   "errors": []
 }
