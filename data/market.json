@@ -1,49 +1,192 @@
 {
   "date": "2026-09-04",
   "tradingDate": "2026-09-04",
-  "generatedAt": "2026-09-04T01:13:54.774Z",
+  "generatedAt": "2026-09-04T12:43:55.319Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-04",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5909,
-  "unpriced": 5909,
-  "indices": [
+  "unpriced": 360,
+  "indices": [],
+  "total": 5909,
+  "up": 2444,
+  "down": 2914,
+  "flat": 191,
+  "netInflow": -43378615376,
+  "netInflowCount": 5548,
+  "netInflowComplete": false,
+  "limitUpCount": 39,
+  "downLimitCount": 0,
+  "topSector": "饲料",
+  "topSectorCount": 4,
+  "sectorLimitUps": [
     {
-      "code": "000001",
-      "name": "上证指数",
-      "price": 3942.01,
-      "change": -0.08,
-      "changePct": 0
+      "sector": "饲料",
+      "count": 4
     },
     {
-      "code": "399001",
-      "name": "深证成指",
-      "price": 13625.12,
-      "change": 0,
-      "changePct": 0
+      "sector": "养殖业",
+      "count": 3
     },
     {
-      "code": "399006",
-      "name": "创业板指",
-      "price": 3312.54,
-      "change": 0,
-      "changePct": 0
+      "sector": "出版",
+      "count": 2
+    },
+    {
+      "sector": "种植业",
+      "count": 2
+    },
+    {
+      "sector": "文娱用品",
+      "count": 2
+    },
+    {
+      "sector": "炼化及贸",
+      "count": 2
+    },
+    {
+      "sector": "非白酒",
+      "count": 2
+    },
+    {
+      "sector": "汽车零部",
+      "count": 2
+    },
+    {
+      "sector": "小家电",
+      "count": 1
+    },
+    {
+      "sector": "一般零售",
+      "count": 1
+    },
+    {
+      "sector": "航运港口",
+      "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "酒店餐饮",
+      "count": 1
+    },
+    {
+      "sector": "林业Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "渔业",
+      "count": 1
+    },
+    {
+      "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "专用设备",
+      "count": 1
+    },
+    {
+      "sector": "食品加工",
+      "count": 1
+    },
+    {
+      "sector": "化学制品",
+      "count": 1
+    },
+    {
+      "sector": "动物保健",
+      "count": 1
+    },
+    {
+      "sector": "工程咨询",
+      "count": 1
+    },
+    {
+      "sector": "通信设备",
+      "count": 1
+    },
+    {
+      "sector": "水泥",
+      "count": 1
+    },
+    {
+      "sector": "医疗服务",
+      "count": 1
+    },
+    {
+      "sector": "多元金融",
+      "count": 1
+    },
+    {
+      "sector": "调味发酵",
+      "count": 1
+    },
+    {
+      "sector": "包装印刷",
+      "count": 1
     }
   ],
-  "total": 5909,
-  "up": 0,
-  "down": 0,
-  "flat": 0,
-  "netInflow": 0,
-  "netInflowCount": 0,
-  "netInflowComplete": false,
-  "limitUpCount": 0,
-  "downLimitCount": 0,
-  "topSector": "待补充",
-  "topSectorCount": 0,
-  "sectorLimitUps": [],
-  "consecutiveLimitUps": [],
-  "errors": []
+  "consecutiveLimitUps": [
+    {
+      "code": "605577",
+      "name": "龙版传媒",
+      "boards": 5,
+      "sector": "出版",
+      "changePct": 9.971712112426758
+    },
+    {
+      "code": "002403",
+      "name": "爱仕达",
+      "boards": 2,
+      "sector": "小家电",
+      "changePct": 10.04878044128418
+    },
+    {
+      "code": "600108",
+      "name": "亚盛集团",
+      "boards": 2,
+      "sector": "种植业",
+      "changePct": 10.1010103225708
+    },
+    {
+      "code": "600865",
+      "name": "百大集团",
+      "boards": 2,
+      "sector": "一般零售",
+      "changePct": 9.980620384216309
+    },
+    {
+      "code": "603162",
+      "name": "海通发展",
+      "boards": 2,
+      "sector": "航运港口",
+      "changePct": 9.992486953735352
+    },
+    {
+      "code": "605398",
+      "name": "新炬网络",
+      "boards": 2,
+      "sector": "IT服务Ⅱ",
+      "changePct": 9.983498573303223
+    },
+    {
+      "code": "605580",
+      "name": "恒盛能源",
+      "boards": 2,
+      "sector": "电力",
+      "changePct": 9.985315322875977
+    }
+  ],
+  "errors": [
+    "indices: 502 Bad Gateway"
+  ]
 }
