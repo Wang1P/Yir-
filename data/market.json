@@ -1,29 +1,79 @@
 {
   "date": "2026-09-09",
   "tradingDate": "2026-09-09",
-  "generatedAt": "2026-09-09T01:25:31.211Z",
+  "generatedAt": "2026-09-09T12:58:19.030Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-09",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5911,
-  "unpriced": 430,
-  "indices": [],
+  "unpriced": 359,
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3951.51,
+      "change": 10.96,
+      "changePct": 0.28
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 13723.32,
+      "change": 20.11,
+      "changePct": 0.15
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 3354.97,
+      "change": -4.75,
+      "changePct": -0.14
+    }
+  ],
   "total": 5911,
-  "up": 1810,
-  "down": 2869,
-  "flat": 802,
-  "netInflow": 0,
-  "netInflowCount": 0,
+  "up": 1794,
+  "down": 3642,
+  "flat": 116,
+  "netInflow": -7724139944,
+  "netInflowCount": 5550,
   "netInflowComplete": false,
-  "limitUpCount": 8,
+  "limitUpCount": 48,
   "downLimitCount": 0,
-  "topSector": "农化制品",
-  "topSectorCount": 2,
+  "topSector": "农产品加",
+  "topSectorCount": 4,
   "sectorLimitUps": [
     {
+      "sector": "农产品加",
+      "count": 4
+    },
+    {
+      "sector": "一般零售",
+      "count": 3
+    },
+    {
+      "sector": "航运港口",
+      "count": 3
+    },
+    {
+      "sector": "电网设备",
+      "count": 3
+    },
+    {
       "sector": "农化制品",
+      "count": 2
+    },
+    {
+      "sector": "通信设备",
+      "count": 2
+    },
+    {
+      "sector": "汽车零部",
+      "count": 2
+    },
+    {
+      "sector": "橡胶",
       "count": 2
     },
     {
@@ -31,7 +81,31 @@
       "count": 2
     },
     {
-      "sector": "通信设备",
+      "sector": "化学制品",
+      "count": 2
+    },
+    {
+      "sector": "电力",
+      "count": 2
+    },
+    {
+      "sector": "通用设备",
+      "count": 2
+    },
+    {
+      "sector": "煤炭开采",
+      "count": 2
+    },
+    {
+      "sector": "种植业",
+      "count": 2
+    },
+    {
+      "sector": "元件",
+      "count": 2
+    },
+    {
+      "sector": "旅游及景",
       "count": 1
     },
     {
@@ -43,11 +117,68 @@
       "count": 1
     },
     {
-      "sector": "专业连锁",
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "渔业",
+      "count": 1
+    },
+    {
+      "sector": "半导体",
+      "count": 1
+    },
+    {
+      "sector": "贵金属",
+      "count": 1
+    },
+    {
+      "sector": "炼化及贸",
+      "count": 1
+    },
+    {
+      "sector": "金属新材",
+      "count": 1
+    },
+    {
+      "sector": "非白酒",
+      "count": 1
+    },
+    {
+      "sector": "航海装备",
+      "count": 1
+    },
+    {
+      "sector": "饰品",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
+    {
+      "code": "600865",
+      "name": "百大集团",
+      "boards": 5,
+      "sector": "一般零售",
+      "changePct": 9.970888137817383
+    },
+    {
+      "code": "000759",
+      "name": "中百集团",
+      "boards": 3,
+      "sector": "一般零售",
+      "changePct": 10
+    },
+    {
+      "code": "000978",
+      "name": "桂林旅游",
+      "boards": 3,
+      "sector": "旅游及景",
+      "changePct": 9.987516403198242
+    },
     {
       "code": "002470",
       "name": "金正大",
@@ -77,6 +208,27 @@
       "changePct": 9.936574935913086
     },
     {
+      "code": "000930",
+      "name": "中粮科技",
+      "boards": 2,
+      "sector": "农产品加",
+      "changePct": 9.948541641235352
+    },
+    {
+      "code": "000980",
+      "name": "众泰汽车",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 9.782608985900879
+    },
+    {
+      "code": "002068",
+      "name": "黑猫股份",
+      "boards": 2,
+      "sector": "橡胶",
+      "changePct": 10
+    },
+    {
       "code": "002295",
       "name": "精艺股份",
       "boards": 2,
@@ -84,14 +236,33 @@
       "changePct": 9.97150993347168
     },
     {
+      "code": "002349",
+      "name": "精华制药",
+      "boards": 2,
+      "sector": "中药Ⅱ",
+      "changePct": 9.97624683380127
+    },
+    {
       "code": "002790",
       "name": "瑞尔特",
       "boards": 2,
       "sector": "家居用品",
       "changePct": 10.01430606842041
+    },
+    {
+      "code": "600792",
+      "name": "云煤能源",
+      "boards": 2,
+      "sector": "焦炭Ⅱ",
+      "changePct": 10.067113876342773
+    },
+    {
+      "code": "605077",
+      "name": "华康股份",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 9.976058006286621
     }
   ],
-  "errors": [
-    "indices: 502 Bad Gateway"
-  ]
+  "errors": []
 }
