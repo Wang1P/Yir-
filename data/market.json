@@ -1,49 +1,222 @@
 {
   "date": "2026-09-10",
   "tradingDate": "2026-09-10",
-  "generatedAt": "2026-09-10T01:22:09.000Z",
+  "generatedAt": "2026-09-10T12:55:36.054Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-10",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5912,
-  "unpriced": 638,
+  "unpriced": 361,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3950.02,
-      "change": -1.49,
-      "changePct": -0.04
+      "price": 3934.4,
+      "change": -17.11,
+      "changePct": -0.43
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13723.32,
-      "change": 0,
-      "changePct": 0
+      "price": 13617.67,
+      "change": -105.65,
+      "changePct": -0.77
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3354.97,
-      "change": 0,
-      "changePct": 0
+      "price": 3338.42,
+      "change": -16.55,
+      "changePct": -0.49
     }
   ],
   "total": 5912,
-  "up": 1416,
-  "down": 2947,
-  "flat": 911,
-  "netInflow": 0,
-  "netInflowCount": 0,
+  "up": 955,
+  "down": 4512,
+  "flat": 84,
+  "netInflow": -32009436990,
+  "netInflowCount": 5549,
   "netInflowComplete": false,
-  "limitUpCount": 20,
+  "limitUpCount": 35,
   "downLimitCount": 0,
-  "topSector": "待补充",
-  "topSectorCount": 0,
-  "sectorLimitUps": [],
-  "consecutiveLimitUps": [],
+  "topSector": "电力",
+  "topSectorCount": 5,
+  "sectorLimitUps": [
+    {
+      "sector": "电力",
+      "count": 5
+    },
+    {
+      "sector": "多元金融",
+      "count": 2
+    },
+    {
+      "sector": "元件",
+      "count": 2
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "玻璃玻纤",
+      "count": 2
+    },
+    {
+      "sector": "旅游及景",
+      "count": 1
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "化学制品",
+      "count": 1
+    },
+    {
+      "sector": "炼化及贸",
+      "count": 1
+    },
+    {
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "种植业",
+      "count": 1
+    },
+    {
+      "sector": "通信设备",
+      "count": 1
+    },
+    {
+      "sector": "养殖业",
+      "count": 1
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "专用设备",
+      "count": 1
+    },
+    {
+      "sector": "风电设备",
+      "count": 1
+    },
+    {
+      "sector": "厨卫电器",
+      "count": 1
+    },
+    {
+      "sector": "食品加工",
+      "count": 1
+    },
+    {
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
+      "sector": "化学制药",
+      "count": 1
+    },
+    {
+      "sector": "工程咨询",
+      "count": 1
+    },
+    {
+      "sector": "一般零售",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "半导体",
+      "count": 1
+    },
+    {
+      "sector": "专业工程",
+      "count": 1
+    },
+    {
+      "sector": "医疗器械",
+      "count": 1
+    }
+  ],
+  "consecutiveLimitUps": [
+    {
+      "code": "000978",
+      "name": "桂林旅游",
+      "boards": 4,
+      "sector": "旅游及景",
+      "changePct": 9.988649368286133
+    },
+    {
+      "code": "002790",
+      "name": "瑞尔特",
+      "boards": 3,
+      "sector": "家居用品",
+      "changePct": 10.0130033493042
+    },
+    {
+      "code": "600792",
+      "name": "云煤能源",
+      "boards": 3,
+      "sector": "焦炭Ⅱ",
+      "changePct": 9.959349632263184
+    },
+    {
+      "code": "000565",
+      "name": "渝三峡Ａ",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 10.013908386230469
+    },
+    {
+      "code": "000993",
+      "name": "闽东电力",
+      "boards": 2,
+      "sector": "电力",
+      "changePct": 10.026155471801758
+    },
+    {
+      "code": "002377",
+      "name": "国创高新",
+      "boards": 2,
+      "sector": "炼化及贸",
+      "changePct": 10.158730506896973
+    },
+    {
+      "code": "600192",
+      "name": "长城电工",
+      "boards": 2,
+      "sector": "电网设备",
+      "changePct": 10.012674331665039
+    },
+    {
+      "code": "600359",
+      "name": "新农开发",
+      "boards": 2,
+      "sector": "种植业",
+      "changePct": 10.045661926269531
+    },
+    {
+      "code": "603421",
+      "name": "鼎信通讯",
+      "boards": 2,
+      "sector": "通信设备",
+      "changePct": 9.954751014709473
+    }
+  ],
   "errors": []
 }
