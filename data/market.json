@@ -1,49 +1,188 @@
 {
   "date": "2026-09-11",
   "tradingDate": "2026-09-11",
-  "generatedAt": "2026-09-11T01:22:53.313Z",
+  "generatedAt": "2026-09-11T12:50:18.862Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-11",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5913,
-  "unpriced": 564,
+  "unpriced": 360,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3934.15,
-      "change": -0.25,
-      "changePct": -0.01
+      "price": 3888.11,
+      "change": -46.29,
+      "changePct": -1.18
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13617.67,
-      "change": 0,
-      "changePct": 0
+      "price": 13471.26,
+      "change": -146.41,
+      "changePct": -1.08
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3338.42,
-      "change": 0,
-      "changePct": 0
+      "price": 3322.04,
+      "change": -16.38,
+      "changePct": -0.49
     }
   ],
   "total": 5913,
-  "up": 869,
-  "down": 3930,
-  "flat": 550,
-  "netInflow": 0,
-  "netInflowCount": 0,
+  "up": 643,
+  "down": 4870,
+  "flat": 40,
+  "netInflow": -52931544067,
+  "netInflowCount": 5550,
   "netInflowComplete": false,
-  "limitUpCount": 13,
+  "limitUpCount": 40,
   "downLimitCount": 0,
-  "topSector": "待补充",
-  "topSectorCount": 0,
-  "sectorLimitUps": [],
-  "consecutiveLimitUps": [],
+  "topSector": "元件",
+  "topSectorCount": 9,
+  "sectorLimitUps": [
+    {
+      "sector": "元件",
+      "count": 9
+    },
+    {
+      "sector": "电力",
+      "count": 4
+    },
+    {
+      "sector": "通信设备",
+      "count": 3
+    },
+    {
+      "sector": "地面兵装",
+      "count": 3
+    },
+    {
+      "sector": "玻璃玻纤",
+      "count": 2
+    },
+    {
+      "sector": "汽车零部",
+      "count": 2
+    },
+    {
+      "sector": "环境治理",
+      "count": 2
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
+      "sector": "其他电子",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
+      "count": 1
+    },
+    {
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
+      "count": 1
+    },
+    {
+      "sector": "黑色家电",
+      "count": 1
+    },
+    {
+      "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "光伏设备",
+      "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "旅游及景",
+      "count": 1
+    },
+    {
+      "sector": "种植业",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "数字媒体",
+      "count": 1
+    },
+    {
+      "sector": "化学原料",
+      "count": 1
+    }
+  ],
+  "consecutiveLimitUps": [
+    {
+      "code": "002790",
+      "name": "瑞尔特",
+      "boards": 4,
+      "sector": "家居用品",
+      "changePct": 10.047281265258789
+    },
+    {
+      "code": "000993",
+      "name": "闽东电力",
+      "boards": 3,
+      "sector": "电力",
+      "changePct": 9.984151840209961
+    },
+    {
+      "code": "603421",
+      "name": "鼎信通讯",
+      "boards": 3,
+      "sector": "通信设备",
+      "changePct": 10.013717651367188
+    },
+    {
+      "code": "000823",
+      "name": "超声电子",
+      "boards": 2,
+      "sector": "元件",
+      "changePct": 10
+    },
+    {
+      "code": "002201",
+      "name": "九鼎新材",
+      "boards": 2,
+      "sector": "玻璃玻纤",
+      "changePct": 10.019841194152832
+    },
+    {
+      "code": "002912",
+      "name": "中新赛克",
+      "boards": 2,
+      "sector": "计算机设",
+      "changePct": 10.0140380859375
+    },
+    {
+      "code": "600876",
+      "name": "凯盛新能",
+      "boards": 2,
+      "sector": "玻璃玻纤",
+      "changePct": 9.987358093261719
+    }
+  ],
   "errors": []
 }
