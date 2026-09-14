@@ -1,37 +1,107 @@
 {
   "date": "2026-09-14",
   "tradingDate": "2026-09-14",
-  "generatedAt": "2026-09-14T01:28:57.674Z",
+  "generatedAt": "2026-09-14T15:01:34.871Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-14",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5913,
-  "unpriced": 448,
-  "indices": [],
+  "unpriced": 361,
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3885.33,
+      "change": -2.78,
+      "changePct": -0.07
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 13384.57,
+      "change": -86.69,
+      "changePct": -0.64
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 3285.58,
+      "change": -36.46,
+      "changePct": -1.1
+    }
+  ],
   "total": 5913,
-  "up": 1189,
-  "down": 3643,
-  "flat": 633,
-  "netInflow": 0,
-  "netInflowCount": 0,
+  "up": 3126,
+  "down": 2224,
+  "flat": 202,
+  "netInflow": -16342793731,
+  "netInflowCount": 5550,
   "netInflowComplete": false,
-  "limitUpCount": 7,
+  "limitUpCount": 55,
   "downLimitCount": 0,
-  "topSector": "家居用品",
-  "topSectorCount": 1,
+  "topSector": "元件",
+  "topSectorCount": 6,
   "sectorLimitUps": [
     {
-      "sector": "家居用品",
-      "count": 1
+      "sector": "元件",
+      "count": 6
+    },
+    {
+      "sector": "电力",
+      "count": 3
+    },
+    {
+      "sector": "汽车零部",
+      "count": 3
+    },
+    {
+      "sector": "电网设备",
+      "count": 3
+    },
+    {
+      "sector": "化学制品",
+      "count": 3
+    },
+    {
+      "sector": "通用设备",
+      "count": 3
+    },
+    {
+      "sector": "医疗服务",
+      "count": 2
+    },
+    {
+      "sector": "软件开发",
+      "count": 2
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "一般零售",
+      "count": 2
     },
     {
       "sector": "计算机设",
       "count": 1
     },
     {
-      "sector": "化学原料",
+      "sector": "玻璃玻纤",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
+      "count": 1
+    },
+    {
+      "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
       "count": 1
     },
     {
@@ -39,25 +109,100 @@
       "count": 1
     },
     {
-      "sector": "汽车零部",
+      "sector": "乘用车",
       "count": 1
     },
     {
-      "sector": "软件开发",
+      "sector": "包装印刷",
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
+      "sector": "通信服务",
+      "count": 1
+    },
+    {
+      "sector": "商用车",
+      "count": 1
+    },
+    {
+      "sector": "小金属",
+      "count": 1
+    },
+    {
+      "sector": "旅游及景",
+      "count": 1
+    },
+    {
+      "sector": "装修建材",
+      "count": 1
+    },
+    {
+      "sector": "通信设备",
+      "count": 1
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "调味发酵",
+      "count": 1
+    },
+    {
+      "sector": "数字媒体",
+      "count": 1
+    },
+    {
+      "sector": "电子化学",
+      "count": 1
+    },
+    {
+      "sector": "化学制药",
+      "count": 1
+    },
+    {
+      "sector": "水泥",
+      "count": 1
+    },
+    {
+      "sector": "冶钢原料",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "家电零部",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
+      "count": 1
+    },
+    {
+      "sector": "生物制品",
+      "count": 1
+    },
+    {
+      "sector": "专用设备",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "002790",
-      "name": "瑞尔特",
-      "boards": 5,
-      "sector": "家居用品",
-      "changePct": 9.989258766174316
+      "code": "000993",
+      "name": "闽东电力",
+      "boards": 4,
+      "sector": "电力",
+      "changePct": 10.014410018920898
+    },
+    {
+      "code": "000823",
+      "name": "超声电子",
+      "boards": 3,
+      "sector": "元件",
+      "changePct": 10.0145845413208
     },
     {
       "code": "002912",
@@ -67,11 +212,53 @@
       "changePct": 9.995746612548828
     },
     {
-      "code": "600929",
-      "name": "雪天盐业",
+      "code": "600876",
+      "name": "凯盛新能",
+      "boards": 3,
+      "sector": "玻璃玻纤",
+      "changePct": 10
+    },
+    {
+      "code": "000980",
+      "name": "众泰汽车",
       "boards": 2,
-      "sector": "化学原料",
-      "changePct": 9.933774948120117
+      "sector": "汽车零部",
+      "changePct": 9.905660629272461
+    },
+    {
+      "code": "002560",
+      "name": "通达股份",
+      "boards": 2,
+      "sector": "电网设备",
+      "changePct": 10.029069900512695
+    },
+    {
+      "code": "002585",
+      "name": "双星新材",
+      "boards": 2,
+      "sector": "塑料",
+      "changePct": 10.0401611328125
+    },
+    {
+      "code": "600088",
+      "name": "中视传媒",
+      "boards": 2,
+      "sector": "影视院线",
+      "changePct": 10
+    },
+    {
+      "code": "603439",
+      "name": "三力制药",
+      "boards": 2,
+      "sector": "中药Ⅱ",
+      "changePct": 9.968101501464844
+    },
+    {
+      "code": "605058",
+      "name": "澳弘电子",
+      "boards": 2,
+      "sector": "元件",
+      "changePct": 9.996997833251953
     },
     {
       "code": "605069",
@@ -81,7 +268,5 @@
       "changePct": 10
     }
   ],
-  "errors": [
-    "indices: 502 Bad Gateway"
-  ]
+  "errors": []
 }
