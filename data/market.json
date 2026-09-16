@@ -1,95 +1,63 @@
 {
-  "date": "2026-09-15",
-  "tradingDate": "2026-09-15",
-  "generatedAt": "2026-09-15T13:34:35.097Z",
+  "date": "2026-09-16",
+  "tradingDate": "2026-09-16",
+  "generatedAt": "2026-09-16T01:34:25.834Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-09-15",
+  "dataDate": "2026-09-16",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5915,
-  "unpriced": 366,
+  "unpriced": 441,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3864.28,
-      "change": -21.05,
-      "changePct": -0.54
+      "price": 3851.09,
+      "change": -13.19,
+      "changePct": -0.34
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13287.97,
-      "change": -96.6,
-      "changePct": -0.72
+      "price": 13221.56,
+      "change": -66.41,
+      "changePct": -0.5
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3247.92,
-      "change": -37.66,
-      "changePct": -1.15
+      "price": 3234.18,
+      "change": -13.74,
+      "changePct": -0.42
     }
   ],
   "total": 5915,
-  "up": 1120,
-  "down": 4376,
-  "flat": 53,
-  "netInflow": -25879279089,
-  "netInflowCount": 5548,
+  "up": 1100,
+  "down": 4209,
+  "flat": 165,
+  "netInflow": -2621193096,
+  "netInflowCount": 5474,
   "netInflowComplete": false,
-  "limitUpCount": 32,
+  "limitUpCount": 11,
   "downLimitCount": 0,
   "topSector": "风电设备",
-  "topSectorCount": 4,
+  "topSectorCount": 2,
   "sectorLimitUps": [
     {
       "sector": "风电设备",
-      "count": 4
+      "count": 2
+    },
+    {
+      "sector": "橡胶",
+      "count": 2
     },
     {
       "sector": "电力",
-      "count": 3
-    },
-    {
-      "sector": "塑料",
-      "count": 2
-    },
-    {
-      "sector": "元件",
-      "count": 2
-    },
-    {
-      "sector": "IT服务Ⅱ",
       "count": 2
     },
     {
       "sector": "家居用品",
-      "count": 2
-    },
-    {
-      "sector": "自动化设",
-      "count": 2
-    },
-    {
-      "sector": "半导体",
-      "count": 2
-    },
-    {
-      "sector": "计算机设",
-      "count": 1
-    },
-    {
-      "sector": "通用设备",
-      "count": 1
-    },
-    {
-      "sector": "软件开发",
-      "count": 1
-    },
-    {
-      "sector": "通信设备",
       "count": 1
     },
     {
@@ -101,83 +69,56 @@
       "count": 1
     },
     {
-      "sector": "电网设备",
+      "sector": "半导体",
       "count": 1
     },
     {
-      "sector": "电池",
-      "count": 1
-    },
-    {
-      "sector": "非白酒",
-      "count": 1
-    },
-    {
-      "sector": "环境治理",
-      "count": 1
-    },
-    {
-      "sector": "汽车零部",
-      "count": 1
-    },
-    {
-      "sector": "炼化及贸",
-      "count": 1
-    },
-    {
-      "sector": "化学制药",
+      "sector": "专业工程",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "000993",
-      "name": "闽东电力",
-      "boards": 5,
-      "sector": "电力",
-      "changePct": 10.019646644592285
-    },
-    {
-      "code": "002912",
-      "name": "中新赛克",
-      "boards": 4,
-      "sector": "计算机设",
-      "changePct": 10.015467643737793
-    },
-    {
-      "code": "002585",
-      "name": "双星新材",
-      "boards": 3,
-      "sector": "塑料",
-      "changePct": 10.03649616241455
-    },
-    {
-      "code": "605058",
-      "name": "澳弘电子",
-      "boards": 3,
-      "sector": "元件",
-      "changePct": 9.989082336425781
-    },
-    {
-      "code": "002232",
-      "name": "启明信息",
+      "code": "001216",
+      "name": "华瓷股份",
       "boards": 2,
-      "sector": "IT服务Ⅱ",
-      "changePct": 10.013089179992676
+      "sector": "家居用品",
+      "changePct": 9.981740951538086
     },
     {
-      "code": "603090",
-      "name": "宏盛股份",
+      "code": "002584",
+      "name": "西陇科学",
       "boards": 2,
-      "sector": "通用设备",
-      "changePct": 10.013680458068848
+      "sector": "电子化学",
+      "changePct": 10.023041725158691
     },
     {
-      "code": "688004",
-      "name": "博汇科技",
+      "code": "002846",
+      "name": "英联股份",
       "boards": 2,
-      "sector": "IT服务Ⅱ",
-      "changePct": 19.982471466064453
+      "sector": "包装印刷",
+      "changePct": 10.008627891540527
+    },
+    {
+      "code": "003026",
+      "name": "中晶科技",
+      "boards": 2,
+      "sector": "半导体",
+      "changePct": 10.006540298461914
+    },
+    {
+      "code": "601218",
+      "name": "吉鑫科技",
+      "boards": 2,
+      "sector": "风电设备",
+      "changePct": 10.038609504699707
+    },
+    {
+      "code": "603248",
+      "name": "锡华科技",
+      "boards": 2,
+      "sector": "风电设备",
+      "changePct": 10.021668434143066
     }
   ],
   "errors": []
