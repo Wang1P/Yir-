@@ -1,63 +1,171 @@
 {
   "date": "2026-09-21",
   "tradingDate": "2026-09-21",
-  "generatedAt": "2026-09-21T01:28:40.833Z",
+  "generatedAt": "2026-09-21T15:07:10.494Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-21",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5917,
-  "unpriced": 431,
+  "breadthComplete": false,
+  "breadthCounted": 0,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3920.27,
-      "change": 8.4,
-      "changePct": 0.21
+      "price": 3949.91,
+      "change": 38.04,
+      "changePct": 0.97
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13716.22,
-      "change": 75.35,
-      "changePct": 0.55
+      "price": 13730.02,
+      "change": 89.15,
+      "changePct": 0.65
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3403.9,
-      "change": 31.22,
-      "changePct": 0.93
+      "price": 3399.59,
+      "change": 26.91,
+      "changePct": 0.8
     }
   ],
-  "total": 5917,
-  "up": 2818,
-  "down": 1785,
-  "flat": 883,
-  "netInflow": 0,
+  "total": 0,
+  "up": 0,
+  "down": 0,
+  "flat": 0,
+  "netInflow": null,
   "netInflowCount": 0,
   "netInflowComplete": false,
-  "limitUpCount": 8,
+  "limitUpCount": 103,
   "downLimitCount": 0,
-  "topSector": "出版",
-  "topSectorCount": 2,
+  "topSector": "化学制药",
+  "topSectorCount": 9,
   "sectorLimitUps": [
     {
-      "sector": "出版",
-      "count": 2
-    },
-    {
-      "sector": "家居用品",
-      "count": 1
+      "sector": "化学制药",
+      "count": 9
     },
     {
       "sector": "医疗服务",
-      "count": 1
+      "count": 5
+    },
+    {
+      "sector": "化学制品",
+      "count": 5
     },
     {
       "sector": "服装家纺",
+      "count": 4
+    },
+    {
+      "sector": "房地产开",
+      "count": 4
+    },
+    {
+      "sector": "一般零售",
+      "count": 4
+    },
+    {
+      "sector": "医疗器械",
+      "count": 4
+    },
+    {
+      "sector": "家居用品",
+      "count": 3
+    },
+    {
+      "sector": "房地产服",
+      "count": 3
+    },
+    {
+      "sector": "出版",
+      "count": 3
+    },
+    {
+      "sector": "专用设备",
+      "count": 3
+    },
+    {
+      "sector": "通用设备",
+      "count": 3
+    },
+    {
+      "sector": "纺织制造",
+      "count": 2
+    },
+    {
+      "sector": "多元金融",
+      "count": 2
+    },
+    {
+      "sector": "半导体",
+      "count": 2
+    },
+    {
+      "sector": "光学光电",
+      "count": 2
+    },
+    {
+      "sector": "养殖业",
+      "count": 2
+    },
+    {
+      "sector": "元件",
+      "count": 2
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "塑料",
+      "count": 2
+    },
+    {
+      "sector": "通信设备",
+      "count": 2
+    },
+    {
+      "sector": "计算机设",
+      "count": 2
+    },
+    {
+      "sector": "汽车零部",
+      "count": 2
+    },
+    {
+      "sector": "小金属",
+      "count": 2
+    },
+    {
+      "sector": "化学原料",
+      "count": 2
+    },
+    {
+      "sector": "农产品加",
+      "count": 1
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1
+    },
+    {
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "医药商业",
+      "count": 1
+    },
+    {
+      "sector": "冶钢原料",
+      "count": 1
+    },
+    {
+      "sector": "非白酒",
       "count": 1
     },
     {
@@ -65,11 +173,83 @@
       "count": 1
     },
     {
-      "sector": "小金属",
+      "sector": "专业连锁",
       "count": 1
     },
     {
-      "sector": "房地产服",
+      "sector": "白酒Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "玻璃玻纤",
+      "count": 1
+    },
+    {
+      "sector": "软件开发",
+      "count": 1
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "包装印刷",
+      "count": 1
+    },
+    {
+      "sector": "其他电子",
+      "count": 1
+    },
+    {
+      "sector": "其他家电",
+      "count": 1
+    },
+    {
+      "sector": "照明设备",
+      "count": 1
+    },
+    {
+      "sector": "家电零部",
+      "count": 1
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "旅游及景",
+      "count": 1
+    },
+    {
+      "sector": "饲料",
+      "count": 1
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "农化制品",
+      "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "生物制品",
+      "count": 1
+    },
+    {
+      "sector": "工程咨询",
       "count": 1
     }
   ],
@@ -80,6 +260,13 @@
       "boards": 5,
       "sector": "家居用品",
       "changePct": 10.013717651367188
+    },
+    {
+      "code": "002285",
+      "name": "世联行",
+      "boards": 4,
+      "sector": "房地产服",
+      "changePct": 10.034602165222168
     },
     {
       "code": "603230",
@@ -96,12 +283,119 @@
       "changePct": 9.990009307861328
     },
     {
+      "code": "002453",
+      "name": "华软科技",
+      "boards": 3,
+      "sector": "化学制品",
+      "changePct": 9.925093650817871
+    },
+    {
+      "code": "600127",
+      "name": "金健米业",
+      "boards": 3,
+      "sector": "农产品加",
+      "changePct": 9.98603343963623
+    },
+    {
+      "code": "600448",
+      "name": "华纺股份",
+      "boards": 3,
+      "sector": "纺织制造",
+      "changePct": 9.887005805969238
+    },
+    {
       "code": "600630",
       "name": "龙头股份",
       "boards": 3,
       "sector": "服装家纺",
       "changePct": 10.012063026428223
+    },
+    {
+      "code": "000532",
+      "name": "华金资本",
+      "boards": 2,
+      "sector": "多元金融",
+      "changePct": 10.030863761901855
+    },
+    {
+      "code": "000910",
+      "name": "大亚圣象",
+      "boards": 2,
+      "sector": "家居用品",
+      "changePct": 10.017574310302734
+    },
+    {
+      "code": "001317",
+      "name": "三羊马",
+      "boards": 2,
+      "sector": "铁路公路",
+      "changePct": 9.99816608428955
+    },
+    {
+      "code": "001376",
+      "name": "百通能源",
+      "boards": 2,
+      "sector": "电力",
+      "changePct": 10.031596183776855
+    },
+    {
+      "code": "002589",
+      "name": "瑞康医药",
+      "boards": 2,
+      "sector": "医药商业",
+      "changePct": 10.091742515563965
+    },
+    {
+      "code": "600606",
+      "name": "绿地控股",
+      "boards": 2,
+      "sector": "房地产开",
+      "changePct": 10.344827651977539
+    },
+    {
+      "code": "601086",
+      "name": "国芳集团",
+      "boards": 2,
+      "sector": "一般零售",
+      "changePct": 10.024907112121582
+    },
+    {
+      "code": "601123",
+      "name": "马矿股份",
+      "boards": 2,
+      "sector": "冶钢原料",
+      "changePct": 10.011248588562012
+    },
+    {
+      "code": "601579",
+      "name": "会稽山",
+      "boards": 2,
+      "sector": "非白酒",
+      "changePct": 9.98781967163086
+    },
+    {
+      "code": "601811",
+      "name": "新华文轩",
+      "boards": 2,
+      "sector": "出版",
+      "changePct": 10
+    },
+    {
+      "code": "603001",
+      "name": "奥康国际",
+      "boards": 2,
+      "sector": "服装家纺",
+      "changePct": 9.971237182617188
+    },
+    {
+      "code": "603068",
+      "name": "博通集成",
+      "boards": 2,
+      "sector": "半导体",
+      "changePct": 9.997488021850586
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: 502 Bad Gateway"
+  ]
 }
