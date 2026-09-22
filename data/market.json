@@ -1,55 +1,75 @@
 {
   "date": "2026-09-22",
   "tradingDate": "2026-09-22",
-  "generatedAt": "2026-09-22T01:45:25.372Z",
+  "generatedAt": "2026-09-22T13:25:24.172Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-22",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5918,
-  "unpriced": 330,
+  "breadthComplete": false,
+  "breadthCounted": 1800,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3961.33,
-      "change": 11.42,
-      "changePct": 0.29
+      "price": 3952.13,
+      "change": 2.22,
+      "changePct": 0.06
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13885,
-      "change": 154.98,
-      "changePct": 1.13
+      "price": 13723.74,
+      "change": -6.28,
+      "changePct": -0.05
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3460.5,
-      "change": 60.91,
-      "changePct": 1.79
+      "price": 3399.93,
+      "change": 0.34,
+      "changePct": 0.01
     }
   ],
   "total": 5918,
-  "up": 2742,
-  "down": 2611,
-  "flat": 235,
-  "netInflow": 7137825381,
-  "netInflowCount": 5588,
-  "netInflowComplete": false,
-  "limitUpCount": 28,
+  "up": 1800,
+  "down": 0,
+  "flat": 0,
+  "netInflow": 33283020752,
+  "netInflowCount": 1800,
+  "netInflowComplete": true,
+  "limitUpCount": 63,
   "downLimitCount": 0,
-  "topSector": "出版",
-  "topSectorCount": 3,
+  "topSector": "家居用品",
+  "topSectorCount": 5,
   "sectorLimitUps": [
     {
+      "sector": "家居用品",
+      "count": 5
+    },
+    {
       "sector": "出版",
+      "count": 4
+    },
+    {
+      "sector": "广告营销",
       "count": 3
     },
     {
-      "sector": "家居用品",
+      "sector": "化学制药",
+      "count": 3
+    },
+    {
+      "sector": "元件",
+      "count": 3
+    },
+    {
+      "sector": "医疗服务",
+      "count": 2
+    },
+    {
+      "sector": "半导体",
       "count": 2
     },
     {
@@ -57,7 +77,15 @@
       "count": 2
     },
     {
-      "sector": "化学制药",
+      "sector": "软件开发",
+      "count": 2
+    },
+    {
+      "sector": "塑料",
+      "count": 2
+    },
+    {
+      "sector": "IT服务Ⅱ",
       "count": 2
     },
     {
@@ -65,15 +93,23 @@
       "count": 2
     },
     {
-      "sector": "医疗服务",
-      "count": 1
+      "sector": "专用设备",
+      "count": 2
+    },
+    {
+      "sector": "环境治理",
+      "count": 2
+    },
+    {
+      "sector": "计算机设",
+      "count": 2
+    },
+    {
+      "sector": "光学光电",
+      "count": 2
     },
     {
       "sector": "铁路公路",
-      "count": 1
-    },
-    {
-      "sector": "广告营销",
       "count": 1
     },
     {
@@ -81,7 +117,7 @@
       "count": 1
     },
     {
-      "sector": "软件开发",
+      "sector": "燃气Ⅱ",
       "count": 1
     },
     {
@@ -93,15 +129,35 @@
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
+      "sector": "房地产开",
       "count": 1
     },
     {
-      "sector": "计算机设",
+      "sector": "化学制品",
       "count": 1
     },
     {
-      "sector": "元件",
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
+      "count": 1
+    },
+    {
+      "sector": "电视广播",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "通信设备",
       "count": 1
     },
     {
@@ -109,15 +165,19 @@
       "count": 1
     },
     {
-      "sector": "专用设备",
+      "sector": "医疗器械",
       "count": 1
     },
     {
-      "sector": "装修装饰",
+      "sector": "煤炭开采",
       "count": 1
     },
     {
-      "sector": "半导体",
+      "sector": "商用车",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
       "count": 1
     },
     {
@@ -125,11 +185,19 @@
       "count": 1
     },
     {
-      "sector": "炼化及贸",
+      "sector": "工程机械",
       "count": 1
     },
     {
-      "sector": "光学光电",
+      "sector": "专业工程",
+      "count": 1
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 1
+    },
+    {
+      "sector": "电子化学",
       "count": 1
     }
   ],
@@ -156,6 +224,13 @@
       "changePct": 9.990917205810547
     },
     {
+      "code": "000910",
+      "name": "大亚圣象",
+      "boards": 3,
+      "sector": "家居用品",
+      "changePct": 10.063898086547852
+    },
+    {
       "code": "001317",
       "name": "三羊马",
       "boards": 3,
@@ -168,6 +243,13 @@
       "boards": 3,
       "sector": "出版",
       "changePct": 10.006540298461914
+    },
+    {
+      "code": "603068",
+      "name": "博通集成",
+      "boards": 3,
+      "sector": "半导体",
+      "changePct": 10.002284049987793
     },
     {
       "code": "000560",
@@ -205,6 +287,13 @@
       "changePct": 10.039369583129883
     },
     {
+      "code": "002259",
+      "name": "升达林业",
+      "boards": 2,
+      "sector": "燃气Ⅱ",
+      "changePct": 9.955751419067383
+    },
+    {
       "code": "002303",
       "name": "美盈森",
       "boards": 2,
@@ -219,6 +308,20 @@
       "changePct": 10.079999923706055
     },
     {
+      "code": "300110",
+      "name": "华仁药业",
+      "boards": 2,
+      "sector": "化学制药",
+      "changePct": 20.060789108276367
+    },
+    {
+      "code": "600503",
+      "name": "华丽家族",
+      "boards": 2,
+      "sector": "房地产开",
+      "changePct": 9.876543045043945
+    },
+    {
       "code": "600664",
       "name": "哈药股份",
       "boards": 2,
@@ -226,26 +329,21 @@
       "changePct": 10.060606002807617
     },
     {
+      "code": "600721",
+      "name": "百花医药",
+      "boards": 2,
+      "sector": "医疗服务",
+      "changePct": 10.038022994995117
+    },
+    {
       "code": "600743",
       "name": "华远控股",
       "boards": 2,
       "sector": "房地产服",
       "changePct": 9.871244430541992
-    },
-    {
-      "code": "600825",
-      "name": "新华传媒",
-      "boards": 2,
-      "sector": "出版",
-      "changePct": 9.931507110595703
-    },
-    {
-      "code": "603636",
-      "name": "南威软件",
-      "boards": 2,
-      "sector": "IT服务Ⅱ",
-      "changePct": 10.027472496032715
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 19: 502 Bad Gateway"
+  ]
 }
