@@ -1,41 +1,103 @@
 {
   "date": "2026-09-24",
   "tradingDate": "2026-09-24",
-  "generatedAt": "2026-09-24T01:36:29.262Z",
+  "generatedAt": "2026-09-24T13:33:42.991Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-24",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 4220,
-  "unpriced": 390,
-  "indices": [],
-  "total": 5920,
-  "up": 1560,
-  "down": 1966,
-  "flat": 304,
-  "netInflow": -6988917228,
-  "netInflowCount": 3829,
+  "breadthCounted": 0,
+  "unpriced": 0,
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3888.37,
+      "change": -48.15,
+      "changePct": -1.22
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 13316.97,
+      "change": -319.1,
+      "changePct": -2.34
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 3288.95,
+      "change": -90.66,
+      "changePct": -2.68
+    }
+  ],
+  "total": 0,
+  "up": 0,
+  "down": 0,
+  "flat": 0,
+  "netInflow": null,
+  "netInflowCount": 0,
   "netInflowComplete": false,
-  "limitUpCount": 19,
+  "limitUpCount": 52,
   "downLimitCount": 0,
-  "topSector": "出版",
-  "topSectorCount": 4,
+  "topSector": "通用设备",
+  "topSectorCount": 6,
   "sectorLimitUps": [
     {
-      "sector": "出版",
+      "sector": "通用设备",
+      "count": 6
+    },
+    {
+      "sector": "汽车零部",
       "count": 4
     },
     {
-      "sector": "电视广播",
-      "count": 2
+      "sector": "出版",
+      "count": 3
+    },
+    {
+      "sector": "医疗服务",
+      "count": 3
     },
     {
       "sector": "服装家纺",
-      "count": 1
+      "count": 2
+    },
+    {
+      "sector": "半导体",
+      "count": 2
+    },
+    {
+      "sector": "化学制品",
+      "count": 2
+    },
+    {
+      "sector": "水泥",
+      "count": 2
+    },
+    {
+      "sector": "林业Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "广告营销",
+      "count": 2
+    },
+    {
+      "sector": "军工电子",
+      "count": 2
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 2
     },
     {
       "sector": "其他家电",
+      "count": 1
+    },
+    {
+      "sector": "电视广播",
       "count": 1
     },
     {
@@ -43,7 +105,7 @@
       "count": 1
     },
     {
-      "sector": "通用设备",
+      "sector": "专用设备",
       "count": 1
     },
     {
@@ -51,19 +113,19 @@
       "count": 1
     },
     {
-      "sector": "汽车零部",
-      "count": 1
-    },
-    {
       "sector": "基础建设",
       "count": 1
     },
     {
-      "sector": "医疗服务",
+      "sector": "综合Ⅱ",
       "count": 1
     },
     {
       "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "航运港口",
       "count": 1
     },
     {
@@ -75,11 +137,39 @@
       "count": 1
     },
     {
+      "sector": "包装印刷",
+      "count": 1
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "工程机械",
+      "count": 1
+    },
+    {
+      "sector": "风电设备",
+      "count": 1
+    },
+    {
       "sector": "电网设备",
       "count": 1
     },
     {
+      "sector": "通信设备",
+      "count": 1
+    },
+    {
       "sector": "轨交设备",
+      "count": 1
+    },
+    {
+      "sector": "农化制品",
       "count": 1
     }
   ],
@@ -127,11 +217,39 @@
       "changePct": 10.107526779174805
     },
     {
+      "code": "002119",
+      "name": "康强电子",
+      "boards": 2,
+      "sector": "半导体",
+      "changePct": 9.992570877075195
+    },
+    {
       "code": "002819",
       "name": "东方中科",
       "boards": 2,
       "sector": "通用设备",
       "changePct": 9.983498573303223
+    },
+    {
+      "code": "002909",
+      "name": "集泰股份",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 9.94694995880127
+    },
+    {
+      "code": "600802",
+      "name": "福建水泥",
+      "boards": 2,
+      "sector": "水泥",
+      "changePct": 9.966776847839355
+    },
+    {
+      "code": "600843",
+      "name": "上工申贝",
+      "boards": 2,
+      "sector": "专用设备",
+      "changePct": 9.986859321594238
     },
     {
       "code": "603396",
@@ -149,7 +267,6 @@
     }
   ],
   "errors": [
-    "indices: 502 Bad Gateway",
-    "breadth: page 2: 502 Bad Gateway"
+    "breadth: 502 Bad Gateway"
   ]
 }
