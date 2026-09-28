@@ -1,59 +1,75 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "tradingDate": "2026-09-28",
-  "generatedAt": "2026-09-28T01:55:31.426Z",
+  "generatedAt": "2026-09-28T16:45:41.069Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-28",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5920,
-  "unpriced": 378,
+  "breadthComplete": false,
+  "breadthCounted": 2600,
+  "unpriced": 362,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3847.98,
-      "change": -40.39,
-      "changePct": -1.04
+      "price": 3823.62,
+      "change": -64.75,
+      "changePct": -1.67
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 13022.58,
-      "change": -294.39,
-      "changePct": -2.21
+      "price": 12858.75,
+      "change": -458.22,
+      "changePct": -3.44
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3192.29,
-      "change": -96.66,
-      "changePct": -2.94
+      "price": 3139.82,
+      "change": -149.13,
+      "changePct": -4.53
     }
   ],
   "total": 5920,
-  "up": 1019,
-  "down": 4370,
-  "flat": 153,
-  "netInflow": -29318375101,
-  "netInflowCount": 5542,
+  "up": 898,
+  "down": 1234,
+  "flat": 106,
+  "netInflow": 8973812241,
+  "netInflowCount": 2237,
   "netInflowComplete": false,
-  "limitUpCount": 17,
+  "limitUpCount": 33,
   "downLimitCount": 0,
   "topSector": "汽车零部",
-  "topSectorCount": 2,
+  "topSectorCount": 3,
   "sectorLimitUps": [
     {
       "sector": "汽车零部",
-      "count": 2
+      "count": 3
+    },
+    {
+      "sector": "通用设备",
+      "count": 3
     },
     {
       "sector": "光学光电",
       "count": 2
     },
     {
+      "sector": "软件开发",
+      "count": 2
+    },
+    {
+      "sector": "化学制药",
+      "count": 2
+    },
+    {
       "sector": "电力",
+      "count": 2
+    },
+    {
+      "sector": "化学制品",
       "count": 2
     },
     {
@@ -69,19 +85,27 @@
       "count": 1
     },
     {
+      "sector": "风电设备",
+      "count": 1
+    },
+    {
       "sector": "房地产开",
       "count": 1
     },
     {
-      "sector": "软件开发",
-      "count": 1
-    },
-    {
-      "sector": "化学制药",
+      "sector": "养殖业",
       "count": 1
     },
     {
       "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
       "count": 1
     },
     {
@@ -93,7 +117,23 @@
       "count": 1
     },
     {
+      "sector": "农产品加",
+      "count": 1
+    },
+    {
       "sector": "计算机设",
+      "count": 1
+    },
+    {
+      "sector": "化学原料",
+      "count": 1
+    },
+    {
+      "sector": "电池",
+      "count": 1
+    },
+    {
+      "sector": "商用车",
       "count": 1
     },
     {
@@ -136,7 +176,23 @@
       "boards": 2,
       "sector": "汽车零部",
       "changePct": 10.020661354064941
+    },
+    {
+      "code": "601218",
+      "name": "吉鑫科技",
+      "boards": 2,
+      "sector": "风电设备",
+      "changePct": 10
+    },
+    {
+      "code": "603278",
+      "name": "大业股份",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 27: 502 Bad Gateway"
+  ]
 }
