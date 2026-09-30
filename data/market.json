@@ -1,99 +1,83 @@
 {
-  "date": "2026-09-29",
-  "tradingDate": "2026-09-29",
-  "generatedAt": "2026-09-29T02:40:50.346Z",
+  "date": "2026-09-30",
+  "tradingDate": "2026-09-30",
+  "generatedAt": "2026-09-30T02:18:17.051Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-09-29",
+  "dataDate": "2026-09-30",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 5500,
-  "unpriced": 354,
+  "breadthCounted": 5821,
+  "unpriced": 356,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3815.49,
-      "change": -8.13,
-      "changePct": -0.21
+      "price": 3839.26,
+      "change": 8.81,
+      "changePct": 0.23
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 12877.49,
-      "change": 18.74,
-      "changePct": 0.15
+      "price": 12910.46,
+      "change": 8.51,
+      "changePct": 0.07
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3145.76,
-      "change": 5.94,
-      "changePct": 0.19
+      "price": 3145.71,
+      "change": 3.15,
+      "changePct": 0.1
     }
   ],
-  "total": 5920,
-  "up": 3283,
-  "down": 1684,
-  "flat": 179,
-  "netInflow": 1190270094,
-  "netInflowCount": 5146,
+  "total": 5921,
+  "up": 2861,
+  "down": 2371,
+  "flat": 233,
+  "netInflow": -1421004650,
+  "netInflowCount": 5465,
   "netInflowComplete": false,
-  "limitUpCount": 34,
+  "limitUpCount": 40,
   "downLimitCount": 0,
-  "topSector": "电池",
-  "topSectorCount": 4,
+  "topSector": "汽车零部",
+  "topSectorCount": 5,
   "sectorLimitUps": [
     {
-      "sector": "电池",
-      "count": 4
-    },
-    {
       "sector": "汽车零部",
+      "count": 5
+    },
+    {
+      "sector": "电池",
       "count": 3
     },
     {
-      "sector": "房地产开",
-      "count": 3
-    },
-    {
-      "sector": "元件",
+      "sector": "化学制品",
       "count": 3
     },
     {
       "sector": "电力",
-      "count": 2
+      "count": 3
     },
     {
-      "sector": "环境治理",
-      "count": 2
-    },
-    {
-      "sector": "包装印刷",
-      "count": 2
+      "sector": "生物制品",
+      "count": 3
     },
     {
       "sector": "出版",
-      "count": 1
+      "count": 2
+    },
+    {
+      "sector": "通用设备",
+      "count": 2
     },
     {
       "sector": "小家电",
       "count": 1
     },
     {
-      "sector": "计算机设",
-      "count": 1
-    },
-    {
       "sector": "化学原料",
-      "count": 1
-    },
-    {
-      "sector": "化学制药",
-      "count": 1
-    },
-    {
-      "sector": "服装家纺",
       "count": 1
     },
     {
@@ -101,7 +85,11 @@
       "count": 1
     },
     {
-      "sector": "电网设备",
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
+      "sector": "基础建设",
       "count": 1
     },
     {
@@ -109,27 +97,55 @@
       "count": 1
     },
     {
-      "sector": "乘用车",
+      "sector": "医疗服务",
       "count": 1
     },
     {
-      "sector": "软件开发",
+      "sector": "个护用品",
       "count": 1
     },
     {
-      "sector": "化学制品",
+      "sector": "综合Ⅱ",
       "count": 1
     },
     {
-      "sector": "数字媒体",
+      "sector": "其他电子",
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
+      "sector": "农化制品",
       "count": 1
     },
     {
-      "sector": "基础建设",
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "风电设备",
+      "count": 1
+    },
+    {
+      "sector": "造纸",
+      "count": 1
+    },
+    {
+      "sector": "商用车",
+      "count": 1
+    },
+    {
+      "sector": "种植业",
+      "count": 1
+    },
+    {
+      "sector": "化学制药",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
       "count": 1
     }
   ],
@@ -137,75 +153,82 @@
     {
       "code": "600825",
       "name": "新华传媒",
-      "boards": 6,
+      "boards": 7,
       "sector": "出版",
-      "changePct": 10.058479309082031
-    },
-    {
-      "code": "603949",
-      "name": "雪龙集团",
-      "boards": 4,
-      "sector": "汽车零部",
-      "changePct": 10.005379676818848
+      "changePct": 9.989372253417969
     },
     {
       "code": "000678",
       "name": "襄阳轴承",
-      "boards": 3,
+      "boards": 4,
       "sector": "汽车零部",
-      "changePct": 10.046948432922363
-    },
-    {
-      "code": "000011",
-      "name": "深物业A",
-      "boards": 2,
-      "sector": "房地产开",
-      "changePct": 9.98023796081543
+      "changePct": 9.982934951782227
     },
     {
       "code": "002242",
       "name": "九阳股份",
-      "boards": 2,
+      "boards": 3,
       "sector": "小家电",
-      "changePct": 9.970958709716797
-    },
-    {
-      "code": "002912",
-      "name": "中新赛克",
-      "boards": 2,
-      "sector": "计算机设",
-      "changePct": 10.011333465576172
+      "changePct": 10.035211563110352
     },
     {
       "code": "301190",
       "name": "善水科技",
-      "boards": 2,
+      "boards": 3,
       "sector": "化学原料",
-      "changePct": 20
-    },
-    {
-      "code": "600032",
-      "name": "浙江新能",
-      "boards": 2,
-      "sector": "电力",
-      "changePct": 9.959623336791992
+      "changePct": 20.00667953491211
     },
     {
       "code": "600241",
       "name": "时代万恒",
-      "boards": 2,
+      "boards": 3,
       "sector": "电池",
-      "changePct": 9.950248718261719
+      "changePct": 9.954751014709473
     },
     {
-      "code": "600488",
-      "name": "津药药业",
+      "code": "002058",
+      "name": "紫竹高科",
       "boards": 2,
-      "sector": "化学制药",
-      "changePct": 10.047846794128418
+      "sector": "电池",
+      "changePct": 10.0217866897583
+    },
+    {
+      "code": "002866",
+      "name": "传艺科技",
+      "boards": 2,
+      "sector": "消费电子",
+      "changePct": 10.026041030883789
+    },
+    {
+      "code": "603188",
+      "name": "亚邦股份",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 9.979633331298828
+    },
+    {
+      "code": "603200",
+      "name": "上海洗霸",
+      "boards": 2,
+      "sector": "环境治理",
+      "changePct": 10.007376670837402
+    },
+    {
+      "code": "605303",
+      "name": "园林股份",
+      "boards": 2,
+      "sector": "基础建设",
+      "changePct": 10.019193649291992
+    },
+    {
+      "code": "605388",
+      "name": "均瑶健康",
+      "boards": 2,
+      "sector": "饮料乳品",
+      "changePct": 9.970237731933594
     }
   ],
   "errors": [
-    "breadth: page 18: 502 Bad Gateway"
+    "breadth: page 37: 502 Bad Gateway"
   ]
 }
