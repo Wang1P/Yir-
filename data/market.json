@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "tradingDate": "2026-09-30",
-  "generatedAt": "2026-10-01T15:27:44.565Z",
+  "generatedAt": "2026-10-02T02:30:28.203Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-30",
   "dataScope": "沪深京A股",
@@ -9,29 +9,7 @@
   "breadthComplete": false,
   "breadthCounted": 0,
   "unpriced": 0,
-  "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "price": 3842.19,
-      "change": 11.74,
-      "changePct": 0.31
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "price": 12887.62,
-      "change": -14.33,
-      "changePct": -0.11
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "price": 3135.28,
-      "change": -7.28,
-      "changePct": -0.23
-    }
-  ],
+  "indices": [],
   "total": 0,
   "up": 0,
   "down": 0,
@@ -260,6 +238,7 @@
     }
   ],
   "errors": [
+    "indices: 502 Bad Gateway",
     "breadth: 502 Bad Gateway"
   ]
 }
