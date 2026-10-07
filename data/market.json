@@ -1,22 +1,44 @@
 {
   "date": "2026-10-07",
   "tradingDate": "2026-09-30",
-  "generatedAt": "2026-10-07T02:38:33.831Z",
+  "generatedAt": "2026-10-07T15:33:52.069Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-30",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 0,
+  "breadthCounted": 1800,
   "unpriced": 0,
-  "indices": [],
-  "total": 0,
-  "up": 0,
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3842.19,
+      "change": 11.74,
+      "changePct": 0.31
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 12887.62,
+      "change": -14.33,
+      "changePct": -0.11
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 3135.28,
+      "change": -7.28,
+      "changePct": -0.23
+    }
+  ],
+  "total": 5921,
+  "up": 1800,
   "down": 0,
   "flat": 0,
-  "netInflow": null,
-  "netInflowCount": 0,
-  "netInflowComplete": false,
+  "netInflow": 26216401806,
+  "netInflowCount": 1800,
+  "netInflowComplete": true,
   "limitUpCount": 52,
   "downLimitCount": 0,
   "topSector": "汽车零部",
@@ -238,7 +260,6 @@
     }
   ],
   "errors": [
-    "indices: 502 Bad Gateway",
-    "breadth: 502 Bad Gateway"
+    "breadth: page 13: 502 Bad Gateway"
   ]
 }
