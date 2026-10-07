@@ -1,43 +1,21 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "tradingDate": "2026-09-30",
-  "generatedAt": "2026-10-06T15:13:52.182Z",
+  "generatedAt": "2026-10-07T02:38:33.831Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-09-30",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 2700,
-  "unpriced": 71,
-  "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "price": 3842.19,
-      "change": 11.74,
-      "changePct": 0.31
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "price": 12887.62,
-      "change": -14.33,
-      "changePct": -0.11
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "price": 3135.28,
-      "change": -7.28,
-      "changePct": -0.23
-    }
-  ],
-  "total": 5921,
-  "up": 2567,
+  "breadthCounted": 0,
+  "unpriced": 0,
+  "indices": [],
+  "total": 0,
+  "up": 0,
   "down": 0,
-  "flat": 62,
-  "netInflow": 27436802966,
-  "netInflowCount": 2628,
+  "flat": 0,
+  "netInflow": null,
+  "netInflowCount": 0,
   "netInflowComplete": false,
   "limitUpCount": 52,
   "downLimitCount": 0,
@@ -260,6 +238,7 @@
     }
   ],
   "errors": [
-    "breadth: page 28: 502 Bad Gateway"
+    "indices: 502 Bad Gateway",
+    "breadth: 502 Bad Gateway"
   ]
 }
