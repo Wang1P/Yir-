@@ -1,71 +1,71 @@
 {
   "date": "2026-10-08",
   "tradingDate": "2026-10-08",
-  "generatedAt": "2026-10-08T02:51:14.624Z",
+  "generatedAt": "2026-10-08T15:38:04.747Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-08",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 5621,
-  "unpriced": 366,
+  "breadthCounted": 3400,
+  "unpriced": 363,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3833.68,
-      "change": -8.51,
-      "changePct": -0.22
+      "price": 3811.9,
+      "change": -30.29,
+      "changePct": -0.79
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 12747.05,
-      "change": -140.57,
-      "changePct": -1.09
+      "price": 12620.9,
+      "change": -266.72,
+      "changePct": -2.07
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3076.29,
-      "change": -58.99,
-      "changePct": -1.88
+      "price": 3036.66,
+      "change": -98.62,
+      "changePct": -3.15
     }
   ],
   "total": 5921,
-  "up": 1955,
-  "down": 3132,
-  "flat": 168,
-  "netInflow": -9090553030,
-  "netInflowCount": 5255,
+  "up": 1698,
+  "down": 1227,
+  "flat": 112,
+  "netInflow": 18468751421,
+  "netInflowCount": 3036,
   "netInflowComplete": false,
-  "limitUpCount": 39,
+  "limitUpCount": 43,
   "downLimitCount": 0,
   "topSector": "电池",
-  "topSectorCount": 5,
+  "topSectorCount": 8,
   "sectorLimitUps": [
     {
       "sector": "电池",
-      "count": 5
+      "count": 8
     },
     {
-      "sector": "环境治理",
-      "count": 3
+      "sector": "专用设备",
+      "count": 2
+    },
+    {
+      "sector": "服装家纺",
+      "count": 2
     },
     {
       "sector": "化学制品",
-      "count": 3
-    },
-    {
-      "sector": "化学制药",
-      "count": 3
-    },
-    {
-      "sector": "房地产开",
       "count": 2
     },
     {
       "sector": "航运港口",
+      "count": 2
+    },
+    {
+      "sector": "化学制药",
       "count": 2
     },
     {
@@ -81,7 +81,15 @@
       "count": 1
     },
     {
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
       "sector": "基础建设",
+      "count": 1
+    },
+    {
+      "sector": "房地产开",
       "count": 1
     },
     {
@@ -101,11 +109,11 @@
       "count": 1
     },
     {
-      "sector": "服装家纺",
+      "sector": "包装印刷",
       "count": 1
     },
     {
-      "sector": "专用设备",
+      "sector": "食品加工",
       "count": 1
     },
     {
@@ -141,7 +149,15 @@
       "count": 1
     },
     {
+      "sector": "化学纤维",
+      "count": 1
+    },
+    {
       "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "汽车零部",
       "count": 1
     },
     {
@@ -160,13 +176,6 @@
       "boards": 8,
       "sector": "出版",
       "changePct": 10.048309326171875
-    },
-    {
-      "code": "000011",
-      "name": "深物业A",
-      "boards": 4,
-      "sector": "房地产开",
-      "changePct": 9.967320442199707
     },
     {
       "code": "002242",
@@ -218,6 +227,13 @@
       "changePct": 9.990108489990234
     },
     {
+      "code": "603906",
+      "name": "龙蟠科技",
+      "boards": 2,
+      "sector": "电池",
+      "changePct": 9.978991508483887
+    },
+    {
       "code": "603928",
       "name": "兴业股份",
       "boards": 2,
@@ -226,6 +242,6 @@
     }
   ],
   "errors": [
-    "breadth: page 53: 502 Bad Gateway"
+    "breadth: page 35: 502 Bad Gateway"
   ]
 }
