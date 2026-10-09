@@ -1,45 +1,23 @@
 {
-  "date": "2026-10-08",
-  "tradingDate": "2026-10-08",
-  "generatedAt": "2026-10-08T15:38:04.747Z",
+  "date": "2026-10-09",
+  "tradingDate": "2026-10-09",
+  "generatedAt": "2026-10-09T03:02:23.418Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-10-08",
+  "dataDate": "2026-10-09",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 3400,
-  "unpriced": 363,
-  "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "price": 3811.9,
-      "change": -30.29,
-      "changePct": -0.79
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "price": 12620.9,
-      "change": -266.72,
-      "changePct": -2.07
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "price": 3036.66,
-      "change": -98.62,
-      "changePct": -3.15
-    }
-  ],
-  "total": 5921,
-  "up": 1698,
-  "down": 1227,
-  "flat": 112,
-  "netInflow": 18468751421,
-  "netInflowCount": 3036,
+  "breadthCounted": 0,
+  "unpriced": 0,
+  "indices": [],
+  "total": 0,
+  "up": 0,
+  "down": 0,
+  "flat": 0,
+  "netInflow": null,
+  "netInflowCount": 0,
   "netInflowComplete": false,
-  "limitUpCount": 43,
+  "limitUpCount": 30,
   "downLimitCount": 0,
   "topSector": "电池",
   "topSectorCount": 8,
@@ -49,55 +27,19 @@
       "count": 8
     },
     {
-      "sector": "专用设备",
-      "count": 2
-    },
-    {
-      "sector": "服装家纺",
-      "count": 2
-    },
-    {
       "sector": "化学制品",
-      "count": 2
-    },
-    {
-      "sector": "航运港口",
-      "count": 2
+      "count": 3
     },
     {
       "sector": "化学制药",
       "count": 2
     },
     {
+      "sector": "一般零售",
+      "count": 2
+    },
+    {
       "sector": "出版",
-      "count": 1
-    },
-    {
-      "sector": "小家电",
-      "count": 1
-    },
-    {
-      "sector": "消费电子",
-      "count": 1
-    },
-    {
-      "sector": "环境治理",
-      "count": 1
-    },
-    {
-      "sector": "基础建设",
-      "count": 1
-    },
-    {
-      "sector": "房地产开",
-      "count": 1
-    },
-    {
-      "sector": "塑料",
-      "count": 1
-    },
-    {
-      "sector": "非白酒",
       "count": 1
     },
     {
@@ -109,27 +51,7 @@
       "count": 1
     },
     {
-      "sector": "包装印刷",
-      "count": 1
-    },
-    {
       "sector": "食品加工",
-      "count": 1
-    },
-    {
-      "sector": "计算机设",
-      "count": 1
-    },
-    {
-      "sector": "其他电源",
-      "count": 1
-    },
-    {
-      "sector": "光伏设备",
-      "count": 1
-    },
-    {
-      "sector": "电力",
       "count": 1
     },
     {
@@ -137,35 +59,43 @@
       "count": 1
     },
     {
-      "sector": "燃气Ⅱ",
+      "sector": "环境治理",
       "count": 1
     },
     {
-      "sector": "化学原料",
+      "sector": "电网设备",
       "count": 1
     },
     {
-      "sector": "家电零部",
+      "sector": "医疗器械",
       "count": 1
     },
     {
-      "sector": "化学纤维",
+      "sector": "农产品加",
       "count": 1
     },
     {
-      "sector": "装修装饰",
+      "sector": "光伏设备",
       "count": 1
     },
     {
-      "sector": "汽车零部",
+      "sector": "种植业",
       "count": 1
     },
     {
-      "sector": "造纸",
+      "sector": "工程咨询",
       "count": 1
     },
     {
-      "sector": "轨交设备",
+      "sector": "专用设备",
+      "count": 1
+    },
+    {
+      "sector": "化妆品",
+      "count": 1
+    },
+    {
+      "sector": "互联网电",
       "count": 1
     }
   ],
@@ -173,75 +103,83 @@
     {
       "code": "600825",
       "name": "新华传媒",
-      "boards": 8,
+      "boards": 9,
       "sector": "出版",
-      "changePct": 10.048309326171875
-    },
-    {
-      "code": "002242",
-      "name": "九阳股份",
-      "boards": 4,
-      "sector": "小家电",
-      "changePct": 10
+      "changePct": 10.008779525756836
     },
     {
       "code": "600241",
       "name": "时代万恒",
-      "boards": 4,
+      "boards": 5,
       "sector": "电池",
-      "changePct": 9.979423522949219
+      "changePct": 10.009354591369629
     },
     {
       "code": "002058",
       "name": "紫竹高科",
-      "boards": 3,
+      "boards": 4,
       "sector": "电池",
-      "changePct": 10
+      "changePct": 9.990999221801758
     },
     {
-      "code": "002866",
-      "name": "传艺科技",
-      "boards": 3,
-      "sector": "消费电子",
-      "changePct": 10
-    },
-    {
-      "code": "603200",
-      "name": "上海洗霸",
-      "boards": 3,
-      "sector": "环境治理",
-      "changePct": 9.991059303283691
-    },
-    {
-      "code": "605303",
-      "name": "园林股份",
-      "boards": 3,
-      "sector": "基础建设",
-      "changePct": 10.013957023620605
-    },
-    {
-      "code": "600663",
-      "name": "陆家嘴",
+      "code": "001300",
+      "name": "三柏硕",
       "boards": 2,
-      "sector": "房地产开",
-      "changePct": 9.990108489990234
+      "sector": "文娱用品",
+      "changePct": 9.992597579956055
     },
     {
-      "code": "603906",
-      "name": "龙蟠科技",
+      "code": "001336",
+      "name": "楚环科技",
+      "boards": 2,
+      "sector": "环保设备",
+      "changePct": 10.024212837219238
+    },
+    {
+      "code": "002702",
+      "name": "海欣食品",
+      "boards": 2,
+      "sector": "食品加工",
+      "changePct": 9.966216087341309
+    },
+    {
+      "code": "002733",
+      "name": "雄韬股份",
       "boards": 2,
       "sector": "电池",
-      "changePct": 9.978991508483887
+      "changePct": 10.005293846130371
     },
     {
-      "code": "603928",
-      "name": "兴业股份",
+      "code": "002805",
+      "name": "丰元股份",
       "boards": 2,
-      "sector": "塑料",
-      "changePct": 10.022953033447266
+      "sector": "电池",
+      "changePct": 10.016977310180664
+    },
+    {
+      "code": "300530",
+      "name": "领湃科技",
+      "boards": 2,
+      "sector": "电池",
+      "changePct": 20.016611099243164
+    },
+    {
+      "code": "600408",
+      "name": "安泰集团",
+      "boards": 2,
+      "sector": "焦炭Ⅱ",
+      "changePct": 9.883721351623535
+    },
+    {
+      "code": "600812",
+      "name": "华北制药",
+      "boards": 2,
+      "sector": "化学制药",
+      "changePct": 10.03649616241455
     }
   ],
   "errors": [
-    "breadth: page 35: 502 Bad Gateway"
+    "indices: 502 Bad Gateway",
+    "breadth: 502 Bad Gateway"
   ]
 }
