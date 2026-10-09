@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "tradingDate": "2026-10-09",
-  "generatedAt": "2026-10-09T03:02:23.418Z",
+  "generatedAt": "2026-10-09T15:18:52.178Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-09",
   "dataScope": "沪深京A股",
@@ -9,7 +9,29 @@
   "breadthComplete": false,
   "breadthCounted": 0,
   "unpriced": 0,
-  "indices": [],
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3813.79,
+      "change": 1.89,
+      "changePct": 0.05
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 12641.86,
+      "change": 20.96,
+      "changePct": 0.17
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 3043.33,
+      "change": 6.67,
+      "changePct": 0.22
+    }
+  ],
   "total": 0,
   "up": 0,
   "down": 0,
@@ -17,29 +39,57 @@
   "netInflow": null,
   "netInflowCount": 0,
   "netInflowComplete": false,
-  "limitUpCount": 30,
+  "limitUpCount": 69,
   "downLimitCount": 0,
   "topSector": "电池",
-  "topSectorCount": 8,
+  "topSectorCount": 6,
   "sectorLimitUps": [
     {
       "sector": "电池",
-      "count": 8
+      "count": 6
+    },
+    {
+      "sector": "出版",
+      "count": 5
+    },
+    {
+      "sector": "软件开发",
+      "count": 5
+    },
+    {
+      "sector": "影视院线",
+      "count": 4
+    },
+    {
+      "sector": "一般零售",
+      "count": 4
+    },
+    {
+      "sector": "化学制药",
+      "count": 3
+    },
+    {
+      "sector": "数字媒体",
+      "count": 3
     },
     {
       "sector": "化学制品",
       "count": 3
     },
     {
-      "sector": "化学制药",
+      "sector": "种植业",
+      "count": 3
+    },
+    {
+      "sector": "服装家纺",
       "count": 2
     },
     {
-      "sector": "一般零售",
+      "sector": "装修装饰",
       "count": 2
     },
     {
-      "sector": "出版",
+      "sector": "小家电",
       "count": 1
     },
     {
@@ -51,11 +101,11 @@
       "count": 1
     },
     {
-      "sector": "食品加工",
+      "sector": "焦炭Ⅱ",
       "count": 1
     },
     {
-      "sector": "焦炭Ⅱ",
+      "sector": "化学纤维",
       "count": 1
     },
     {
@@ -63,7 +113,35 @@
       "count": 1
     },
     {
+      "sector": "医疗服务",
+      "count": 1
+    },
+    {
+      "sector": "房地产服",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "电力",
+      "count": 1
+    },
+    {
       "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "饲料",
+      "count": 1
+    },
+    {
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
       "count": 1
     },
     {
@@ -79,7 +157,7 @@
       "count": 1
     },
     {
-      "sector": "种植业",
+      "sector": "证券Ⅱ",
       "count": 1
     },
     {
@@ -87,15 +165,43 @@
       "count": 1
     },
     {
+      "sector": "游戏Ⅱ",
+      "count": 1
+    },
+    {
       "sector": "专用设备",
       "count": 1
     },
     {
-      "sector": "化妆品",
+      "sector": "饮料乳品",
+      "count": 1
+    },
+    {
+      "sector": "贵金属",
+      "count": 1
+    },
+    {
+      "sector": "电视广播",
+      "count": 1
+    },
+    {
+      "sector": "化学原料",
+      "count": 1
+    },
+    {
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "元件",
       "count": 1
     },
     {
       "sector": "互联网电",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
       "count": 1
     }
   ],
@@ -106,6 +212,13 @@
       "boards": 9,
       "sector": "出版",
       "changePct": 10.008779525756836
+    },
+    {
+      "code": "002242",
+      "name": "九阳股份",
+      "boards": 5,
+      "sector": "小家电",
+      "changePct": 10.03636360168457
     },
     {
       "code": "600241",
@@ -136,13 +249,6 @@
       "changePct": 10.024212837219238
     },
     {
-      "code": "002702",
-      "name": "海欣食品",
-      "boards": 2,
-      "sector": "食品加工",
-      "changePct": 9.966216087341309
-    },
-    {
       "code": "002733",
       "name": "雄韬股份",
       "boards": 2,
@@ -164,6 +270,13 @@
       "changePct": 20.016611099243164
     },
     {
+      "code": "600400",
+      "name": "红豆股份",
+      "boards": 2,
+      "sector": "服装家纺",
+      "changePct": 9.944750785827637
+    },
+    {
       "code": "600408",
       "name": "安泰集团",
       "boards": 2,
@@ -179,7 +292,6 @@
     }
   ],
   "errors": [
-    "indices: 502 Bad Gateway",
     "breadth: 502 Bad Gateway"
   ]
 }
