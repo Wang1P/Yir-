@@ -1,59 +1,63 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "tradingDate": "2026-10-12",
-  "generatedAt": "2026-10-12T02:35:37.727Z",
+  "generatedAt": "2026-10-12T17:56:38.788Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-12",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5922,
-  "unpriced": 360,
+  "breadthComplete": false,
+  "breadthCounted": 0,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3818.53,
-      "change": 4.74,
-      "changePct": 0.12
+      "price": 3797.24,
+      "change": -16.55,
+      "changePct": -0.43
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 12553.25,
-      "change": -88.61,
-      "changePct": -0.7
+      "price": 12384.87,
+      "change": -256.99,
+      "changePct": -2.03
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 3015.62,
-      "change": -27.71,
-      "changePct": -0.91
+      "price": 2963.82,
+      "change": -79.51,
+      "changePct": -2.61
     }
   ],
-  "total": 5922,
-  "up": 1555,
-  "down": 3868,
-  "flat": 139,
-  "netInflow": -9137090402,
-  "netInflowCount": 5562,
+  "total": 0,
+  "up": 0,
+  "down": 0,
+  "flat": 0,
+  "netInflow": null,
+  "netInflowCount": 0,
   "netInflowComplete": false,
-  "limitUpCount": 39,
+  "limitUpCount": 46,
   "downLimitCount": 0,
   "topSector": "出版",
-  "topSectorCount": 5,
+  "topSectorCount": 6,
   "sectorLimitUps": [
     {
       "sector": "出版",
-      "count": 5
-    },
-    {
-      "sector": "电网设备",
-      "count": 5
+      "count": 6
     },
     {
       "sector": "影视院线",
+      "count": 4
+    },
+    {
+      "sector": "电网设备",
+      "count": 4
+    },
+    {
+      "sector": "化学制药",
       "count": 3
     },
     {
@@ -61,7 +65,7 @@
       "count": 3
     },
     {
-      "sector": "化学制药",
+      "sector": "电池",
       "count": 2
     },
     {
@@ -69,15 +73,23 @@
       "count": 2
     },
     {
-      "sector": "家居用品",
+      "sector": "软件开发",
       "count": 2
     },
     {
-      "sector": "专用设备",
+      "sector": "IT服务Ⅱ",
       "count": 2
+    },
+    {
+      "sector": "小家电",
+      "count": 1
     },
     {
       "sector": "饲料",
+      "count": 1
+    },
+    {
+      "sector": "数字媒体",
       "count": 1
     },
     {
@@ -86,6 +98,10 @@
     },
     {
       "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "农化制品",
       "count": 1
     },
     {
@@ -101,10 +117,6 @@
       "count": 1
     },
     {
-      "sector": "元件",
-      "count": 1
-    },
-    {
       "sector": "计算机设",
       "count": 1
     },
@@ -113,7 +125,23 @@
       "count": 1
     },
     {
+      "sector": "光伏设备",
+      "count": 1
+    },
+    {
+      "sector": "专用设备",
+      "count": 1
+    },
+    {
       "sector": "一般零售",
+      "count": 1
+    },
+    {
+      "sector": "乘用车",
+      "count": 1
+    },
+    {
+      "sector": "种植业",
       "count": 1
     },
     {
@@ -121,19 +149,7 @@
       "count": 1
     },
     {
-      "sector": "软件开发",
-      "count": 1
-    },
-    {
-      "sector": "半导体",
-      "count": 1
-    },
-    {
-      "sector": "汽车零部",
-      "count": 1
-    },
-    {
-      "sector": "IT服务Ⅱ",
+      "sector": "家居用品",
       "count": 1
     }
   ],
@@ -146,11 +162,32 @@
       "changePct": 9.976058006286621
     },
     {
+      "code": "002242",
+      "name": "九阳股份",
+      "boards": 6,
+      "sector": "小家电",
+      "changePct": 9.980172157287598
+    },
+    {
+      "code": "600241",
+      "name": "时代万恒",
+      "boards": 6,
+      "sector": "电池",
+      "changePct": 10.034013748168945
+    },
+    {
       "code": "600812",
       "name": "华北制药",
       "boards": 3,
       "sector": "化学制药",
       "changePct": 9.950248718261719
+    },
+    {
+      "code": "000892",
+      "name": "欢瑞世纪",
+      "boards": 2,
+      "sector": "影视院线",
+      "changePct": 10.103093147277832
     },
     {
       "code": "001330",
@@ -209,11 +246,18 @@
       "changePct": 9.982688903808594
     },
     {
-      "code": "603155",
-      "name": "新亚强",
+      "code": "603232",
+      "name": "格尔软件",
       "boards": 2,
-      "sector": "化学制品",
-      "changePct": 9.980557441711426
+      "sector": "软件开发",
+      "changePct": 10.011778831481934
+    },
+    {
+      "code": "603533",
+      "name": "掌阅科技",
+      "boards": 2,
+      "sector": "数字媒体",
+      "changePct": 9.98427677154541
     },
     {
       "code": "605136",
@@ -237,5 +281,7 @@
       "changePct": 10
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: 502 Bad Gateway"
+  ]
 }
