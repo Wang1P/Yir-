@@ -1,87 +1,75 @@
 {
   "date": "2026-10-13",
-  "tradingDate": "2026-10-12",
-  "generatedAt": "2026-10-12T17:56:38.788Z",
+  "tradingDate": "2026-10-13",
+  "generatedAt": "2026-10-13T03:46:10.512Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-10-12",
+  "dataDate": "2026-10-13",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": false,
-  "breadthCounted": 0,
-  "unpriced": 0,
+  "breadthComplete": true,
+  "breadthCounted": 5923,
+  "unpriced": 362,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3797.24,
-      "change": -16.55,
-      "changePct": -0.43
+      "price": 3787.16,
+      "change": -10.08,
+      "changePct": -0.27
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 12384.87,
-      "change": -256.99,
-      "changePct": -2.03
+      "price": 12288.4,
+      "change": -96.47,
+      "changePct": -0.78
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2963.82,
-      "change": -79.51,
-      "changePct": -2.61
+      "price": 2935.54,
+      "change": -28.28,
+      "changePct": -0.95
     }
   ],
-  "total": 0,
-  "up": 0,
-  "down": 0,
-  "flat": 0,
-  "netInflow": null,
-  "netInflowCount": 0,
+  "total": 5923,
+  "up": 1842,
+  "down": 3503,
+  "flat": 216,
+  "netInflow": -23272962292,
+  "netInflowCount": 5561,
   "netInflowComplete": false,
-  "limitUpCount": 46,
+  "limitUpCount": 45,
   "downLimitCount": 0,
-  "topSector": "出版",
-  "topSectorCount": 6,
+  "topSector": "元件",
+  "topSectorCount": 8,
   "sectorLimitUps": [
     {
-      "sector": "出版",
-      "count": 6
-    },
-    {
-      "sector": "影视院线",
-      "count": 4
-    },
-    {
-      "sector": "电网设备",
-      "count": 4
-    },
-    {
-      "sector": "化学制药",
-      "count": 3
+      "sector": "元件",
+      "count": 8
     },
     {
       "sector": "化学制品",
+      "count": 5
+    },
+    {
+      "sector": "通用设备",
       "count": 3
     },
     {
-      "sector": "电池",
+      "sector": "互联网电",
       "count": 2
     },
     {
-      "sector": "电视广播",
+      "sector": "一般零售",
       "count": 2
     },
     {
-      "sector": "软件开发",
+      "sector": "白酒Ⅱ",
       "count": 2
     },
     {
-      "sector": "IT服务Ⅱ",
-      "count": 2
-    },
-    {
-      "sector": "小家电",
+      "sector": "影视院线",
       "count": 1
     },
     {
@@ -89,15 +77,7 @@
       "count": 1
     },
     {
-      "sector": "数字媒体",
-      "count": 1
-    },
-    {
-      "sector": "互联网电",
-      "count": 1
-    },
-    {
-      "sector": "装修装饰",
+      "sector": "出版",
       "count": 1
     },
     {
@@ -105,15 +85,15 @@
       "count": 1
     },
     {
-      "sector": "广告营销",
+      "sector": "电视广播",
       "count": 1
     },
     {
-      "sector": "风电设备",
+      "sector": "房地产开",
       "count": 1
     },
     {
-      "sector": "电机Ⅱ",
+      "sector": "综合Ⅱ",
       "count": 1
     },
     {
@@ -121,167 +101,123 @@
       "count": 1
     },
     {
-      "sector": "通信设备",
+      "sector": "自动化设",
       "count": 1
     },
     {
-      "sector": "光伏设备",
+      "sector": "软件开发",
       "count": 1
     },
     {
-      "sector": "专用设备",
+      "sector": "化学制药",
       "count": 1
     },
     {
-      "sector": "一般零售",
+      "sector": "化学原料",
       "count": 1
     },
     {
-      "sector": "乘用车",
+      "sector": "工程咨询",
       "count": 1
     },
     {
-      "sector": "种植业",
+      "sector": "水泥",
       "count": 1
     },
     {
-      "sector": "轨交设备",
+      "sector": "装修建材",
       "count": 1
     },
     {
-      "sector": "家居用品",
+      "sector": "多元金融",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "旅游及景",
+      "count": 1
+    },
+    {
+      "sector": "电池",
+      "count": 1
+    },
+    {
+      "sector": "基础建设",
+      "count": 1
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1
+    },
+    {
+      "sector": "家电零部",
+      "count": 1
+    },
+    {
+      "sector": "汽车零部",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "600825",
-      "name": "新华传媒",
-      "boards": 10,
-      "sector": "出版",
-      "changePct": 9.976058006286621
-    },
-    {
-      "code": "002242",
-      "name": "九阳股份",
-      "boards": 6,
-      "sector": "小家电",
-      "changePct": 9.980172157287598
-    },
-    {
-      "code": "600241",
-      "name": "时代万恒",
-      "boards": 6,
-      "sector": "电池",
-      "changePct": 10.034013748168945
-    },
-    {
-      "code": "600812",
-      "name": "华北制药",
-      "boards": 3,
-      "sector": "化学制药",
-      "changePct": 9.950248718261719
-    },
-    {
-      "code": "000892",
-      "name": "欢瑞世纪",
-      "boards": 2,
-      "sector": "影视院线",
-      "changePct": 10.103093147277832
-    },
-    {
-      "code": "001330",
-      "name": "博纳影业",
-      "boards": 2,
-      "sector": "影视院线",
-      "changePct": 10.043041229248047
-    },
-    {
       "code": "002343",
       "name": "慈文传媒",
-      "boards": 2,
+      "boards": 3,
       "sector": "影视院线",
-      "changePct": 10.032894134521484
-    },
-    {
-      "code": "002692",
-      "name": "远程股份",
-      "boards": 2,
-      "sector": "电网设备",
-      "changePct": 10.084033966064453
+      "changePct": 10.014947891235352
     },
     {
       "code": "002696",
       "name": "百洋股份",
-      "boards": 2,
+      "boards": 3,
       "sector": "饲料",
-      "changePct": 9.972677230834961
-    },
-    {
-      "code": "601595",
-      "name": "上海电影",
-      "boards": 2,
-      "sector": "影视院线",
-      "changePct": 9.983831405639648
-    },
-    {
-      "code": "601811",
-      "name": "新华文轩",
-      "boards": 2,
-      "sector": "出版",
-      "changePct": 9.995217323303223
-    },
-    {
-      "code": "601929",
-      "name": "吉视传媒",
-      "boards": 2,
-      "sector": "电视广播",
-      "changePct": 10
+      "changePct": 10.062111854553223
     },
     {
       "code": "603096",
       "name": "新经典",
-      "boards": 2,
+      "boards": 3,
       "sector": "出版",
-      "changePct": 9.982688903808594
-    },
-    {
-      "code": "603232",
-      "name": "格尔软件",
-      "boards": 2,
-      "sector": "软件开发",
-      "changePct": 10.011778831481934
-    },
-    {
-      "code": "603533",
-      "name": "掌阅科技",
-      "boards": 2,
-      "sector": "数字媒体",
-      "changePct": 9.98427677154541
+      "changePct": 10.020986557006836
     },
     {
       "code": "605136",
       "name": "丽人丽妆",
-      "boards": 2,
+      "boards": 3,
       "sector": "互联网电",
-      "changePct": 9.957627296447754
+      "changePct": 10.019268035888672
     },
     {
-      "code": "605287",
-      "name": "德才股份",
+      "code": "001231",
+      "name": "农心科技",
       "boards": 2,
-      "sector": "装修装饰",
-      "changePct": 10.00497817993164
+      "sector": "农化制品",
+      "changePct": 9.996095657348633
     },
     {
-      "code": "605577",
-      "name": "龙版传媒",
+      "code": "600693",
+      "name": "东百集团",
       "boards": 2,
-      "sector": "出版",
-      "changePct": 10
+      "sector": "一般零售",
+      "changePct": 10.017889022827148
+    },
+    {
+      "code": "600831",
+      "name": "广电网络",
+      "boards": 2,
+      "sector": "电视广播",
+      "changePct": 9.974424362182617
+    },
+    {
+      "code": "603968",
+      "name": "醋化股份",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 10.038313865661621
     }
   ],
-  "errors": [
-    "breadth: 502 Bad Gateway"
-  ]
+  "errors": []
 }
