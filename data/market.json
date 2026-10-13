@@ -1,71 +1,91 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "tradingDate": "2026-10-13",
-  "generatedAt": "2026-10-13T03:46:10.512Z",
+  "generatedAt": "2026-10-13T16:00:34.916Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-13",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5923,
-  "unpriced": 362,
+  "unpriced": 361,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3787.16,
-      "change": -10.08,
-      "changePct": -0.27
+      "price": 3800.86,
+      "change": 3.62,
+      "changePct": 0.1
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 12288.4,
-      "change": -96.47,
-      "changePct": -0.78
+      "price": 12353.7,
+      "change": -31.17,
+      "changePct": -0.25
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2935.54,
-      "change": -28.28,
-      "changePct": -0.95
+      "price": 2958.34,
+      "change": -5.48,
+      "changePct": -0.18
     }
   ],
   "total": 5923,
-  "up": 1842,
-  "down": 3503,
-  "flat": 216,
-  "netInflow": -23272962292,
+  "up": 2909,
+  "down": 2486,
+  "flat": 167,
+  "netInflow": -9033370231,
   "netInflowCount": 5561,
   "netInflowComplete": false,
-  "limitUpCount": 45,
+  "limitUpCount": 67,
   "downLimitCount": 0,
   "topSector": "元件",
-  "topSectorCount": 8,
+  "topSectorCount": 9,
   "sectorLimitUps": [
     {
       "sector": "元件",
-      "count": 8
+      "count": 9
     },
     {
       "sector": "化学制品",
-      "count": 5
+      "count": 7
+    },
+    {
+      "sector": "一般零售",
+      "count": 3
     },
     {
       "sector": "通用设备",
       "count": 3
     },
     {
+      "sector": "旅游及景",
+      "count": 3
+    },
+    {
+      "sector": "出版",
+      "count": 2
+    },
+    {
       "sector": "互联网电",
       "count": 2
     },
     {
-      "sector": "一般零售",
+      "sector": "化学制药",
       "count": 2
     },
     {
       "sector": "白酒Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "水泥",
+      "count": 2
+    },
+    {
+      "sector": "数字媒体",
       "count": 2
     },
     {
@@ -74,10 +94,6 @@
     },
     {
       "sector": "饲料",
-      "count": 1
-    },
-    {
-      "sector": "出版",
       "count": 1
     },
     {
@@ -101,6 +117,14 @@
       "count": 1
     },
     {
+      "sector": "饮料乳品",
+      "count": 1
+    },
+    {
+      "sector": "医疗服务",
+      "count": 1
+    },
+    {
       "sector": "自动化设",
       "count": 1
     },
@@ -109,7 +133,11 @@
       "count": 1
     },
     {
-      "sector": "化学制药",
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "光伏设备",
       "count": 1
     },
     {
@@ -117,11 +145,23 @@
       "count": 1
     },
     {
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
+      "count": 1
+    },
+    {
       "sector": "工程咨询",
       "count": 1
     },
     {
-      "sector": "水泥",
+      "sector": "电网设备",
       "count": 1
     },
     {
@@ -129,15 +169,11 @@
       "count": 1
     },
     {
-      "sector": "多元金融",
+      "sector": "小金属",
       "count": 1
     },
     {
-      "sector": "焦炭Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "旅游及景",
+      "sector": "航空装备",
       "count": 1
     },
     {
@@ -153,11 +189,23 @@
       "count": 1
     },
     {
-      "sector": "家电零部",
+      "sector": "服装家纺",
+      "count": 1
+    },
+    {
+      "sector": "通信设备",
+      "count": 1
+    },
+    {
+      "sector": "炼化及贸",
       "count": 1
     },
     {
       "sector": "汽车零部",
+      "count": 1
+    },
+    {
+      "sector": "专用设备",
       "count": 1
     }
   ],
@@ -191,6 +239,13 @@
       "changePct": 10.019268035888672
     },
     {
+      "code": "605577",
+      "name": "龙版传媒",
+      "boards": 3,
+      "sector": "出版",
+      "changePct": 9.988776206970215
+    },
+    {
       "code": "001231",
       "name": "农心科技",
       "boards": 2,
@@ -210,6 +265,13 @@
       "boards": 2,
       "sector": "电视广播",
       "changePct": 9.974424362182617
+    },
+    {
+      "code": "600851",
+      "name": "海欣股份",
+      "boards": 2,
+      "sector": "化学制药",
+      "changePct": 10
     },
     {
       "code": "603968",
