@@ -1,151 +1,83 @@
 {
-  "date": "2026-10-14",
-  "tradingDate": "2026-10-14",
-  "generatedAt": "2026-10-14T13:44:11.970Z",
+  "date": "2026-10-15",
+  "tradingDate": "2026-10-15",
+  "generatedAt": "2026-10-15T01:43:11.747Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-10-14",
+  "dataDate": "2026-10-15",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": false,
-  "breadthCounted": 3800,
-  "unpriced": 359,
+  "breadthComplete": true,
+  "breadthCounted": 5923,
+  "unpriced": 365,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3767.23,
-      "change": -33.63,
-      "changePct": -0.88
+      "price": 3708.54,
+      "change": -58.69,
+      "changePct": -1.56
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 12110.59,
-      "change": -243.11,
-      "changePct": -1.97
+      "price": 11883.91,
+      "change": -226.68,
+      "changePct": -1.87
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2866.76,
-      "change": -91.58,
-      "changePct": -3.1
+      "price": 2801.46,
+      "change": -65.3,
+      "changePct": -2.28
     }
   ],
   "total": 5923,
-  "up": 979,
-  "down": 2373,
-  "flat": 89,
-  "netInflow": 7655559316,
-  "netInflowCount": 3440,
+  "up": 689,
+  "down": 4800,
+  "flat": 69,
+  "netInflow": -17467039322,
+  "netInflowCount": 5558,
   "netInflowComplete": false,
-  "limitUpCount": 36,
+  "limitUpCount": 18,
   "downLimitCount": 0,
-  "topSector": "出版",
+  "topSector": "元件",
   "topSectorCount": 3,
   "sectorLimitUps": [
     {
-      "sector": "出版",
+      "sector": "元件",
       "count": 3
     },
     {
-      "sector": "化学制品",
-      "count": 2
-    },
-    {
-      "sector": "通用设备",
-      "count": 2
-    },
-    {
-      "sector": "房地产开",
-      "count": 2
-    },
-    {
-      "sector": "元件",
-      "count": 2
-    },
-    {
-      "sector": "家居用品",
-      "count": 2
-    },
-    {
-      "sector": "游戏Ⅱ",
-      "count": 2
-    },
-    {
       "sector": "影视院线",
-      "count": 1
+      "count": 2
     },
     {
-      "sector": "饲料",
-      "count": 1
+      "sector": "电力",
+      "count": 2
+    },
+    {
+      "sector": "医疗服务",
+      "count": 2
+    },
+    {
+      "sector": "出版",
+      "count": 2
     },
     {
       "sector": "饮料乳品",
       "count": 1
     },
     {
-      "sector": "汽车零部",
+      "sector": "游戏Ⅱ",
       "count": 1
     },
     {
-      "sector": "家电零部",
+      "sector": "纺织制造",
       "count": 1
     },
     {
-      "sector": "航空装备",
-      "count": 1
-    },
-    {
-      "sector": "电池",
-      "count": 1
-    },
-    {
-      "sector": "铁路公路",
-      "count": 1
-    },
-    {
-      "sector": "电力",
-      "count": 1
-    },
-    {
-      "sector": "燃气Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "服装家纺",
-      "count": 1
-    },
-    {
-      "sector": "化学原料",
-      "count": 1
-    },
-    {
-      "sector": "化学制药",
-      "count": 1
-    },
-    {
-      "sector": "渔业",
-      "count": 1
-    },
-    {
-      "sector": "煤炭开采",
-      "count": 1
-    },
-    {
-      "sector": "中药Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "焦炭Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "数字媒体",
-      "count": 1
-    },
-    {
-      "sector": "广告营销",
+      "sector": "白酒Ⅱ",
       "count": 1
     },
     {
@@ -153,7 +85,11 @@
       "count": 1
     },
     {
-      "sector": "纺织制造",
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "厨卫电器",
       "count": 1
     }
   ],
@@ -161,110 +97,31 @@
     {
       "code": "002343",
       "name": "慈文传媒",
-      "boards": 4,
+      "boards": 5,
       "sector": "影视院线",
-      "changePct": 10.05434799194336
-    },
-    {
-      "code": "002696",
-      "name": "百洋股份",
-      "boards": 4,
-      "sector": "饲料",
-      "changePct": 10.045146942138672
-    },
-    {
-      "code": "603096",
-      "name": "新经典",
-      "boards": 4,
-      "sector": "出版",
-      "changePct": 10.01430606842041
-    },
-    {
-      "code": "603968",
-      "name": "醋化股份",
-      "boards": 3,
-      "sector": "化学制品",
-      "changePct": 10.027854919433594
-    },
-    {
-      "code": "000530",
-      "name": "冰山冷热",
-      "boards": 2,
-      "sector": "通用设备",
-      "changePct": 9.947644233703613
-    },
-    {
-      "code": "000668",
-      "name": "荣丰控股",
-      "boards": 2,
-      "sector": "房地产开",
-      "changePct": 10.019454956054688
-    },
-    {
-      "code": "000823",
-      "name": "超声电子",
-      "boards": 2,
-      "sector": "元件",
-      "changePct": 9.991039276123047
+      "changePct": 10
     },
     {
       "code": "001318",
       "name": "阳光乳业",
-      "boards": 2,
+      "boards": 3,
       "sector": "饮料乳品",
-      "changePct": 9.978616714477539
+      "changePct": 9.980557441711426
     },
     {
-      "code": "002813",
-      "name": "路畅科技",
+      "code": "603258",
+      "name": "电魂网络",
       "boards": 2,
-      "sector": "汽车零部",
-      "changePct": 10.00758171081543
+      "sector": "游戏Ⅱ",
+      "changePct": 10.030959129333496
     },
     {
-      "code": "002860",
-      "name": "星帅尔",
+      "code": "605189",
+      "name": "富春染织",
       "boards": 2,
-      "sector": "家电零部",
-      "changePct": 10.005437850952148
-    },
-    {
-      "code": "002917",
-      "name": "金奥博",
-      "boards": 2,
-      "sector": "化学制品",
-      "changePct": 10
-    },
-    {
-      "code": "600202",
-      "name": "哈空调",
-      "boards": 2,
-      "sector": "通用设备",
-      "changePct": 10.017889022827148
-    },
-    {
-      "code": "600391",
-      "name": "航发科技",
-      "boards": 2,
-      "sector": "航空装备",
-      "changePct": 10.005157470703125
-    },
-    {
-      "code": "600847",
-      "name": "万里股份",
-      "boards": 2,
-      "sector": "电池",
-      "changePct": 9.978616714477539
-    },
-    {
-      "code": "601188",
-      "name": "龙江交通",
-      "boards": 2,
-      "sector": "铁路公路",
-      "changePct": 9.968847274780273
+      "sector": "纺织制造",
+      "changePct": 9.981515884399414
     }
   ],
-  "errors": [
-    "breadth: page 39: 502 Bad Gateway"
-  ]
+  "errors": []
 }
