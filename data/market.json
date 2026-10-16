@@ -1,59 +1,55 @@
 {
-  "date": "2026-10-15",
-  "tradingDate": "2026-10-15",
-  "generatedAt": "2026-10-15T13:27:05.342Z",
+  "date": "2026-10-16",
+  "tradingDate": "2026-10-16",
+  "generatedAt": "2026-10-16T01:35:33.143Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-10-15",
+  "dataDate": "2026-10-16",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 3700,
-  "unpriced": 357,
+  "breadthCounted": 5623,
+  "unpriced": 259,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3707.48,
-      "change": -59.75,
-      "changePct": -1.59
+      "price": 3722.83,
+      "change": 15.35,
+      "changePct": 0.41
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11816.79,
-      "change": -293.8,
-      "changePct": -2.43
+      "price": 11918.38,
+      "change": 101.59,
+      "changePct": 0.86
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2783.17,
-      "change": -83.59,
-      "changePct": -2.92
+      "price": 2810.94,
+      "change": 27.77,
+      "changePct": 1
     }
   ],
   "total": 5923,
-  "up": 430,
-  "down": 2885,
-  "flat": 28,
-  "netInflow": -9470324691,
-  "netInflowCount": 3342,
+  "up": 4968,
+  "down": 338,
+  "flat": 58,
+  "netInflow": 4446649120,
+  "netInflowCount": 5364,
   "netInflowComplete": false,
-  "limitUpCount": 36,
+  "limitUpCount": 19,
   "downLimitCount": 0,
-  "topSector": "元件",
-  "topSectorCount": 5,
+  "topSector": "出版",
+  "topSectorCount": 3,
   "sectorLimitUps": [
     {
-      "sector": "元件",
-      "count": 5
-    },
-    {
-      "sector": "物流",
-      "count": 4
-    },
-    {
       "sector": "出版",
+      "count": 3
+    },
+    {
+      "sector": "软件开发",
       "count": 3
     },
     {
@@ -61,63 +57,7 @@
       "count": 2
     },
     {
-      "sector": "影视院线",
-      "count": 1
-    },
-    {
-      "sector": "饲料",
-      "count": 1
-    },
-    {
-      "sector": "通用设备",
-      "count": 1
-    },
-    {
-      "sector": "饮料乳品",
-      "count": 1
-    },
-    {
-      "sector": "纺织制造",
-      "count": 1
-    },
-    {
-      "sector": "电力",
-      "count": 1
-    },
-    {
-      "sector": "白酒Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "专用设备",
-      "count": 1
-    },
-    {
-      "sector": "文娱用品",
-      "count": 1
-    },
-    {
-      "sector": "厨卫电器",
-      "count": 1
-    },
-    {
-      "sector": "化学原料",
-      "count": 1
-    },
-    {
-      "sector": "包装印刷",
-      "count": 1
-    },
-    {
-      "sector": "证券Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "软件开发",
-      "count": 1
-    },
-    {
-      "sector": "小金属",
+      "sector": "物流",
       "count": 1
     },
     {
@@ -125,7 +65,11 @@
       "count": 1
     },
     {
-      "sector": "医疗服务",
+      "sector": "房地产开",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
       "count": 1
     },
     {
@@ -133,67 +77,68 @@
       "count": 1
     },
     {
-      "sector": "环境治理",
+      "sector": "家电零部",
       "count": 1
     },
     {
-      "sector": "食品加工",
+      "sector": "医疗服务",
       "count": 1
     },
     {
-      "sector": "半导体",
+      "sector": "中药Ⅱ",
       "count": 1
     },
     {
-      "sector": "服装家纺",
+      "sector": "商用车",
+      "count": 1
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "002343",
-      "name": "慈文传媒",
-      "boards": 5,
-      "sector": "影视院线",
-      "changePct": 10
+      "code": "600825",
+      "name": "新华传媒",
+      "boards": 11,
+      "sector": "出版",
+      "changePct": 10.014513969421387
     },
     {
-      "code": "002696",
-      "name": "百洋股份",
-      "boards": 5,
-      "sector": "饲料",
-      "changePct": 10.051281929016113
+      "code": "002889",
+      "name": "东方嘉盛",
+      "boards": 2,
+      "sector": "物流",
+      "changePct": 9.992313385009766
     },
     {
-      "code": "000530",
-      "name": "冰山冷热",
-      "boards": 3,
-      "sector": "通用设备",
-      "changePct": 10
+      "code": "003029",
+      "name": "吉大正元",
+      "boards": 2,
+      "sector": "软件开发",
+      "changePct": 10.00500202178955
     },
     {
-      "code": "001318",
-      "name": "阳光乳业",
-      "boards": 3,
-      "sector": "饮料乳品",
-      "changePct": 9.980557441711426
+      "code": "600668",
+      "name": "尖峰集团",
+      "boards": 2,
+      "sector": "水泥",
+      "changePct": 10.012516021728516
     },
     {
-      "code": "601811",
-      "name": "新华文轩",
+      "code": "603999",
+      "name": "读者传媒",
       "boards": 2,
       "sector": "出版",
-      "changePct": 10.021505355834961
-    },
-    {
-      "code": "605189",
-      "name": "富春染织",
-      "boards": 2,
-      "sector": "纺织制造",
-      "changePct": 9.981515884399414
+      "changePct": 9.973752975463867
     }
   ],
   "errors": [
-    "breadth: page 38: 502 Bad Gateway"
+    "breadth: page 53: 502 Bad Gateway"
   ]
 }
