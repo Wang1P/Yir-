@@ -1,218 +1,148 @@
 {
-  "date": "2026-10-18",
-  "tradingDate": "2026-10-16",
-  "generatedAt": "2026-10-18T01:25:52.274Z",
+  "date": "2026-10-19",
+  "tradingDate": "2026-10-19",
+  "generatedAt": "2026-10-19T01:33:04.567Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-10-16",
+  "dataDate": "2026-10-19",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 3100,
-  "unpriced": 0,
+  "breadthCounted": 5424,
+  "unpriced": 354,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3716.28,
-      "change": 8.8,
-      "changePct": 0.24
+      "price": 3710.89,
+      "change": -5.39,
+      "changePct": -0.15
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11802.46,
-      "change": -14.33,
-      "changePct": -0.12
+      "price": 11789.88,
+      "change": -12.58,
+      "changePct": -0.11
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2772.38,
-      "change": -10.79,
-      "changePct": -0.39
+      "price": 2754.49,
+      "change": -17.89,
+      "changePct": -0.65
     }
   ],
-  "total": 5923,
-  "up": 3100,
-  "down": 0,
-  "flat": 0,
-  "netInflow": 23176287629,
-  "netInflowCount": 3100,
-  "netInflowComplete": true,
-  "limitUpCount": 61,
+  "total": 5924,
+  "up": 2110,
+  "down": 2658,
+  "flat": 302,
+  "netInflow": -3673121194,
+  "netInflowCount": 5069,
+  "netInflowComplete": false,
+  "limitUpCount": 13,
   "downLimitCount": 0,
   "topSector": "汽车零部",
-  "topSectorCount": 14,
+  "topSectorCount": 5,
   "sectorLimitUps": [
     {
       "sector": "汽车零部",
-      "count": 14
-    },
-    {
-      "sector": "通用设备",
       "count": 5
     },
     {
-      "sector": "专用设备",
-      "count": 5
-    },
-    {
-      "sector": "出版",
-      "count": 4
-    },
-    {
-      "sector": "航空装备",
-      "count": 4
-    },
-    {
-      "sector": "化学制品",
-      "count": 3
-    },
-    {
-      "sector": "水泥",
+      "sector": "IT服务Ⅱ",
       "count": 2
-    },
-    {
-      "sector": "地面兵装",
-      "count": 2
-    },
-    {
-      "sector": "照明设备",
-      "count": 2
-    },
-    {
-      "sector": "物流",
-      "count": 1
     },
     {
       "sector": "软件开发",
       "count": 1
     },
     {
-      "sector": "航空机场",
+      "sector": "地面兵装",
       "count": 1
     },
     {
-      "sector": "化学纤维",
+      "sector": "照明设备",
       "count": 1
     },
     {
-      "sector": "房地产开",
+      "sector": "通用设备",
       "count": 1
     },
     {
-      "sector": "广告营销",
-      "count": 1
-    },
-    {
-      "sector": "贸易Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "其他家电",
-      "count": 1
-    },
-    {
-      "sector": "计算机设",
-      "count": 1
-    },
-    {
-      "sector": "工程咨询",
-      "count": 1
-    },
-    {
-      "sector": "军工电子",
-      "count": 1
-    },
-    {
-      "sector": "化学原料",
-      "count": 1
-    },
-    {
-      "sector": "商用车",
-      "count": 1
-    },
-    {
-      "sector": "自动化设",
+      "sector": "通信服务",
       "count": 1
     },
     {
       "sector": "化学制药",
       "count": 1
-    },
-    {
-      "sector": "IT服务Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "饲料",
-      "count": 1
-    },
-    {
-      "sector": "基础建设",
-      "count": 1
-    },
-    {
-      "sector": "专业工程",
-      "count": 1
-    },
-    {
-      "sector": "通信设备",
-      "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "600825",
-      "name": "新华传媒",
-      "boards": 11,
-      "sector": "出版",
-      "changePct": 10.014513969421387
-    },
-    {
-      "code": "000530",
-      "name": "冰山冷热",
-      "boards": 4,
-      "sector": "通用设备",
-      "changePct": 9.956709861755371
-    },
-    {
-      "code": "601811",
-      "name": "新华文轩",
-      "boards": 3,
-      "sector": "出版",
-      "changePct": 10.007819175720215
-    },
-    {
-      "code": "002889",
-      "name": "东方嘉盛",
-      "boards": 2,
-      "sector": "物流",
-      "changePct": 9.992313385009766
-    },
-    {
       "code": "003029",
       "name": "吉大正元",
-      "boards": 2,
+      "boards": 3,
       "sector": "软件开发",
-      "changePct": 10.00500202178955
+      "changePct": 10.004547119140625
     },
     {
-      "code": "600668",
-      "name": "尖峰集团",
+      "code": "000576",
+      "name": "甘化科工",
       "boards": 2,
-      "sector": "水泥",
-      "changePct": 10.012516021728516
+      "sector": "地面兵装",
+      "changePct": 10.034207344055176
     },
     {
-      "code": "603999",
-      "name": "读者传媒",
+      "code": "002085",
+      "name": "万丰奥威",
       "boards": 2,
-      "sector": "出版",
-      "changePct": 9.973752975463867
+      "sector": "汽车零部",
+      "changePct": 9.989909172058105
+    },
+    {
+      "code": "002724",
+      "name": "海洋王",
+      "boards": 2,
+      "sector": "照明设备",
+      "changePct": 10.065360069274902
+    },
+    {
+      "code": "600148",
+      "name": "长春一东",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 10.012284278869629
+    },
+    {
+      "code": "600178",
+      "name": "东安动力",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 10.04878044128418
+    },
+    {
+      "code": "600860",
+      "name": "京城股份",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 9.987358093261719
+    },
+    {
+      "code": "603197",
+      "name": "保隆科技",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 10.003402709960938
+    },
+    {
+      "code": "603348",
+      "name": "文灿股份",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 9.993468284606934
     }
   ],
   "errors": [
-    "breadth: page 32: 502 Bad Gateway"
+    "breadth: page 42: 502 Bad Gateway"
   ]
 }
