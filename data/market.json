@@ -1,59 +1,87 @@
 {
   "date": "2026-10-19",
   "tradingDate": "2026-10-19",
-  "generatedAt": "2026-10-19T01:33:04.567Z",
+  "generatedAt": "2026-10-19T15:37:20.928Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-19",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 5424,
-  "unpriced": 354,
+  "breadthCounted": 2800,
+  "unpriced": 359,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3710.89,
-      "change": -5.39,
-      "changePct": -0.15
+      "price": 3730.92,
+      "change": 14.64,
+      "changePct": 0.39
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11789.88,
-      "change": -12.58,
-      "changePct": -0.11
+      "price": 11817.42,
+      "change": 14.96,
+      "changePct": 0.13
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2754.49,
-      "change": -17.89,
-      "changePct": -0.65
+      "price": 2746.29,
+      "change": -26.09,
+      "changePct": -0.94
     }
   ],
   "total": 5924,
-  "up": 2110,
-  "down": 2658,
-  "flat": 302,
-  "netInflow": -3673121194,
-  "netInflowCount": 5069,
+  "up": 2275,
+  "down": 5,
+  "flat": 161,
+  "netInflow": 19026651643,
+  "netInflowCount": 2440,
   "netInflowComplete": false,
-  "limitUpCount": 13,
+  "limitUpCount": 46,
   "downLimitCount": 0,
   "topSector": "汽车零部",
-  "topSectorCount": 5,
+  "topSectorCount": 10,
   "sectorLimitUps": [
     {
       "sector": "汽车零部",
-      "count": 5
+      "count": 10
+    },
+    {
+      "sector": "塑料",
+      "count": 4
+    },
+    {
+      "sector": "通用设备",
+      "count": 3
+    },
+    {
+      "sector": "家居用品",
+      "count": 3
+    },
+    {
+      "sector": "元件",
+      "count": 3
+    },
+    {
+      "sector": "电力",
+      "count": 3
+    },
+    {
+      "sector": "软件开发",
+      "count": 2
     },
     {
       "sector": "IT服务Ⅱ",
       "count": 2
     },
     {
-      "sector": "软件开发",
+      "sector": "化学制品",
+      "count": 2
+    },
+    {
+      "sector": "物流",
       "count": 1
     },
     {
@@ -65,7 +93,11 @@
       "count": 1
     },
     {
-      "sector": "通用设备",
+      "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "食品加工",
       "count": 1
     },
     {
@@ -73,11 +105,46 @@
       "count": 1
     },
     {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "数字媒体",
+      "count": 1
+    },
+    {
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
       "sector": "化学制药",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "通信设备",
+      "count": 1
+    },
+    {
+      "sector": "商用车",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
+    {
+      "code": "002889",
+      "name": "东方嘉盛",
+      "boards": 3,
+      "sector": "物流",
+      "changePct": 9.993012428283691
+    },
     {
       "code": "003029",
       "name": "吉大正元",
@@ -135,6 +202,13 @@
       "changePct": 10.003402709960938
     },
     {
+      "code": "603278",
+      "name": "大业股份",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 9.989909172058105
+    },
+    {
       "code": "603348",
       "name": "文灿股份",
       "boards": 2,
@@ -143,6 +217,6 @@
     }
   ],
   "errors": [
-    "breadth: page 42: 502 Bad Gateway"
+    "breadth: page 29: 502 Bad Gateway"
   ]
 }
