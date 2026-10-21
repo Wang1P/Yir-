@@ -1,75 +1,87 @@
 {
   "date": "2026-10-21",
   "tradingDate": "2026-10-21",
-  "generatedAt": "2026-10-21T01:54:29.303Z",
+  "generatedAt": "2026-10-21T13:49:15.401Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-21",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5925,
-  "unpriced": 358,
+  "breadthComplete": false,
+  "breadthCounted": 3600,
+  "unpriced": 356,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3737.57,
-      "change": 2.2,
-      "changePct": 0.06
+      "price": 3713.03,
+      "change": -22.34,
+      "changePct": -0.6
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11893.12,
-      "change": 91.83,
-      "changePct": 0.78
+      "price": 11704.35,
+      "change": -96.94,
+      "changePct": -0.82
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2759.2,
-      "change": 20,
-      "changePct": 0.73
+      "price": 2694.71,
+      "change": -44.49,
+      "changePct": -1.62
     }
   ],
   "total": 5925,
-  "up": 4138,
-  "down": 1258,
-  "flat": 171,
-  "netInflow": 10676033314,
-  "netInflowCount": 5567,
+  "up": 1981,
+  "down": 1039,
+  "flat": 224,
+  "netInflow": 19831929995,
+  "netInflowCount": 3243,
   "netInflowComplete": false,
-  "limitUpCount": 33,
+  "limitUpCount": 50,
   "downLimitCount": 0,
-  "topSector": "照明设备",
-  "topSectorCount": 2,
+  "topSector": "IT服务Ⅱ",
+  "topSectorCount": 5,
   "sectorLimitUps": [
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 5
+    },
+    {
+      "sector": "通用设备",
+      "count": 4
+    },
+    {
+      "sector": "出版",
+      "count": 3
+    },
+    {
+      "sector": "通信设备",
+      "count": 3
+    },
     {
       "sector": "照明设备",
       "count": 2
     },
     {
+      "sector": "化学制药",
+      "count": 2
+    },
+    {
       "sector": "汽车零部",
-      "count": 2
-    },
-    {
-      "sector": "通用设备",
-      "count": 2
-    },
-    {
-      "sector": "出版",
-      "count": 2
-    },
-    {
-      "sector": "通信设备",
-      "count": 2
-    },
-    {
-      "sector": "消费电子",
-      "count": 2
+      "count": 1
     },
     {
       "sector": "通信服务",
+      "count": 1
+    },
+    {
+      "sector": "工程机械",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
       "count": 1
     },
     {
@@ -85,6 +97,14 @@
       "count": 1
     },
     {
+      "sector": "调味发酵",
+      "count": 1
+    },
+    {
+      "sector": "生物制品",
+      "count": 1
+    },
+    {
       "sector": "养殖业",
       "count": 1
     },
@@ -97,6 +117,14 @@
       "count": 1
     },
     {
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "电视广播",
+      "count": 1
+    },
+    {
       "sector": "包装印刷",
       "count": 1
     },
@@ -105,19 +133,23 @@
       "count": 1
     },
     {
-      "sector": "光伏设备",
+      "sector": "装修装饰",
       "count": 1
     },
     {
-      "sector": "化学制药",
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "广告营销",
+      "count": 1
+    },
+    {
+      "sector": "软件开发",
       "count": 1
     },
     {
       "sector": "中药Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "化学原料",
       "count": 1
     },
     {
@@ -137,10 +169,6 @@
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
-      "count": 1
-    },
-    {
       "sector": "塑料",
       "count": 1
     },
@@ -149,7 +177,19 @@
       "count": 1
     },
     {
-      "sector": "家电零部",
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 1
+    },
+    {
+      "sector": "半导体",
       "count": 1
     }
   ],
@@ -183,6 +223,13 @@
       "changePct": 9.992162704467773
     },
     {
+      "code": "001239",
+      "name": "永达股份",
+      "boards": 2,
+      "sector": "工程机械",
+      "changePct": 10
+    },
+    {
       "code": "002076",
       "name": "星光股份",
       "boards": 2,
@@ -195,6 +242,13 @@
       "boards": 2,
       "sector": "出版",
       "changePct": 9.97038459777832
+    },
+    {
+      "code": "002242",
+      "name": "九阳股份",
+      "boards": 2,
+      "sector": "小家电",
+      "changePct": 10.019454956054688
     },
     {
       "code": "002313",
@@ -230,7 +284,30 @@
       "boards": 2,
       "sector": "玻璃玻纤",
       "changePct": 9.953703880310059
+    },
+    {
+      "code": "603236",
+      "name": "移远通信",
+      "boards": 2,
+      "sector": "通信设备",
+      "changePct": 9.998685836791992
+    },
+    {
+      "code": "603636",
+      "name": "南威软件",
+      "boards": 2,
+      "sector": "IT服务Ⅱ",
+      "changePct": 10.011248588562012
+    },
+    {
+      "code": "603696",
+      "name": "安记食品",
+      "boards": 2,
+      "sector": "调味发酵",
+      "changePct": 10
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 37: 502 Bad Gateway"
+  ]
 }
