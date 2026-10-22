@@ -1,63 +1,63 @@
 {
-  "date": "2026-10-21",
-  "tradingDate": "2026-10-21",
-  "generatedAt": "2026-10-21T13:49:15.401Z",
+  "date": "2026-10-22",
+  "tradingDate": "2026-10-22",
+  "generatedAt": "2026-10-22T01:43:12.552Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-10-21",
+  "dataDate": "2026-10-22",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 3600,
-  "unpriced": 356,
+  "breadthCounted": 4000,
+  "unpriced": 179,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3713.03,
-      "change": -22.34,
-      "changePct": -0.6
+      "price": 3685.65,
+      "change": -27.38,
+      "changePct": -0.74
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11704.35,
-      "change": -96.94,
-      "changePct": -0.82
+      "price": 11589.2,
+      "change": -115.15,
+      "changePct": -0.98
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2694.71,
-      "change": -44.49,
-      "changePct": -1.62
+      "price": 2653.47,
+      "change": -41.24,
+      "changePct": -1.53
     }
   ],
   "total": 5925,
-  "up": 1981,
-  "down": 1039,
-  "flat": 224,
-  "netInflow": 19831929995,
-  "netInflowCount": 3243,
+  "up": 1800,
+  "down": 1899,
+  "flat": 122,
+  "netInflow": -3834427265,
+  "netInflowCount": 3821,
   "netInflowComplete": false,
-  "limitUpCount": 50,
+  "limitUpCount": 22,
   "downLimitCount": 0,
-  "topSector": "IT服务Ⅱ",
-  "topSectorCount": 5,
+  "topSector": "通用设备",
+  "topSectorCount": 6,
   "sectorLimitUps": [
     {
-      "sector": "IT服务Ⅱ",
-      "count": 5
+      "sector": "通用设备",
+      "count": 6
     },
     {
-      "sector": "通用设备",
+      "sector": "电机Ⅱ",
       "count": 4
     },
     {
-      "sector": "出版",
+      "sector": "炼化及贸",
       "count": 3
     },
     {
-      "sector": "通信设备",
+      "sector": "专用设备",
       "count": 3
     },
     {
@@ -65,131 +65,19 @@
       "count": 2
     },
     {
-      "sector": "化学制药",
-      "count": 2
-    },
-    {
-      "sector": "汽车零部",
-      "count": 1
-    },
-    {
-      "sector": "通信服务",
-      "count": 1
-    },
-    {
-      "sector": "工程机械",
-      "count": 1
-    },
-    {
-      "sector": "小家电",
-      "count": 1
-    },
-    {
-      "sector": "饲料",
-      "count": 1
-    },
-    {
-      "sector": "计算机设",
-      "count": 1
-    },
-    {
       "sector": "玻璃玻纤",
       "count": 1
     },
     {
-      "sector": "调味发酵",
+      "sector": "IT服务Ⅱ",
       "count": 1
     },
     {
-      "sector": "生物制品",
+      "sector": "基础建设",
       "count": 1
     },
     {
-      "sector": "养殖业",
-      "count": 1
-    },
-    {
-      "sector": "家居用品",
-      "count": 1
-    },
-    {
-      "sector": "农产品加",
-      "count": 1
-    },
-    {
-      "sector": "电网设备",
-      "count": 1
-    },
-    {
-      "sector": "电视广播",
-      "count": 1
-    },
-    {
-      "sector": "包装印刷",
-      "count": 1
-    },
-    {
-      "sector": "化学制品",
-      "count": 1
-    },
-    {
-      "sector": "装修装饰",
-      "count": 1
-    },
-    {
-      "sector": "光学光电",
-      "count": 1
-    },
-    {
-      "sector": "广告营销",
-      "count": 1
-    },
-    {
-      "sector": "软件开发",
-      "count": 1
-    },
-    {
-      "sector": "中药Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "游戏Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "水泥",
-      "count": 1
-    },
-    {
-      "sector": "一般零售",
-      "count": 1
-    },
-    {
-      "sector": "服装家纺",
-      "count": 1
-    },
-    {
-      "sector": "塑料",
-      "count": 1
-    },
-    {
-      "sector": "化学纤维",
-      "count": 1
-    },
-    {
-      "sector": "消费电子",
-      "count": 1
-    },
-    {
-      "sector": "影视院线",
-      "count": 1
-    },
-    {
-      "sector": "饮料乳品",
-      "count": 1
-    },
-    {
-      "sector": "半导体",
+      "sector": "工程机械",
       "count": 1
     }
   ],
@@ -197,117 +85,40 @@
     {
       "code": "002724",
       "name": "海洋王",
-      "boards": 4,
+      "boards": 5,
       "sector": "照明设备",
-      "changePct": 10.043196678161621
-    },
-    {
-      "code": "600178",
-      "name": "东安动力",
-      "boards": 4,
-      "sector": "汽车零部",
-      "changePct": 9.991942405700684
+      "changePct": 10.00981330871582
     },
     {
       "code": "603278",
       "name": "大业股份",
-      "boards": 4,
+      "boards": 5,
       "sector": "通用设备",
-      "changePct": 10.008339881896973
-    },
-    {
-      "code": "002929",
-      "name": "润建股份",
-      "boards": 3,
-      "sector": "通信服务",
-      "changePct": 9.992162704467773
-    },
-    {
-      "code": "001239",
-      "name": "永达股份",
-      "boards": 2,
-      "sector": "工程机械",
-      "changePct": 10
-    },
-    {
-      "code": "002076",
-      "name": "星光股份",
-      "boards": 2,
-      "sector": "照明设备",
-      "changePct": 9.865470886230469
-    },
-    {
-      "code": "002181",
-      "name": "粤 传 媒",
-      "boards": 2,
-      "sector": "出版",
-      "changePct": 9.97038459777832
-    },
-    {
-      "code": "002242",
-      "name": "九阳股份",
-      "boards": 2,
-      "sector": "小家电",
-      "changePct": 10.019454956054688
-    },
-    {
-      "code": "002313",
-      "name": "日海智能",
-      "boards": 2,
-      "sector": "通信设备",
-      "changePct": 10
-    },
-    {
-      "code": "002347",
-      "name": "泰尔股份",
-      "boards": 2,
-      "sector": "通用设备",
-      "changePct": 9.984871864318848
-    },
-    {
-      "code": "002696",
-      "name": "百洋股份",
-      "boards": 2,
-      "sector": "饲料",
-      "changePct": 10.041841506958008
-    },
-    {
-      "code": "002835",
-      "name": "同为股份",
-      "boards": 2,
-      "sector": "计算机设",
-      "changePct": 10.028247833251953
+      "changePct": 10.00758171081543
     },
     {
       "code": "600293",
       "name": "三峡新材",
-      "boards": 2,
+      "boards": 3,
       "sector": "玻璃玻纤",
-      "changePct": 9.953703880310059
+      "changePct": 10.105263710021973
     },
     {
-      "code": "603236",
-      "name": "移远通信",
+      "code": "600202",
+      "name": "哈空调",
       "boards": 2,
-      "sector": "通信设备",
-      "changePct": 9.998685836791992
+      "sector": "通用设备",
+      "changePct": 10.05385971069336
     },
     {
-      "code": "603636",
-      "name": "南威软件",
+      "code": "603138",
+      "name": "海量数据",
       "boards": 2,
       "sector": "IT服务Ⅱ",
-      "changePct": 10.011248588562012
-    },
-    {
-      "code": "603696",
-      "name": "安记食品",
-      "boards": 2,
-      "sector": "调味发酵",
-      "changePct": 10
+      "changePct": 10.0130033493042
     }
   ],
   "errors": [
-    "breadth: page 37: 502 Bad Gateway"
+    "breadth: page 9: 502 Bad Gateway"
   ]
 }
