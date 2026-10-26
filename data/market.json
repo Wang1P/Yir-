@@ -1,59 +1,83 @@
 {
   "date": "2026-10-26",
   "tradingDate": "2026-10-26",
-  "generatedAt": "2026-10-26T01:32:18.079Z",
+  "generatedAt": "2026-10-26T15:12:23.364Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-26",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5925,
-  "unpriced": 353,
+  "breadthComplete": false,
+  "breadthCounted": 2000,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3676,
-      "change": -14.48,
-      "changePct": -0.39
+      "price": 3697.52,
+      "change": 7.04,
+      "changePct": 0.19
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11569.44,
-      "change": -104.39,
-      "changePct": -0.89
+      "price": 11534.38,
+      "change": -139.45,
+      "changePct": -1.19
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2640.25,
-      "change": -43.85,
-      "changePct": -1.63
+      "price": 2638.23,
+      "change": -45.87,
+      "changePct": -1.71
     }
   ],
   "total": 5925,
-  "up": 1570,
-  "down": 3759,
-  "flat": 243,
-  "netInflow": -1488194360,
-  "netInflowCount": 5572,
-  "netInflowComplete": false,
-  "limitUpCount": 21,
+  "up": 2000,
+  "down": 0,
+  "flat": 0,
+  "netInflow": 15804342201,
+  "netInflowCount": 2000,
+  "netInflowComplete": true,
+  "limitUpCount": 55,
   "downLimitCount": 0,
-  "topSector": "专用设备",
-  "topSectorCount": 4,
+  "topSector": "汽车零部",
+  "topSectorCount": 6,
   "sectorLimitUps": [
     {
+      "sector": "汽车零部",
+      "count": 6
+    },
+    {
       "sector": "专用设备",
-      "count": 4
+      "count": 6
     },
     {
       "sector": "通用设备",
+      "count": 5
+    },
+    {
+      "sector": "塑料",
       "count": 3
     },
     {
-      "sector": "汽车零部",
+      "sector": "休闲食品",
+      "count": 3
+    },
+    {
+      "sector": "软件开发",
+      "count": 2
+    },
+    {
+      "sector": "医药商业",
+      "count": 2
+    },
+    {
+      "sector": "消费电子",
+      "count": 2
+    },
+    {
+      "sector": "基础建设",
       "count": 2
     },
     {
@@ -65,35 +89,63 @@
       "count": 1
     },
     {
-      "sector": "软件开发",
+      "sector": "黑色家电",
       "count": 1
     },
     {
-      "sector": "其他电子",
+      "sector": "房地产开",
       "count": 1
     },
     {
-      "sector": "广告营销",
+      "sector": "化学原料",
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
+      "sector": "白酒Ⅱ",
       "count": 1
     },
     {
-      "sector": "家电零部",
+      "sector": "铁路公路",
       "count": 1
     },
     {
-      "sector": "塑料",
+      "sector": "饮料乳品",
       "count": 1
     },
     {
-      "sector": "休闲食品",
+      "sector": "燃气Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "农产品加",
+      "count": 1
+    },
+    {
+      "sector": "教育",
+      "count": 1
+    },
+    {
+      "sector": "数字媒体",
+      "count": 1
+    },
+    {
+      "sector": "工业金属",
+      "count": 1
+    },
+    {
+      "sector": "饲料",
+      "count": 1
+    },
+    {
+      "sector": "计算机设",
       "count": 1
     },
     {
       "sector": "通信设备",
+      "count": 1
+    },
+    {
+      "sector": "汽车服务",
       "count": 1
     },
     {
@@ -103,22 +155,42 @@
     {
       "sector": "出版",
       "count": 1
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "家电零部",
+      "count": 1
+    },
+    {
+      "sector": "化学制品",
+      "count": 1
     }
   ],
   "consecutiveLimitUps": [
-    {
-      "code": "603278",
-      "name": "大业股份",
-      "boards": 7,
-      "sector": "通用设备",
-      "changePct": 10.025062561035156
-    },
     {
       "code": "600838",
       "name": "上海九百",
       "boards": 4,
       "sector": "一般零售",
       "changePct": 10
+    },
+    {
+      "code": "000678",
+      "name": "襄阳轴承",
+      "boards": 3,
+      "sector": "汽车零部",
+      "changePct": 9.977324485778809
     },
     {
       "code": "002535",
@@ -156,13 +228,6 @@
       "changePct": 9.950860023498535
     },
     {
-      "code": "603933",
-      "name": "睿能科技",
-      "boards": 3,
-      "sector": "其他电子",
-      "changePct": 9.980897903442383
-    },
-    {
       "code": "000559",
       "name": "万向钱潮",
       "boards": 2,
@@ -170,32 +235,32 @@
       "changePct": 10.043290138244629
     },
     {
-      "code": "002009",
-      "name": "天奇股份",
+      "code": "000700",
+      "name": "模塑科技",
       "boards": 2,
-      "sector": "专用设备",
-      "changePct": 10
+      "sector": "汽车零部",
+      "changePct": 10.016834259033203
     },
     {
-      "code": "002354",
-      "name": "天娱数科",
+      "code": "000810",
+      "name": "创维数字",
       "boards": 2,
-      "sector": "广告营销",
-      "changePct": 9.962639808654785
+      "sector": "黑色家电",
+      "changePct": 9.980039596557617
     },
     {
-      "code": "002474",
-      "name": "榕基软件",
+      "code": "002931",
+      "name": "锋龙股份",
       "boards": 2,
-      "sector": "IT服务Ⅱ",
-      "changePct": 9.98593521118164
+      "sector": "通用设备",
+      "changePct": 9.994808197021484
     },
     {
-      "code": "603081",
-      "name": "大丰实业",
+      "code": "600094",
+      "name": "大名城",
       "boards": 2,
-      "sector": "专用设备",
-      "changePct": 10.046948432922363
+      "sector": "房地产开",
+      "changePct": 10.022778511047363
     },
     {
       "code": "603337",
@@ -205,11 +270,11 @@
       "changePct": 10.010189056396484
     },
     {
-      "code": "603677",
-      "name": "奇精机械",
+      "code": "603901",
+      "name": "永创智能",
       "boards": 2,
-      "sector": "家电零部",
-      "changePct": 10
+      "sector": "专用设备",
+      "changePct": 10.041407585144043
     },
     {
       "code": "605488",
@@ -219,5 +284,7 @@
       "changePct": 10.013106346130371
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 21: 502 Bad Gateway"
+  ]
 }
