@@ -1,60 +1,72 @@
 {
   "date": "2026-10-28",
   "tradingDate": "2026-10-28",
-  "generatedAt": "2026-10-28T02:31:50.112Z",
+  "generatedAt": "2026-10-28T15:06:44.810Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-28",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 5626,
-  "unpriced": 348,
+  "breadthCounted": 5200,
+  "unpriced": 355,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3660.82,
-      "change": 12.52,
-      "changePct": 0.34
+      "price": 3681.47,
+      "change": 33.17,
+      "changePct": 0.91
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11377.9,
-      "change": 132.17,
-      "changePct": 1.18
+      "price": 11473.18,
+      "change": 227.45,
+      "changePct": 2.02
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2592.9,
-      "change": 44.75,
-      "changePct": 1.76
+      "price": 2634.76,
+      "change": 86.61,
+      "changePct": 3.4
     }
   ],
   "total": 5926,
-  "up": 3823,
-  "down": 1262,
-  "flat": 193,
-  "netInflow": 2414133662,
-  "netInflowCount": 5278,
+  "up": 4156,
+  "down": 513,
+  "flat": 176,
+  "netInflow": 36159371275,
+  "netInflowCount": 4844,
   "netInflowComplete": false,
-  "limitUpCount": 40,
+  "limitUpCount": 72,
   "downLimitCount": 0,
   "topSector": "汽车零部",
-  "topSectorCount": 10,
+  "topSectorCount": 11,
   "sectorLimitUps": [
     {
       "sector": "汽车零部",
-      "count": 10
+      "count": 11
     },
     {
       "sector": "通用设备",
-      "count": 6
+      "count": 8
     },
     {
       "sector": "专用设备",
-      "count": 4
+      "count": 5
+    },
+    {
+      "sector": "元件",
+      "count": 3
+    },
+    {
+      "sector": "化学制品",
+      "count": 3
+    },
+    {
+      "sector": "半导体",
+      "count": 3
     },
     {
       "sector": "家电零部",
@@ -65,11 +77,27 @@
       "count": 2
     },
     {
-      "sector": "化学制品",
+      "sector": "非金属材",
+      "count": 2
+    },
+    {
+      "sector": "电网设备",
+      "count": 2
+    },
+    {
+      "sector": "自动化设",
+      "count": 2
+    },
+    {
+      "sector": "生物制品",
       "count": 2
     },
     {
       "sector": "小家电",
+      "count": 2
+    },
+    {
+      "sector": "家居用品",
       "count": 2
     },
     {
@@ -81,31 +109,59 @@
       "count": 1
     },
     {
-      "sector": "元件",
+      "sector": "游戏Ⅱ",
       "count": 1
     },
     {
-      "sector": "半导体",
+      "sector": "一般零售",
       "count": 1
     },
     {
-      "sector": "房地产开",
+      "sector": "炼化及贸",
       "count": 1
     },
     {
-      "sector": "非金属材",
+      "sector": "军工电子",
       "count": 1
     },
     {
-      "sector": "电网设备",
+      "sector": "医疗服务",
       "count": 1
     },
     {
-      "sector": "家居用品",
+      "sector": "其他电源",
       "count": 1
     },
     {
-      "sector": "自动化设",
+      "sector": "饲料",
+      "count": 1
+    },
+    {
+      "sector": "饰品",
+      "count": 1
+    },
+    {
+      "sector": "电子化学",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "物流",
+      "count": 1
+    },
+    {
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "化学制药",
+      "count": 1
+    },
+    {
+      "sector": "影视院线",
       "count": 1
     },
     {
@@ -113,7 +169,23 @@
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
+      "sector": "农化制品",
+      "count": 1
+    },
+    {
+      "sector": "房地产开",
+      "count": 1
+    },
+    {
+      "sector": "照明设备",
+      "count": 1
+    },
+    {
+      "sector": "数字媒体",
+      "count": 1
+    },
+    {
+      "sector": "轨交设备",
       "count": 1
     }
   ],
@@ -140,6 +212,27 @@
       "changePct": 9.988385200500488
     },
     {
+      "code": "001400",
+      "name": "江顺科技",
+      "boards": 2,
+      "sector": "专用设备",
+      "changePct": 10.00249195098877
+    },
+    {
+      "code": "600715",
+      "name": "文投控股",
+      "boards": 2,
+      "sector": "游戏Ⅱ",
+      "changePct": 10.16042709350586
+    },
+    {
+      "code": "600828",
+      "name": "茂业商业",
+      "boards": 2,
+      "sector": "一般零售",
+      "changePct": 10.067113876342773
+    },
+    {
       "code": "601956",
       "name": "东贝集团",
       "boards": 2,
@@ -155,6 +248,6 @@
     }
   ],
   "errors": [
-    "breadth: page 46: 502 Bad Gateway"
+    "breadth: page 53: 502 Bad Gateway"
   ]
 }
