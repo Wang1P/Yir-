@@ -1,60 +1,60 @@
 {
   "date": "2026-10-29",
   "tradingDate": "2026-10-29",
-  "generatedAt": "2026-10-29T02:43:10.308Z",
+  "generatedAt": "2026-10-29T15:14:15.121Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-29",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5926,
-  "unpriced": 355,
+  "breadthComplete": false,
+  "breadthCounted": 2600,
+  "unpriced": 354,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3655.37,
-      "change": -26.1,
-      "changePct": -0.71
+      "price": 3651.43,
+      "change": -30.04,
+      "changePct": -0.82
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11200.49,
-      "change": -272.69,
-      "changePct": -2.38
+      "price": 11138.2,
+      "change": -334.98,
+      "changePct": -2.92
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2540.08,
-      "change": -94.68,
-      "changePct": -3.59
+      "price": 2517.59,
+      "change": -117.17,
+      "changePct": -4.45
     }
   ],
   "total": 5926,
-  "up": 1120,
-  "down": 4310,
-  "flat": 141,
-  "netInflow": -39397546045,
-  "netInflowCount": 5571,
+  "up": 781,
+  "down": 1402,
+  "flat": 63,
+  "netInflow": 8425469259,
+  "netInflowCount": 2244,
   "netInflowComplete": false,
-  "limitUpCount": 35,
+  "limitUpCount": 39,
   "downLimitCount": 0,
-  "topSector": "专用设备",
+  "topSector": "通用设备",
   "topSectorCount": 4,
   "sectorLimitUps": [
-    {
-      "sector": "专用设备",
-      "count": 4
-    },
     {
       "sector": "通用设备",
       "count": 4
     },
     {
-      "sector": "汽车零部",
+      "sector": "专用设备",
       "count": 3
+    },
+    {
+      "sector": "汽车零部",
+      "count": 2
     },
     {
       "sector": "食品加工",
@@ -62,6 +62,10 @@
     },
     {
       "sector": "休闲食品",
+      "count": 1
+    },
+    {
+      "sector": "游戏Ⅱ",
       "count": 1
     },
     {
@@ -78,6 +82,26 @@
     },
     {
       "sector": "贸易Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "农产品加",
+      "count": 1
+    },
+    {
+      "sector": "小金属",
+      "count": 1
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "一般零售",
+      "count": 1
+    },
+    {
+      "sector": "风电设备",
       "count": 1
     },
     {
@@ -101,6 +125,10 @@
       "count": 1
     },
     {
+      "sector": "航天装备",
+      "count": 1
+    },
+    {
       "sector": "照明设备",
       "count": 1
     },
@@ -109,7 +137,7 @@
       "count": 1
     },
     {
-      "sector": "房地产开",
+      "sector": "旅游及景",
       "count": 1
     },
     {
@@ -137,10 +165,6 @@
       "count": 1
     },
     {
-      "sector": "计算机设",
-      "count": 1
-    },
-    {
       "sector": "饮料乳品",
       "count": 1
     },
@@ -165,11 +189,11 @@
       "changePct": 9.978880882263184
     },
     {
-      "code": "001400",
-      "name": "江顺科技",
+      "code": "600715",
+      "name": "文投控股",
       "boards": 3,
-      "sector": "专用设备",
-      "changePct": 9.998867988586426
+      "sector": "游戏Ⅱ",
+      "changePct": 10.194174766540527
     },
     {
       "code": "601956",
@@ -200,6 +224,13 @@
       "changePct": 10.0130033493042
     },
     {
+      "code": "002943",
+      "name": "宇晶股份",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 9.996017456054688
+    },
+    {
       "code": "603006",
       "name": "联明股份",
       "boards": 2,
@@ -214,5 +245,7 @@
       "changePct": 10
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 27: 502 Bad Gateway"
+  ]
 }
