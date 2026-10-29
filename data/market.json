@@ -1,107 +1,63 @@
 {
-  "date": "2026-10-28",
-  "tradingDate": "2026-10-28",
-  "generatedAt": "2026-10-28T15:06:44.810Z",
+  "date": "2026-10-29",
+  "tradingDate": "2026-10-29",
+  "generatedAt": "2026-10-29T02:43:10.308Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-10-28",
+  "dataDate": "2026-10-29",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": false,
-  "breadthCounted": 5200,
+  "breadthComplete": true,
+  "breadthCounted": 5926,
   "unpriced": 355,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3681.47,
-      "change": 33.17,
-      "changePct": 0.91
+      "price": 3655.37,
+      "change": -26.1,
+      "changePct": -0.71
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11473.18,
-      "change": 227.45,
-      "changePct": 2.02
+      "price": 11200.49,
+      "change": -272.69,
+      "changePct": -2.38
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2634.76,
-      "change": 86.61,
-      "changePct": 3.4
+      "price": 2540.08,
+      "change": -94.68,
+      "changePct": -3.59
     }
   ],
   "total": 5926,
-  "up": 4156,
-  "down": 513,
-  "flat": 176,
-  "netInflow": 36159371275,
-  "netInflowCount": 4844,
+  "up": 1120,
+  "down": 4310,
+  "flat": 141,
+  "netInflow": -39397546045,
+  "netInflowCount": 5571,
   "netInflowComplete": false,
-  "limitUpCount": 72,
+  "limitUpCount": 35,
   "downLimitCount": 0,
-  "topSector": "汽车零部",
-  "topSectorCount": 11,
+  "topSector": "专用设备",
+  "topSectorCount": 4,
   "sectorLimitUps": [
     {
-      "sector": "汽车零部",
-      "count": 11
+      "sector": "专用设备",
+      "count": 4
     },
     {
       "sector": "通用设备",
-      "count": 8
+      "count": 4
     },
     {
-      "sector": "专用设备",
-      "count": 5
-    },
-    {
-      "sector": "元件",
+      "sector": "汽车零部",
       "count": 3
     },
     {
-      "sector": "化学制品",
-      "count": 3
-    },
-    {
-      "sector": "半导体",
-      "count": 3
-    },
-    {
-      "sector": "家电零部",
-      "count": 2
-    },
-    {
-      "sector": "其他电子",
-      "count": 2
-    },
-    {
-      "sector": "非金属材",
-      "count": 2
-    },
-    {
-      "sector": "电网设备",
-      "count": 2
-    },
-    {
-      "sector": "自动化设",
-      "count": 2
-    },
-    {
-      "sector": "生物制品",
-      "count": 2
-    },
-    {
-      "sector": "小家电",
-      "count": 2
-    },
-    {
-      "sector": "家居用品",
-      "count": 2
-    },
-    {
-      "sector": "消费电子",
+      "sector": "食品加工",
       "count": 2
     },
     {
@@ -109,19 +65,7 @@
       "count": 1
     },
     {
-      "sector": "游戏Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "一般零售",
-      "count": 1
-    },
-    {
-      "sector": "炼化及贸",
-      "count": 1
-    },
-    {
-      "sector": "军工电子",
+      "sector": "家电零部",
       "count": 1
     },
     {
@@ -129,51 +73,31 @@
       "count": 1
     },
     {
-      "sector": "其他电源",
-      "count": 1
-    },
-    {
-      "sector": "饲料",
-      "count": 1
-    },
-    {
-      "sector": "饰品",
-      "count": 1
-    },
-    {
-      "sector": "电子化学",
-      "count": 1
-    },
-    {
       "sector": "文娱用品",
       "count": 1
     },
     {
-      "sector": "物流",
+      "sector": "贸易Ⅱ",
       "count": 1
     },
     {
-      "sector": "光学光电",
+      "sector": "包装印刷",
       "count": 1
     },
     {
-      "sector": "化学制药",
+      "sector": "林业Ⅱ",
       "count": 1
     },
     {
-      "sector": "影视院线",
+      "sector": "光伏设备",
       "count": 1
     },
     {
-      "sector": "塑料",
+      "sector": "教育",
       "count": 1
     },
     {
-      "sector": "农化制品",
-      "count": 1
-    },
-    {
-      "sector": "房地产开",
+      "sector": "工程机械",
       "count": 1
     },
     {
@@ -181,73 +105,114 @@
       "count": 1
     },
     {
-      "sector": "数字媒体",
+      "sector": "航运港口",
       "count": 1
     },
     {
-      "sector": "轨交设备",
+      "sector": "房地产开",
+      "count": 1
+    },
+    {
+      "sector": "多元金融",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1
+    },
+    {
+      "sector": "影视院线",
+      "count": 1
+    },
+    {
+      "sector": "化学纤维",
+      "count": 1
+    },
+    {
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
+      "sector": "饮料乳品",
+      "count": 1
+    },
+    {
+      "sector": "专业工程",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "000678",
-      "name": "襄阳轴承",
-      "boards": 5,
-      "sector": "汽车零部",
-      "changePct": 9.993753433227539
-    },
-    {
       "code": "001219",
       "name": "青岛食品",
-      "boards": 3,
+      "boards": 4,
       "sector": "休闲食品",
-      "changePct": 10.013350486755371
+      "changePct": 10.01213550567627
     },
     {
       "code": "002708",
       "name": "光洋股份",
-      "boards": 3,
+      "boards": 4,
       "sector": "汽车零部",
-      "changePct": 9.988385200500488
+      "changePct": 9.978880882263184
     },
     {
       "code": "001400",
       "name": "江顺科技",
-      "boards": 2,
+      "boards": 3,
       "sector": "专用设备",
-      "changePct": 10.00249195098877
-    },
-    {
-      "code": "600715",
-      "name": "文投控股",
-      "boards": 2,
-      "sector": "游戏Ⅱ",
-      "changePct": 10.16042709350586
-    },
-    {
-      "code": "600828",
-      "name": "茂业商业",
-      "boards": 2,
-      "sector": "一般零售",
-      "changePct": 10.067113876342773
+      "changePct": 9.998867988586426
     },
     {
       "code": "601956",
       "name": "东贝集团",
-      "boards": 2,
+      "boards": 3,
       "sector": "家电零部",
-      "changePct": 9.9277982711792
+      "changePct": 10.016420364379883
     },
     {
-      "code": "603037",
-      "name": "凯众股份",
+      "code": "002172",
+      "name": "澳洋健康",
+      "boards": 2,
+      "sector": "医疗服务",
+      "changePct": 10.040983200073242
+    },
+    {
+      "code": "002526",
+      "name": "山东矿机",
+      "boards": 2,
+      "sector": "专用设备",
+      "changePct": 10.067113876342773
+    },
+    {
+      "code": "002862",
+      "name": "实丰文化",
+      "boards": 2,
+      "sector": "文娱用品",
+      "changePct": 10.0130033493042
+    },
+    {
+      "code": "603006",
+      "name": "联明股份",
       "boards": 2,
       "sector": "汽车零部",
-      "changePct": 10.025274276733398
+      "changePct": 9.962756156921387
+    },
+    {
+      "code": "603131",
+      "name": "上海沪工",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10
     }
   ],
-  "errors": [
-    "breadth: page 53: 502 Bad Gateway"
-  ]
+  "errors": []
 }
