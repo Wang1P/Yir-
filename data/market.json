@@ -1,56 +1,64 @@
 {
   "date": "2026-10-30",
   "tradingDate": "2026-10-30",
-  "generatedAt": "2026-10-30T02:51:18.378Z",
+  "generatedAt": "2026-10-30T15:03:16.565Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-30",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 5326,
-  "unpriced": 355,
+  "breadthCounted": 0,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3613.77,
-      "change": -37.66,
-      "changePct": -1.03
+      "price": 3599.02,
+      "change": -52.41,
+      "changePct": -1.44
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10953.34,
-      "change": -184.86,
-      "changePct": -1.66
+      "price": 10833.78,
+      "change": -304.42,
+      "changePct": -2.73
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2457.29,
-      "change": -60.3,
-      "changePct": -2.4
+      "price": 2413.63,
+      "change": -103.96,
+      "changePct": -4.13
     }
   ],
-  "total": 5926,
-  "up": 1236,
-  "down": 3574,
-  "flat": 161,
-  "netInflow": -13236732213,
-  "netInflowCount": 4971,
+  "total": 0,
+  "up": 0,
+  "down": 0,
+  "flat": 0,
+  "netInflow": null,
+  "netInflowCount": 0,
   "netInflowComplete": false,
-  "limitUpCount": 34,
+  "limitUpCount": 47,
   "downLimitCount": 0,
-  "topSector": "休闲食品",
-  "topSectorCount": 3,
+  "topSector": "白酒Ⅱ",
+  "topSectorCount": 4,
   "sectorLimitUps": [
+    {
+      "sector": "白酒Ⅱ",
+      "count": 4
+    },
     {
       "sector": "休闲食品",
       "count": 3
     },
     {
       "sector": "医疗服务",
-      "count": 2
+      "count": 3
+    },
+    {
+      "sector": "元件",
+      "count": 3
     },
     {
       "sector": "通用设备",
@@ -61,7 +69,15 @@
       "count": 2
     },
     {
-      "sector": "白酒Ⅱ",
+      "sector": "一般零售",
+      "count": 2
+    },
+    {
+      "sector": "房地产开",
+      "count": 2
+    },
+    {
+      "sector": "装修建材",
       "count": 2
     },
     {
@@ -69,7 +85,7 @@
       "count": 2
     },
     {
-      "sector": "元件",
+      "sector": "饮料乳品",
       "count": 2
     },
     {
@@ -89,7 +105,7 @@
       "count": 1
     },
     {
-      "sector": "一般零售",
+      "sector": "食品加工",
       "count": 1
     },
     {
@@ -98,10 +114,6 @@
     },
     {
       "sector": "广告营销",
-      "count": 1
-    },
-    {
-      "sector": "房地产开",
       "count": 1
     },
     {
@@ -117,7 +129,11 @@
       "count": 1
     },
     {
-      "sector": "饮料乳品",
+      "sector": "自动化设",
+      "count": 1
+    },
+    {
+      "sector": "酒店餐饮",
       "count": 1
     },
     {
@@ -129,11 +145,15 @@
       "count": 1
     },
     {
-      "sector": "工程机械",
+      "sector": "环境治理",
       "count": 1
     },
     {
-      "sector": "塑料",
+      "sector": "医药商业",
+      "count": 1
+    },
+    {
+      "sector": "工程机械",
       "count": 1
     },
     {
@@ -205,9 +225,16 @@
       "boards": 2,
       "sector": "光学光电",
       "changePct": 10.036831855773926
+    },
+    {
+      "code": "605338",
+      "name": "巴比食品",
+      "boards": 2,
+      "sector": "食品加工",
+      "changePct": 10.010537147521973
     }
   ],
   "errors": [
-    "breadth: page 43: 502 Bad Gateway"
+    "breadth: 502 Bad Gateway"
   ]
 }
