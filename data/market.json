@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "tradingDate": "2026-10-30",
-  "generatedAt": "2026-10-30T15:03:16.565Z",
+  "generatedAt": "2026-10-31T02:39:42.393Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-30",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 0,
+  "breadthCounted": 500,
   "unpriced": 0,
   "indices": [
     {
@@ -32,13 +32,13 @@
       "changePct": -4.13
     }
   ],
-  "total": 0,
-  "up": 0,
+  "total": 5926,
+  "up": 500,
   "down": 0,
   "flat": 0,
-  "netInflow": null,
-  "netInflowCount": 0,
-  "netInflowComplete": false,
+  "netInflow": 16675679098,
+  "netInflowCount": 500,
+  "netInflowComplete": true,
   "limitUpCount": 47,
   "downLimitCount": 0,
   "topSector": "白酒Ⅱ",
@@ -235,6 +235,6 @@
     }
   ],
   "errors": [
-    "breadth: 502 Bad Gateway"
+    "breadth: page 5: 502 Bad Gateway"
   ]
 }
