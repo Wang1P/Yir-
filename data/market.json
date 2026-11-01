@@ -1,44 +1,22 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "tradingDate": "2026-10-30",
-  "generatedAt": "2026-10-31T02:39:42.393Z",
+  "generatedAt": "2026-11-01T02:29:37.260Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-10-30",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 500,
+  "breadthCounted": 0,
   "unpriced": 0,
-  "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "price": 3599.02,
-      "change": -52.41,
-      "changePct": -1.44
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "price": 10833.78,
-      "change": -304.42,
-      "changePct": -2.73
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "price": 2413.63,
-      "change": -103.96,
-      "changePct": -4.13
-    }
-  ],
-  "total": 5926,
-  "up": 500,
+  "indices": [],
+  "total": 0,
+  "up": 0,
   "down": 0,
   "flat": 0,
-  "netInflow": 16675679098,
-  "netInflowCount": 500,
-  "netInflowComplete": true,
+  "netInflow": null,
+  "netInflowCount": 0,
+  "netInflowComplete": false,
   "limitUpCount": 47,
   "downLimitCount": 0,
   "topSector": "白酒Ⅱ",
@@ -235,6 +213,7 @@
     }
   ],
   "errors": [
-    "breadth: page 5: 502 Bad Gateway"
+    "indices: 502 Bad Gateway",
+    "breadth: 502 Bad Gateway"
   ]
 }
