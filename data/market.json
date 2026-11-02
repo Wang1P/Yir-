@@ -1,51 +1,83 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "tradingDate": "2026-11-02",
-  "generatedAt": "2026-11-02T02:41:35.323Z",
+  "generatedAt": "2026-11-02T18:23:19.765Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-02",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 3326,
-  "unpriced": 31,
+  "breadthCounted": 2600,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3616.73,
-      "change": 17.71,
-      "changePct": 0.49
+      "price": 3638.03,
+      "change": 39.01,
+      "changePct": 1.08
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10953.32,
-      "change": 119.54,
-      "changePct": 1.1
+      "price": 11010.68,
+      "change": 176.9,
+      "changePct": 1.63
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2447.06,
-      "change": 33.43,
-      "changePct": 1.39
+      "price": 2458.7,
+      "change": 45.07,
+      "changePct": 1.87
     }
   ],
   "total": 5926,
-  "up": 2400,
-  "down": 893,
-  "flat": 2,
-  "netInflow": 5144655184,
-  "netInflowCount": 3295,
-  "netInflowComplete": false,
-  "limitUpCount": 50,
+  "up": 2600,
+  "down": 0,
+  "flat": 0,
+  "netInflow": 28280494530,
+  "netInflowCount": 2600,
+  "netInflowComplete": true,
+  "limitUpCount": 125,
   "downLimitCount": 0,
-  "topSector": "一般零售",
-  "topSectorCount": 4,
+  "topSector": "广告营销",
+  "topSectorCount": 9,
   "sectorLimitUps": [
     {
+      "sector": "广告营销",
+      "count": 9
+    },
+    {
+      "sector": "出版",
+      "count": 8
+    },
+    {
+      "sector": "影视院线",
+      "count": 7
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 7
+    },
+    {
+      "sector": "软件开发",
+      "count": 6
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 6
+    },
+    {
+      "sector": "数字媒体",
+      "count": 5
+    },
+    {
       "sector": "一般零售",
+      "count": 4
+    },
+    {
+      "sector": "汽车零部",
       "count": 4
     },
     {
@@ -53,7 +85,35 @@
       "count": 3
     },
     {
-      "sector": "汽车零部",
+      "sector": "自动化设",
+      "count": 3
+    },
+    {
+      "sector": "消费电子",
+      "count": 3
+    },
+    {
+      "sector": "化学制品",
+      "count": 3
+    },
+    {
+      "sector": "纺织制造",
+      "count": 3
+    },
+    {
+      "sector": "医疗服务",
+      "count": 2
+    },
+    {
+      "sector": "通用设备",
+      "count": 2
+    },
+    {
+      "sector": "服装家纺",
+      "count": 2
+    },
+    {
+      "sector": "电视广播",
       "count": 2
     },
     {
@@ -65,7 +125,7 @@
       "count": 2
     },
     {
-      "sector": "自动化设",
+      "sector": "专用设备",
       "count": 2
     },
     {
@@ -73,11 +133,11 @@
       "count": 2
     },
     {
-      "sector": "化学制品",
+      "sector": "装修装饰",
       "count": 2
     },
     {
-      "sector": "软件开发",
+      "sector": "光学光电",
       "count": 2
     },
     {
@@ -85,15 +145,11 @@
       "count": 2
     },
     {
-      "sector": "游戏Ⅱ",
+      "sector": "基础建设",
       "count": 2
     },
     {
       "sector": "休闲食品",
-      "count": 1
-    },
-    {
-      "sector": "医疗服务",
       "count": 1
     },
     {
@@ -117,10 +173,6 @@
       "count": 1
     },
     {
-      "sector": "服装家纺",
-      "count": 1
-    },
-    {
       "sector": "电力",
       "count": 1
     },
@@ -129,7 +181,15 @@
       "count": 1
     },
     {
+      "sector": "电池",
+      "count": 1
+    },
+    {
       "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "工业金属",
       "count": 1
     },
     {
@@ -137,7 +197,19 @@
       "count": 1
     },
     {
-      "sector": "光学光电",
+      "sector": "化学制药",
+      "count": 1
+    },
+    {
+      "sector": "工程咨询",
+      "count": 1
+    },
+    {
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
+      "sector": "铁路公路",
       "count": 1
     },
     {
@@ -153,6 +225,10 @@
       "count": 1
     },
     {
+      "sector": "旅游及景",
+      "count": 1
+    },
+    {
       "sector": "酒店餐饮",
       "count": 1
     },
@@ -161,7 +237,15 @@
       "count": 1
     },
     {
-      "sector": "影视院线",
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "物流",
+      "count": 1
+    },
+    {
+      "sector": "调味发酵",
       "count": 1
     },
     {
@@ -169,19 +253,15 @@
       "count": 1
     },
     {
+      "sector": "医疗器械",
+      "count": 1
+    },
+    {
       "sector": "元件",
       "count": 1
     },
     {
-      "sector": "纺织制造",
-      "count": 1
-    },
-    {
-      "sector": "基础建设",
-      "count": 1
-    },
-    {
-      "sector": "出版",
+      "sector": "军工电子",
       "count": 1
     },
     {
@@ -226,6 +306,13 @@
       "changePct": 10.024450302124023
     },
     {
+      "code": "000410",
+      "name": "沈阳机床",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10.055866241455078
+    },
+    {
       "code": "000417",
       "name": "合百集团",
       "boards": 2,
@@ -262,6 +349,6 @@
     }
   ],
   "errors": [
-    "breadth: page 22: 502 Bad Gateway"
+    "breadth: page 27: 502 Bad Gateway"
   ]
 }
