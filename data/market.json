@@ -1,75 +1,109 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "tradingDate": "2026-11-04",
-  "generatedAt": "2026-11-04T03:07:58.687Z",
+  "generatedAt": "2026-11-04T16:19:57.411Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-04",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5927,
-  "unpriced": 352,
-  "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "price": 3591.51,
-      "change": -16.59,
-      "changePct": -0.46
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "price": 10826.83,
-      "change": -50.16,
-      "changePct": -0.46
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "price": 2376.28,
-      "change": -15.37,
-      "changePct": -0.64
-    }
-  ],
-  "total": 5927,
-  "up": 1316,
-  "down": 4100,
-  "flat": 159,
-  "netInflow": -8339541390,
-  "netInflowCount": 5575,
+  "breadthComplete": false,
+  "breadthCounted": 0,
+  "unpriced": 0,
+  "indices": [],
+  "total": 0,
+  "up": 0,
+  "down": 0,
+  "flat": 0,
+  "netInflow": null,
+  "netInflowCount": 0,
   "netInflowComplete": false,
-  "limitUpCount": 31,
+  "limitUpCount": 118,
   "downLimitCount": 0,
-  "topSector": "一般零售",
-  "topSectorCount": 2,
+  "topSector": "半导体",
+  "topSectorCount": 19,
   "sectorLimitUps": [
     {
-      "sector": "一般零售",
-      "count": 2
+      "sector": "半导体",
+      "count": 19
     },
     {
-      "sector": "光伏设备",
-      "count": 2
+      "sector": "贵金属",
+      "count": 11
     },
     {
       "sector": "汽车零部",
-      "count": 2
+      "count": 7
     },
     {
-      "sector": "装修装饰",
-      "count": 2
+      "sector": "元件",
+      "count": 7
+    },
+    {
+      "sector": "专用设备",
+      "count": 6
+    },
+    {
+      "sector": "光学光电",
+      "count": 5
+    },
+    {
+      "sector": "自动化设",
+      "count": 5
     },
     {
       "sector": "通用设备",
+      "count": 4
+    },
+    {
+      "sector": "光伏设备",
+      "count": 3
+    },
+    {
+      "sector": "小金属",
+      "count": 3
+    },
+    {
+      "sector": "塑料",
+      "count": 3
+    },
+    {
+      "sector": "装修装饰",
+      "count": 3
+    },
+    {
+      "sector": "电网设备",
+      "count": 3
+    },
+    {
+      "sector": "医疗服务",
+      "count": 3
+    },
+    {
+      "sector": "工业金属",
       "count": 2
     },
     {
-      "sector": "白酒Ⅱ",
-      "count": 1
+      "sector": "化学制品",
+      "count": 2
     },
     {
-      "sector": "化学制品",
+      "sector": "纺织制造",
+      "count": 2
+    },
+    {
+      "sector": "出版",
+      "count": 2
+    },
+    {
+      "sector": "装修建材",
+      "count": 2
+    },
+    {
+      "sector": "中药Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "电池",
       "count": 1
     },
     {
@@ -77,19 +111,15 @@
       "count": 1
     },
     {
-      "sector": "纺织制造",
-      "count": 1
-    },
-    {
-      "sector": "出版",
-      "count": 1
-    },
-    {
-      "sector": "装修建材",
+      "sector": "一般零售",
       "count": 1
     },
     {
       "sector": "冶钢原料",
+      "count": 1
+    },
+    {
+      "sector": "饰品",
       "count": 1
     },
     {
@@ -101,7 +131,11 @@
       "count": 1
     },
     {
-      "sector": "中药Ⅱ",
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
+      "sector": "其他电源",
       "count": 1
     },
     {
@@ -110,6 +144,10 @@
     },
     {
       "sector": "包装印刷",
+      "count": 1
+    },
+    {
+      "sector": "电子化学",
       "count": 1
     },
     {
@@ -125,7 +163,23 @@
       "count": 1
     },
     {
+      "sector": "航空装备",
+      "count": 1
+    },
+    {
+      "sector": "风电设备",
+      "count": 1
+    },
+    {
+      "sector": "玻璃玻纤",
+      "count": 1
+    },
+    {
       "sector": "广告营销",
+      "count": 1
+    },
+    {
+      "sector": "家电零部",
       "count": 1
     },
     {
@@ -137,11 +191,7 @@
       "count": 1
     },
     {
-      "sector": "自动化设",
-      "count": 1
-    },
-    {
-      "sector": "塑料",
+      "sector": "金属新材",
       "count": 1
     },
     {
@@ -151,11 +201,18 @@
   ],
   "consecutiveLimitUps": [
     {
-      "code": "000995",
-      "name": "皇台酒业",
-      "boards": 4,
-      "sector": "白酒Ⅱ",
-      "changePct": 10.023309707641602
+      "code": "002058",
+      "name": "紫竹高科",
+      "boards": 3,
+      "sector": "电池",
+      "changePct": 9.98580265045166
+    },
+    {
+      "code": "002578",
+      "name": "闽发铝业",
+      "boards": 3,
+      "sector": "工业金属",
+      "changePct": 10.106383323669434
     },
     {
       "code": "002827",
@@ -200,11 +257,18 @@
       "changePct": 9.963985443115234
     },
     {
-      "code": "600327",
-      "name": "大东方",
+      "code": "002652",
+      "name": "扬子新材",
       "boards": 2,
-      "sector": "一般零售",
-      "changePct": 10.11494255065918
+      "sector": "装修建材",
+      "changePct": 10.071942329406738
+    },
+    {
+      "code": "002992",
+      "name": "宝明科技",
+      "boards": 2,
+      "sector": "光学光电",
+      "changePct": 10.013175010681152
     },
     {
       "code": "601123",
@@ -221,5 +285,8 @@
       "changePct": 10.012836456298828
     }
   ],
-  "errors": []
+  "errors": [
+    "indices: 502 Bad Gateway",
+    "breadth: 502 Bad Gateway"
+  ]
 }
