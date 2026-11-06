@@ -1,45 +1,45 @@
 {
   "date": "2026-11-06",
   "tradingDate": "2026-11-06",
-  "generatedAt": "2026-11-06T03:35:12.237Z",
+  "generatedAt": "2026-11-06T15:55:56.296Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-06",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5927,
-  "unpriced": 354,
+  "breadthComplete": false,
+  "breadthCounted": 3700,
+  "unpriced": 352,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3647.9,
-      "change": -42.01,
-      "changePct": -1.14
+      "price": 3649.18,
+      "change": -40.73,
+      "changePct": -1.1
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11216.95,
-      "change": -254.14,
-      "changePct": -2.22
+      "price": 11175.78,
+      "change": -295.31,
+      "changePct": -2.57
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2477.07,
-      "change": -89.73,
-      "changePct": -3.5
+      "price": 2465.23,
+      "change": -101.57,
+      "changePct": -3.96
     }
   ],
   "total": 5927,
-  "up": 911,
-  "down": 4549,
-  "flat": 113,
-  "netInflow": -43243391849,
-  "netInflowCount": 5573,
+  "up": 758,
+  "down": 2514,
+  "flat": 76,
+  "netInflow": -528358709,
+  "netInflowCount": 3346,
   "netInflowComplete": false,
-  "limitUpCount": 26,
+  "limitUpCount": 32,
   "downLimitCount": 0,
   "topSector": "光伏设备",
   "topSectorCount": 3,
@@ -53,7 +53,7 @@
       "count": 3
     },
     {
-      "sector": "消费电子",
+      "sector": "纺织制造",
       "count": 2
     },
     {
@@ -65,7 +65,7 @@
       "count": 1
     },
     {
-      "sector": "纺织制造",
+      "sector": "装修建材",
       "count": 1
     },
     {
@@ -81,11 +81,19 @@
       "count": 1
     },
     {
+      "sector": "通信服务",
+      "count": 1
+    },
+    {
       "sector": "照明设备",
       "count": 1
     },
     {
       "sector": "休闲食品",
+      "count": 1
+    },
+    {
+      "sector": "农化制品",
       "count": 1
     },
     {
@@ -105,7 +113,23 @@
       "count": 1
     },
     {
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
       "sector": "出版",
+      "count": 1
+    },
+    {
+      "sector": "贸易Ⅱ",
       "count": 1
     },
     {
@@ -141,6 +165,13 @@
       "changePct": 9.956709861755371
     },
     {
+      "code": "002088",
+      "name": "鲁阳节能",
+      "boards": 4,
+      "sector": "装修建材",
+      "changePct": 10.019841194152832
+    },
+    {
       "code": "603381",
       "name": "永臻股份",
       "boards": 4,
@@ -169,18 +200,18 @@
       "changePct": 10
     },
     {
-      "code": "002045",
-      "name": "国光电器",
-      "boards": 2,
-      "sector": "消费电子",
-      "changePct": 10
-    },
-    {
       "code": "002086",
       "name": "东方海洋",
       "boards": 2,
       "sector": "农产品加",
       "changePct": 9.972298622131348
+    },
+    {
+      "code": "002929",
+      "name": "润建股份",
+      "boards": 2,
+      "sector": "通信服务",
+      "changePct": 10.005228996276855
     },
     {
       "code": "600261",
@@ -197,5 +228,7 @@
       "changePct": 10.027854919433594
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 38: 502 Bad Gateway"
+  ]
 }
