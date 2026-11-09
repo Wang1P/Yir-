@@ -1,63 +1,79 @@
 {
-  "date": "2026-11-08",
-  "tradingDate": "2026-11-06",
-  "generatedAt": "2026-11-08T02:39:08.759Z",
+  "date": "2026-11-09",
+  "tradingDate": "2026-11-09",
+  "generatedAt": "2026-11-09T02:54:39.290Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-11-06",
+  "dataDate": "2026-11-09",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5927,
-  "unpriced": 352,
+  "unpriced": 351,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3649.18,
-      "change": -40.73,
-      "changePct": -1.1
+      "price": 3666.66,
+      "change": 17.48,
+      "changePct": 0.48
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11175.78,
-      "change": -295.31,
-      "changePct": -2.57
+      "price": 11210.1,
+      "change": 34.32,
+      "changePct": 0.31
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2465.23,
-      "change": -101.57,
-      "changePct": -3.96
+      "price": 2478.06,
+      "change": 12.83,
+      "changePct": 0.52
     }
   ],
   "total": 5927,
-  "up": 758,
-  "down": 4741,
-  "flat": 76,
-  "netInflow": -52851310282,
-  "netInflowCount": 5573,
+  "up": 2847,
+  "down": 2473,
+  "flat": 256,
+  "netInflow": 18612537045,
+  "netInflowCount": 5576,
   "netInflowComplete": false,
-  "limitUpCount": 32,
+  "limitUpCount": 51,
   "downLimitCount": 0,
-  "topSector": "光伏设备",
-  "topSectorCount": 3,
+  "topSector": "汽车零部",
+  "topSectorCount": 4,
   "sectorLimitUps": [
     {
-      "sector": "光伏设备",
+      "sector": "汽车零部",
+      "count": 4
+    },
+    {
+      "sector": "通信设备",
+      "count": 4
+    },
+    {
+      "sector": "通用设备",
       "count": 3
     },
     {
-      "sector": "电力",
-      "count": 3
-    },
-    {
-      "sector": "纺织制造",
+      "sector": "光学光电",
       "count": 2
     },
     {
-      "sector": "种植业",
+      "sector": "元件",
+      "count": 2
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "化学制品",
+      "count": 2
+    },
+    {
+      "sector": "计算机设",
       "count": 2
     },
     {
@@ -65,43 +81,15 @@
       "count": 1
     },
     {
-      "sector": "装修建材",
-      "count": 1
-    },
-    {
       "sector": "其他电子",
       "count": 1
     },
     {
-      "sector": "家电零部",
-      "count": 1
-    },
-    {
-      "sector": "农产品加",
-      "count": 1
-    },
-    {
-      "sector": "通信服务",
-      "count": 1
-    },
-    {
-      "sector": "照明设备",
-      "count": 1
-    },
-    {
-      "sector": "休闲食品",
-      "count": 1
-    },
-    {
-      "sector": "农化制品",
-      "count": 1
-    },
-    {
-      "sector": "光学光电",
-      "count": 1
-    },
-    {
       "sector": "炼化及贸",
+      "count": 1
+    },
+    {
+      "sector": "电力",
       "count": 1
     },
     {
@@ -110,22 +98,6 @@
     },
     {
       "sector": "物流",
-      "count": 1
-    },
-    {
-      "sector": "环境治理",
-      "count": 1
-    },
-    {
-      "sector": "汽车零部",
-      "count": 1
-    },
-    {
-      "sector": "消费电子",
-      "count": 1
-    },
-    {
-      "sector": "出版",
       "count": 1
     },
     {
@@ -141,11 +113,87 @@
       "count": 1
     },
     {
-      "sector": "影视院线",
+      "sector": "厨卫电器",
       "count": 1
     },
     {
-      "sector": "厨卫电器",
+      "sector": "饰品",
+      "count": 1
+    },
+    {
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "养殖业",
+      "count": 1
+    },
+    {
+      "sector": "小金属",
+      "count": 1
+    },
+    {
+      "sector": "医疗服务",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
+      "count": 1
+    },
+    {
+      "sector": "包装印刷",
+      "count": 1
+    },
+    {
+      "sector": "水泥",
+      "count": 1
+    },
+    {
+      "sector": "照明设备",
+      "count": 1
+    },
+    {
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "光伏设备",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "航天装备",
+      "count": 1
+    },
+    {
+      "sector": "煤炭开采",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "基础建设",
+      "count": 1
+    },
+    {
+      "sector": "专业工程",
       "count": 1
     }
   ],
@@ -153,79 +201,79 @@
     {
       "code": "002578",
       "name": "闽发铝业",
-      "boards": 5,
+      "boards": 6,
       "sector": "工业金属",
-      "changePct": 10.10988998413086
-    },
-    {
-      "code": "601599",
-      "name": "浙文影业",
-      "boards": 5,
-      "sector": "纺织制造",
-      "changePct": 9.956709861755371
-    },
-    {
-      "code": "002088",
-      "name": "鲁阳节能",
-      "boards": 4,
-      "sector": "装修建材",
-      "changePct": 10.019841194152832
-    },
-    {
-      "code": "603381",
-      "name": "永臻股份",
-      "boards": 4,
-      "sector": "光伏设备",
-      "changePct": 10.026524543762207
+      "changePct": 9.980039596557617
     },
     {
       "code": "002388",
       "name": "新亚制程",
-      "boards": 3,
+      "boards": 4,
       "sector": "其他电子",
-      "changePct": 10.066006660461426
+      "changePct": 10.044978141784668
     },
     {
-      "code": "301697",
-      "name": "贝特利",
-      "boards": 3,
-      "sector": "光伏设备",
-      "changePct": 20
-    },
-    {
-      "code": "603657",
-      "name": "春光科技",
-      "boards": 3,
-      "sector": "家电零部",
-      "changePct": 10
-    },
-    {
-      "code": "002086",
-      "name": "东方海洋",
+      "code": "001308",
+      "name": "康冠科技",
       "boards": 2,
-      "sector": "农产品加",
-      "changePct": 9.972298622131348
+      "sector": "光学光电",
+      "changePct": 9.980897903442383
     },
     {
-      "code": "002929",
-      "name": "润建股份",
+      "code": "001316",
+      "name": "润贝航科",
       "boards": 2,
-      "sector": "通信服务",
-      "changePct": 10.005228996276855
+      "sector": "炼化及贸",
+      "changePct": 9.99281120300293
     },
     {
-      "code": "600261",
-      "name": "阳光照明",
+      "code": "002310",
+      "name": "东方新能",
       "boards": 2,
-      "sector": "照明设备",
+      "sector": "电力",
+      "changePct": 9.913793563842773
+    },
+    {
+      "code": "002712",
+      "name": "思美传媒",
+      "boards": 2,
+      "sector": "广告营销",
+      "changePct": 10.067113876342773
+    },
+    {
+      "code": "002889",
+      "name": "东方嘉盛",
+      "boards": 2,
+      "sector": "物流",
+      "changePct": 9.993292808532715
+    },
+    {
+      "code": "600278",
+      "name": "东方创业",
+      "boards": 2,
+      "sector": "贸易Ⅱ",
+      "changePct": 9.971909523010254
+    },
+    {
+      "code": "600327",
+      "name": "大东方",
+      "boards": 2,
+      "sector": "一般零售",
       "changePct": 9.979633331298828
     },
     {
-      "code": "605339",
-      "name": "南侨食品",
+      "code": "601188",
+      "name": "龙江交通",
       "boards": 2,
-      "sector": "休闲食品",
-      "changePct": 10.027854919433594
+      "sector": "铁路公路",
+      "changePct": 9.973752975463867
+    },
+    {
+      "code": "603366",
+      "name": "日出东方",
+      "boards": 2,
+      "sector": "厨卫电器",
+      "changePct": 10.011122703552246
     }
   ],
   "errors": []
