@@ -1,67 +1,63 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "tradingDate": "2026-11-09",
-  "generatedAt": "2026-11-09T02:54:39.290Z",
+  "generatedAt": "2026-11-09T18:49:33.013Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-09",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
   "breadthCounted": 5927,
-  "unpriced": 351,
+  "unpriced": 352,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3666.66,
-      "change": 17.48,
-      "changePct": 0.48
+      "price": 3660.79,
+      "change": 11.61,
+      "changePct": 0.32
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11210.1,
-      "change": 34.32,
-      "changePct": 0.31
+      "price": 11145.49,
+      "change": -30.29,
+      "changePct": -0.27
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2478.06,
-      "change": 12.83,
-      "changePct": 0.52
+      "price": 2458.56,
+      "change": -6.67,
+      "changePct": -0.27
     }
   ],
   "total": 5927,
-  "up": 2847,
-  "down": 2473,
-  "flat": 256,
-  "netInflow": 18612537045,
-  "netInflowCount": 5576,
+  "up": 2242,
+  "down": 3148,
+  "flat": 185,
+  "netInflow": 12881233697,
+  "netInflowCount": 5573,
   "netInflowComplete": false,
-  "limitUpCount": 51,
+  "limitUpCount": 54,
   "downLimitCount": 0,
-  "topSector": "汽车零部",
-  "topSectorCount": 4,
+  "topSector": "通用设备",
+  "topSectorCount": 5,
   "sectorLimitUps": [
     {
-      "sector": "汽车零部",
-      "count": 4
-    },
-    {
-      "sector": "通信设备",
-      "count": 4
-    },
-    {
       "sector": "通用设备",
-      "count": 3
+      "count": 5
     },
     {
-      "sector": "光学光电",
-      "count": 2
+      "sector": "汽车零部",
+      "count": 5
     },
     {
       "sector": "元件",
+      "count": 3
+    },
+    {
+      "sector": "一般零售",
       "count": 2
     },
     {
@@ -77,11 +73,23 @@
       "count": 2
     },
     {
+      "sector": "通信设备",
+      "count": 2
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "游戏Ⅱ",
+      "count": 2
+    },
+    {
       "sector": "工业金属",
       "count": 1
     },
     {
-      "sector": "其他电子",
+      "sector": "农化制品",
       "count": 1
     },
     {
@@ -93,19 +101,11 @@
       "count": 1
     },
     {
-      "sector": "广告营销",
-      "count": 1
-    },
-    {
       "sector": "物流",
       "count": 1
     },
     {
       "sector": "贸易Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "一般零售",
       "count": 1
     },
     {
@@ -118,6 +118,10 @@
     },
     {
       "sector": "饰品",
+      "count": 1
+    },
+    {
+      "sector": "工程机械",
       "count": 1
     },
     {
@@ -141,10 +145,6 @@
       "count": 1
     },
     {
-      "sector": "小家电",
-      "count": 1
-    },
-    {
       "sector": "包装印刷",
       "count": 1
     },
@@ -161,11 +161,11 @@
       "count": 1
     },
     {
-      "sector": "光伏设备",
+      "sector": "中药Ⅱ",
       "count": 1
     },
     {
-      "sector": "消费电子",
+      "sector": "装修建材",
       "count": 1
     },
     {
@@ -173,19 +173,7 @@
       "count": 1
     },
     {
-      "sector": "航天装备",
-      "count": 1
-    },
-    {
       "sector": "煤炭开采",
-      "count": 1
-    },
-    {
-      "sector": "焦炭Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "游戏Ⅱ",
       "count": 1
     },
     {
@@ -193,7 +181,15 @@
       "count": 1
     },
     {
-      "sector": "专业工程",
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "塑料",
       "count": 1
     }
   ],
@@ -206,18 +202,11 @@
       "changePct": 9.980039596557617
     },
     {
-      "code": "002388",
-      "name": "新亚制程",
-      "boards": 4,
-      "sector": "其他电子",
-      "changePct": 10.044978141784668
-    },
-    {
-      "code": "001308",
-      "name": "康冠科技",
+      "code": "000525",
+      "name": "红太阳",
       "boards": 2,
-      "sector": "光学光电",
-      "changePct": 9.980897903442383
+      "sector": "农化制品",
+      "changePct": 9.960159301757812
     },
     {
       "code": "001316",
@@ -232,13 +221,6 @@
       "boards": 2,
       "sector": "电力",
       "changePct": 9.913793563842773
-    },
-    {
-      "code": "002712",
-      "name": "思美传媒",
-      "boards": 2,
-      "sector": "广告营销",
-      "changePct": 10.067113876342773
     },
     {
       "code": "002889",
