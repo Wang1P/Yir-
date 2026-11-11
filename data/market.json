@@ -1,59 +1,71 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "tradingDate": "2026-11-11",
-  "generatedAt": "2026-11-11T02:56:27.705Z",
+  "generatedAt": "2026-11-11T16:11:44.781Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-11",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5928,
-  "unpriced": 352,
+  "breadthComplete": false,
+  "breadthCounted": 1900,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3653.47,
-      "change": -10.25,
-      "changePct": -0.28
+      "price": 3680.64,
+      "change": 16.92,
+      "changePct": 0.46
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 11201.25,
-      "change": -40.29,
-      "changePct": -0.36
+      "price": 11389.74,
+      "change": 148.2,
+      "changePct": 1.32
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2499.15,
-      "change": 4.75,
-      "changePct": 0.19
+      "price": 2572.07,
+      "change": 77.67,
+      "changePct": 3.11
     }
   ],
   "total": 5928,
-  "up": 2326,
-  "down": 3013,
-  "flat": 237,
-  "netInflow": -15427881464,
-  "netInflowCount": 5576,
-  "netInflowComplete": false,
-  "limitUpCount": 44,
+  "up": 1900,
+  "down": 0,
+  "flat": 0,
+  "netInflow": 54204053663,
+  "netInflowCount": 1900,
+  "netInflowComplete": true,
+  "limitUpCount": 85,
   "downLimitCount": 0,
   "topSector": "汽车零部",
-  "topSectorCount": 5,
+  "topSectorCount": 10,
   "sectorLimitUps": [
     {
       "sector": "汽车零部",
-      "count": 5
+      "count": 10
     },
     {
       "sector": "通用设备",
-      "count": 5
+      "count": 8
     },
     {
       "sector": "专用设备",
+      "count": 7
+    },
+    {
+      "sector": "通信设备",
+      "count": 7
+    },
+    {
+      "sector": "元件",
+      "count": 5
+    },
+    {
+      "sector": "游戏Ⅱ",
       "count": 4
     },
     {
@@ -61,15 +73,35 @@
       "count": 3
     },
     {
-      "sector": "通信设备",
+      "sector": "燃气Ⅱ",
       "count": 3
     },
     {
-      "sector": "游戏Ⅱ",
+      "sector": "塑料",
+      "count": 3
+    },
+    {
+      "sector": "消费电子",
+      "count": 2
+    },
+    {
+      "sector": "数字媒体",
+      "count": 2
+    },
+    {
+      "sector": "化学原料",
+      "count": 2
+    },
+    {
+      "sector": "自动化设",
       "count": 2
     },
     {
       "sector": "玻璃玻纤",
+      "count": 2
+    },
+    {
+      "sector": "半导体",
       "count": 2
     },
     {
@@ -81,15 +113,15 @@
       "count": 1
     },
     {
+      "sector": "计算机设",
+      "count": 1
+    },
+    {
       "sector": "工业金属",
       "count": 1
     },
     {
-      "sector": "消费电子",
-      "count": 1
-    },
-    {
-      "sector": "数字媒体",
+      "sector": "影视院线",
       "count": 1
     },
     {
@@ -101,15 +133,7 @@
       "count": 1
     },
     {
-      "sector": "化学原料",
-      "count": 1
-    },
-    {
       "sector": "电力",
-      "count": 1
-    },
-    {
-      "sector": "燃气Ⅱ",
       "count": 1
     },
     {
@@ -118,6 +142,10 @@
     },
     {
       "sector": "普钢",
+      "count": 1
+    },
+    {
+      "sector": "通信服务",
       "count": 1
     },
     {
@@ -137,11 +165,27 @@
       "count": 1
     },
     {
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "教育",
+      "count": 1
+    },
+    {
+      "sector": "出版",
+      "count": 1
+    },
+    {
       "sector": "包装印刷",
       "count": 1
     },
     {
       "sector": "造纸",
+      "count": 1
+    },
+    {
+      "sector": "房地产开",
       "count": 1
     },
     {
@@ -197,6 +241,27 @@
       "changePct": 10.175437927246094
     },
     {
+      "code": "603706",
+      "name": "东方环宇",
+      "boards": 3,
+      "sector": "燃气Ⅱ",
+      "changePct": 9.995497703552246
+    },
+    {
+      "code": "000678",
+      "name": "襄阳轴承",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 10.020769119262695
+    },
+    {
+      "code": "001339",
+      "name": "智微智能",
+      "boards": 2,
+      "sector": "计算机设",
+      "changePct": 10.001577377319336
+    },
+    {
       "code": "002160",
       "name": "常铝股份",
       "boards": 2,
@@ -232,6 +297,13 @@
       "changePct": 9.984639167785645
     },
     {
+      "code": "601595",
+      "name": "上海电影",
+      "boards": 2,
+      "sector": "影视院线",
+      "changePct": 10.007046699523926
+    },
+    {
       "code": "603466",
       "name": "风语筑",
       "boards": 2,
@@ -251,7 +323,16 @@
       "boards": 2,
       "sector": "汽车零部",
       "changePct": 10.00721263885498
+    },
+    {
+      "code": "605488",
+      "name": "福莱新材",
+      "boards": 2,
+      "sector": "塑料",
+      "changePct": 10
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 9: 502 Bad Gateway"
+  ]
 }
