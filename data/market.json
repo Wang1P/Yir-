@@ -1,23 +1,45 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "tradingDate": "2026-11-16",
-  "generatedAt": "2026-11-16T02:58:12.135Z",
+  "generatedAt": "2026-11-16T18:34:26.440Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-16",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 4929,
-  "unpriced": 355,
-  "indices": [],
+  "breadthCounted": 3200,
+  "unpriced": 354,
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "price": 3602.57,
+      "change": -31.78,
+      "changePct": -0.87
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "price": 10690.78,
+      "change": -278.01,
+      "changePct": -2.53
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "price": 2320.02,
+      "change": -106.06,
+      "changePct": -4.37
+    }
+  ],
   "total": 5929,
-  "up": 1316,
-  "down": 3087,
-  "flat": 171,
-  "netInflow": -15001292045,
-  "netInflowCount": 4574,
+  "up": 1136,
+  "down": 1615,
+  "flat": 95,
+  "netInflow": 1069498359,
+  "netInflowCount": 2843,
   "netInflowComplete": false,
-  "limitUpCount": 28,
+  "limitUpCount": 32,
   "downLimitCount": 0,
   "topSector": "一般零售",
   "topSectorCount": 3,
@@ -31,11 +53,15 @@
       "count": 3
     },
     {
-      "sector": "小家电",
-      "count": 3
+      "sector": "游戏Ⅱ",
+      "count": 2
     },
     {
       "sector": "电视广播",
+      "count": 2
+    },
+    {
+      "sector": "小家电",
       "count": 2
     },
     {
@@ -47,11 +73,15 @@
       "count": 1
     },
     {
-      "sector": "炼化及贸",
+      "sector": "水泥",
       "count": 1
     },
     {
-      "sector": "游戏Ⅱ",
+      "sector": "电力",
+      "count": 1
+    },
+    {
+      "sector": "炼化及贸",
       "count": 1
     },
     {
@@ -75,7 +105,11 @@
       "count": 1
     },
     {
-      "sector": "环保设备",
+      "sector": "电网设备",
+      "count": 1
+    },
+    {
+      "sector": "房屋建设",
       "count": 1
     },
     {
@@ -87,6 +121,10 @@
       "count": 1
     },
     {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
       "sector": "IT服务Ⅱ",
       "count": 1
     },
@@ -95,7 +133,7 @@
       "count": 1
     },
     {
-      "sector": "汽车零部",
+      "sector": "通信设备",
       "count": 1
     },
     {
@@ -117,6 +155,20 @@
       "boards": 3,
       "sector": "一般零售",
       "changePct": 10.043041229248047
+    },
+    {
+      "code": "002205",
+      "name": "国统股份",
+      "boards": 3,
+      "sector": "水泥",
+      "changePct": 9.976798057556152
+    },
+    {
+      "code": "000595",
+      "name": "新能股份",
+      "boards": 2,
+      "sector": "电力",
+      "changePct": 9.94575023651123
     },
     {
       "code": "000819",
@@ -159,10 +211,16 @@
       "boards": 2,
       "sector": "影视院线",
       "changePct": 10
+    },
+    {
+      "code": "600715",
+      "name": "文投控股",
+      "boards": 2,
+      "sector": "游戏Ⅱ",
+      "changePct": 10
     }
   ],
   "errors": [
-    "indices: 502 Bad Gateway",
-    "breadth: page 32: 502 Bad Gateway"
+    "breadth: page 33: 502 Bad Gateway"
   ]
 }
