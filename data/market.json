@@ -1,63 +1,71 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "tradingDate": "2026-11-18",
-  "generatedAt": "2026-11-18T04:39:37.327Z",
+  "generatedAt": "2026-11-18T17:16:16.609Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-18",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5931,
-  "unpriced": 358,
+  "breadthComplete": false,
+  "breadthCounted": 2400,
+  "unpriced": 355,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3570.21,
-      "change": -14.37,
-      "changePct": -0.4
+      "price": 3587.83,
+      "change": 3.25,
+      "changePct": 0.09
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10558.59,
-      "change": -79.93,
-      "changePct": -0.75
+      "price": 10659.41,
+      "change": 20.89,
+      "changePct": 0.2
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2278.82,
-      "change": -13.38,
-      "changePct": -0.58
+      "price": 2311.62,
+      "change": 19.42,
+      "changePct": 0.85
     }
   ],
   "total": 5931,
-  "up": 877,
-  "down": 4578,
-  "flat": 118,
-  "netInflow": -13425536279,
-  "netInflowCount": 5573,
+  "up": 1318,
+  "down": 602,
+  "flat": 125,
+  "netInflow": 23022570423,
+  "netInflowCount": 2042,
   "netInflowComplete": false,
-  "limitUpCount": 32,
+  "limitUpCount": 41,
   "downLimitCount": 0,
   "topSector": "IT服务Ⅱ",
-  "topSectorCount": 5,
+  "topSectorCount": 7,
   "sectorLimitUps": [
     {
       "sector": "IT服务Ⅱ",
+      "count": 7
+    },
+    {
+      "sector": "通信服务",
       "count": 5
+    },
+    {
+      "sector": "通用设备",
+      "count": 3
     },
     {
       "sector": "计算机设",
       "count": 3
     },
     {
-      "sector": "通信服务",
-      "count": 3
+      "sector": "纺织制造",
+      "count": 2
     },
     {
-      "sector": "白色家电",
+      "sector": "元件",
       "count": 2
     },
     {
@@ -74,10 +82,6 @@
     },
     {
       "sector": "环保设备",
-      "count": 1
-    },
-    {
-      "sector": "通用设备",
       "count": 1
     },
     {
@@ -105,23 +109,19 @@
       "count": 1
     },
     {
-      "sector": "纺织制造",
-      "count": 1
-    },
-    {
       "sector": "房地产开",
       "count": 1
     },
     {
-      "sector": "数字媒体",
+      "sector": "调味发酵",
+      "count": 1
+    },
+    {
+      "sector": "白色家电",
       "count": 1
     },
     {
       "sector": "其他电源",
-      "count": 1
-    },
-    {
-      "sector": "焦炭Ⅱ",
       "count": 1
     },
     {
@@ -135,6 +135,14 @@
     {
       "sector": "家电零部",
       "count": 1
+    },
+    {
+      "sector": "风电设备",
+      "count": 1
+    },
+    {
+      "sector": "专业服务",
+      "count": 1
     }
   ],
   "consecutiveLimitUps": [
@@ -144,13 +152,6 @@
       "boards": 4,
       "sector": "工程机械",
       "changePct": 10
-    },
-    {
-      "code": "000521",
-      "name": "长虹美菱",
-      "boards": 3,
-      "sector": "白色家电",
-      "changePct": 9.91561222076416
     },
     {
       "code": "000707",
@@ -165,6 +166,13 @@
       "boards": 2,
       "sector": "IT服务Ⅱ",
       "changePct": 10.016834259033203
+    },
+    {
+      "code": "002843",
+      "name": "泰嘉股份",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10.02538013458252
     },
     {
       "code": "301391",
@@ -195,5 +203,7 @@
       "changePct": 9.990394592285156
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 25: 502 Bad Gateway"
+  ]
 }
