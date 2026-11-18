@@ -1,91 +1,63 @@
 {
   "date": "2026-11-18",
-  "tradingDate": "2026-11-17",
-  "generatedAt": "2026-11-17T17:38:01.591Z",
+  "tradingDate": "2026-11-18",
+  "generatedAt": "2026-11-18T04:39:37.327Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-11-17",
+  "dataDate": "2026-11-18",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": true,
-  "breadthCounted": 5930,
-  "unpriced": 354,
+  "breadthCounted": 5931,
+  "unpriced": 358,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3584.58,
-      "change": -17.99,
-      "changePct": -0.5
+      "price": 3570.21,
+      "change": -14.37,
+      "changePct": -0.4
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10638.52,
-      "change": -52.26,
-      "changePct": -0.49
+      "price": 10558.59,
+      "change": -79.93,
+      "changePct": -0.75
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2292.2,
-      "change": -27.82,
-      "changePct": -1.2
+      "price": 2278.82,
+      "change": -13.38,
+      "changePct": -0.58
     }
   ],
-  "total": 5930,
-  "up": 1326,
-  "down": 4119,
-  "flat": 131,
-  "netInflow": -26303870748,
+  "total": 5931,
+  "up": 877,
+  "down": 4578,
+  "flat": 118,
+  "netInflow": -13425536279,
   "netInflowCount": 5573,
   "netInflowComplete": false,
-  "limitUpCount": 37,
+  "limitUpCount": 32,
   "downLimitCount": 0,
   "topSector": "IT服务Ⅱ",
-  "topSectorCount": 3,
+  "topSectorCount": 5,
   "sectorLimitUps": [
     {
       "sector": "IT服务Ⅱ",
-      "count": 3
-    },
-    {
-      "sector": "电子化学",
-      "count": 3
-    },
-    {
-      "sector": "环保设备",
-      "count": 3
-    },
-    {
-      "sector": "电网设备",
-      "count": 2
-    },
-    {
-      "sector": "消费电子",
-      "count": 2
-    },
-    {
-      "sector": "小家电",
-      "count": 2
-    },
-    {
-      "sector": "化学原料",
-      "count": 2
-    },
-    {
-      "sector": "化学制品",
-      "count": 2
-    },
-    {
-      "sector": "通用设备",
-      "count": 2
+      "count": 5
     },
     {
       "sector": "计算机设",
-      "count": 2
+      "count": 3
     },
     {
-      "sector": "光学光电",
+      "sector": "通信服务",
+      "count": 3
+    },
+    {
+      "sector": "白色家电",
       "count": 2
     },
     {
@@ -93,39 +65,7 @@
       "count": 1
     },
     {
-      "sector": "白色家电",
-      "count": 1
-    },
-    {
-      "sector": "专用设备",
-      "count": 1
-    },
-    {
-      "sector": "装修建材",
-      "count": 1
-    },
-    {
-      "sector": "物流",
-      "count": 1
-    },
-    {
-      "sector": "半导体",
-      "count": 1
-    },
-    {
-      "sector": "照明设备",
-      "count": 1
-    },
-    {
-      "sector": "渔业",
-      "count": 1
-    },
-    {
-      "sector": "家电零部",
-      "count": 1
-    },
-    {
-      "sector": "综合Ⅱ",
+      "sector": "化学原料",
       "count": 1
     },
     {
@@ -133,7 +73,67 @@
       "count": 1
     },
     {
-      "sector": "通信服务",
+      "sector": "环保设备",
+      "count": 1
+    },
+    {
+      "sector": "通用设备",
+      "count": 1
+    },
+    {
+      "sector": "环境治理",
+      "count": 1
+    },
+    {
+      "sector": "汽车零部",
+      "count": 1
+    },
+    {
+      "sector": "通信设备",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
+      "count": 1
+    },
+    {
+      "sector": "光学光电",
+      "count": 1
+    },
+    {
+      "sector": "其他电子",
+      "count": 1
+    },
+    {
+      "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "房地产开",
+      "count": 1
+    },
+    {
+      "sector": "数字媒体",
+      "count": 1
+    },
+    {
+      "sector": "其他电源",
+      "count": 1
+    },
+    {
+      "sector": "焦炭Ⅱ",
+      "count": 1
+    },
+    {
+      "sector": "黑色家电",
+      "count": 1
+    },
+    {
+      "sector": "消费电子",
+      "count": 1
+    },
+    {
+      "sector": "家电零部",
       "count": 1
     }
   ],
@@ -141,44 +141,58 @@
     {
       "code": "002685",
       "name": "华东重机",
-      "boards": 3,
+      "boards": 4,
       "sector": "工程机械",
-      "changePct": 10.016420364379883
+      "changePct": 10
     },
     {
       "code": "000521",
       "name": "长虹美菱",
-      "boards": 2,
+      "boards": 3,
       "sector": "白色家电",
-      "changePct": 9.976798057556152
+      "changePct": 9.91561222076416
     },
     {
-      "code": "000533",
-      "name": "顺钠股份",
+      "code": "000707",
+      "name": "双环科技",
       "boards": 2,
-      "sector": "电网设备",
-      "changePct": 9.979633331298828
+      "sector": "化学原料",
+      "changePct": 10.0217866897583
     },
     {
-      "code": "002861",
-      "name": "瀛通通讯",
-      "boards": 2,
-      "sector": "消费电子",
-      "changePct": 10
-    },
-    {
-      "code": "002959",
-      "name": "小熊电器",
-      "boards": 2,
-      "sector": "小家电",
-      "changePct": 10.008271217346191
-    },
-    {
-      "code": "600936",
-      "name": "北投科技",
+      "code": "002771",
+      "name": "真视通",
       "boards": 2,
       "sector": "IT服务Ⅱ",
-      "changePct": 9.950248718261719
+      "changePct": 10.016834259033203
+    },
+    {
+      "code": "301391",
+      "name": "卡莱特",
+      "boards": 2,
+      "sector": "计算机设",
+      "changePct": 20.01028823852539
+    },
+    {
+      "code": "600410",
+      "name": "华胜天成",
+      "boards": 2,
+      "sector": "IT服务Ⅱ",
+      "changePct": 10.006540298461914
+    },
+    {
+      "code": "603030",
+      "name": "全筑股份",
+      "boards": 2,
+      "sector": "装修装饰",
+      "changePct": 9.793814659118652
+    },
+    {
+      "code": "603324",
+      "name": "盛剑科技",
+      "boards": 2,
+      "sector": "环保设备",
+      "changePct": 9.990394592285156
     }
   ],
   "errors": []

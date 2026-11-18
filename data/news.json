@@ -1,11 +1,16 @@
 {
   "date": "2026-11-18",
-  "dataDate": "",
-  "generatedAt": "2026-11-17T17:38:01.248Z",
-  "source": "fallback",
+  "dataDate": "2026-11-17",
+  "generatedAt": "2026-11-18T04:39:36.527Z",
+  "sourceCreated": "2026/11/17 05:31",
+  "sourceCreatedAt": 1794864699630,
+  "sourceUpdated": "2026/11/17 05:31",
+  "sourceUpdatedAt": 1794864699630,
+  "apiUpdated": "2026/11/18 12:23:33",
+  "apiUpdatedAt": 1794975813099,
+  "source": "60秒读懂世界",
   "stale": true,
+  "message": "新闻源尚未更新到 2026-11-18，未展示旧新闻。上一期为 2026-11-17。",
   "news": [],
-  "financeSignals": [],
-  "error": "429 Too Many Requests",
-  "message": "实时新闻获取失败，未写入旧新闻。"
+  "financeSignals": []
 }
