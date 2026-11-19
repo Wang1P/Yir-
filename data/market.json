@@ -1,79 +1,63 @@
 {
   "date": "2026-11-19",
-  "tradingDate": "2026-11-18",
-  "generatedAt": "2026-11-18T17:16:16.609Z",
+  "tradingDate": "2026-11-19",
+  "generatedAt": "2026-11-19T04:25:24.561Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-11-18",
+  "dataDate": "2026-11-19",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 2400,
-  "unpriced": 355,
+  "breadthCounted": 2900,
+  "unpriced": 358,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3587.83,
-      "change": 3.25,
-      "changePct": 0.09
+      "price": 3571.99,
+      "change": -15.84,
+      "changePct": -0.44
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10659.41,
-      "change": 20.89,
-      "changePct": 0.2
+      "price": 10604.52,
+      "change": -54.89,
+      "changePct": -0.51
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2311.62,
-      "change": 19.42,
-      "changePct": 0.85
+      "price": 2297.02,
+      "change": -14.6,
+      "changePct": -0.63
     }
   ],
   "total": 5931,
-  "up": 1318,
-  "down": 602,
-  "flat": 125,
-  "netInflow": 23022570423,
-  "netInflowCount": 2042,
+  "up": 890,
+  "down": 1561,
+  "flat": 91,
+  "netInflow": -82290024,
+  "netInflowCount": 2542,
   "netInflowComplete": false,
-  "limitUpCount": 41,
+  "limitUpCount": 20,
   "downLimitCount": 0,
-  "topSector": "IT服务Ⅱ",
-  "topSectorCount": 7,
+  "topSector": "半导体",
+  "topSectorCount": 4,
   "sectorLimitUps": [
     {
+      "sector": "半导体",
+      "count": 4
+    },
+    {
+      "sector": "家电零部",
+      "count": 2
+    },
+    {
+      "sector": "专业工程",
+      "count": 2
+    },
+    {
       "sector": "IT服务Ⅱ",
-      "count": 7
-    },
-    {
-      "sector": "通信服务",
-      "count": 5
-    },
-    {
-      "sector": "通用设备",
-      "count": 3
-    },
-    {
-      "sector": "计算机设",
-      "count": 3
-    },
-    {
-      "sector": "纺织制造",
-      "count": 2
-    },
-    {
-      "sector": "元件",
-      "count": 2
-    },
-    {
-      "sector": "工程机械",
-      "count": 1
-    },
-    {
-      "sector": "化学原料",
       "count": 1
     },
     {
@@ -85,27 +69,11 @@
       "count": 1
     },
     {
-      "sector": "环境治理",
+      "sector": "通信服务",
       "count": 1
     },
     {
-      "sector": "汽车零部",
-      "count": 1
-    },
-    {
-      "sector": "通信设备",
-      "count": 1
-    },
-    {
-      "sector": "小家电",
-      "count": 1
-    },
-    {
-      "sector": "光学光电",
-      "count": 1
-    },
-    {
-      "sector": "其他电子",
+      "sector": "纺织制造",
       "count": 1
     },
     {
@@ -113,97 +81,68 @@
       "count": 1
     },
     {
-      "sector": "调味发酵",
+      "sector": "化学制品",
       "count": 1
     },
     {
-      "sector": "白色家电",
+      "sector": "综合Ⅱ",
       "count": 1
     },
     {
-      "sector": "其他电源",
+      "sector": "元件",
       "count": 1
     },
     {
-      "sector": "黑色家电",
+      "sector": "电网设备",
       "count": 1
     },
     {
-      "sector": "消费电子",
+      "sector": "物流",
       "count": 1
     },
     {
-      "sector": "家电零部",
-      "count": 1
-    },
-    {
-      "sector": "风电设备",
-      "count": 1
-    },
-    {
-      "sector": "专业服务",
+      "sector": "电子化学",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "002685",
-      "name": "华东重机",
-      "boards": 4,
-      "sector": "工程机械",
-      "changePct": 10
-    },
-    {
-      "code": "000707",
-      "name": "双环科技",
-      "boards": 2,
-      "sector": "化学原料",
-      "changePct": 10.0217866897583
-    },
-    {
       "code": "002771",
       "name": "真视通",
-      "boards": 2,
+      "boards": 3,
       "sector": "IT服务Ⅱ",
-      "changePct": 10.016834259033203
-    },
-    {
-      "code": "002843",
-      "name": "泰嘉股份",
-      "boards": 2,
-      "sector": "通用设备",
-      "changePct": 10.02538013458252
-    },
-    {
-      "code": "301391",
-      "name": "卡莱特",
-      "boards": 2,
-      "sector": "计算机设",
-      "changePct": 20.01028823852539
-    },
-    {
-      "code": "600410",
-      "name": "华胜天成",
-      "boards": 2,
-      "sector": "IT服务Ⅱ",
-      "changePct": 10.006540298461914
+      "changePct": 10.022953033447266
     },
     {
       "code": "603030",
       "name": "全筑股份",
-      "boards": 2,
+      "boards": 3,
       "sector": "装修装饰",
-      "changePct": 9.793814659118652
+      "changePct": 9.85915470123291
     },
     {
       "code": "603324",
       "name": "盛剑科技",
-      "boards": 2,
+      "boards": 3,
       "sector": "环保设备",
-      "changePct": 9.990394592285156
+      "changePct": 10
+    },
+    {
+      "code": "000889",
+      "name": "中嘉博创",
+      "boards": 2,
+      "sector": "通信服务",
+      "changePct": 10.059171676635742
+    },
+    {
+      "code": "600156",
+      "name": "华升股份",
+      "boards": 2,
+      "sector": "纺织制造",
+      "changePct": 10.012360572814941
     }
   ],
   "errors": [
-    "breadth: page 25: 502 Bad Gateway"
+    "breadth: page 30: 502 Bad Gateway"
   ]
 }
