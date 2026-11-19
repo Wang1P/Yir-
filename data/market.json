@@ -1,59 +1,63 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "tradingDate": "2026-11-19",
-  "generatedAt": "2026-11-19T04:25:24.561Z",
+  "generatedAt": "2026-11-19T17:23:03.843Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-19",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 2900,
-  "unpriced": 358,
+  "breadthCounted": 2400,
+  "unpriced": 355,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3571.99,
-      "change": -15.84,
-      "changePct": -0.44
+      "price": 3577.62,
+      "change": -10.21,
+      "changePct": -0.28
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10604.52,
-      "change": -54.89,
-      "changePct": -0.51
+      "price": 10583.2,
+      "change": -76.21,
+      "changePct": -0.71
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2297.02,
-      "change": -14.6,
-      "changePct": -0.63
+      "price": 2293.34,
+      "change": -18.28,
+      "changePct": -0.79
     }
   ],
   "total": 5931,
-  "up": 890,
-  "down": 1561,
-  "flat": 91,
-  "netInflow": -82290024,
-  "netInflowCount": 2542,
+  "up": 649,
+  "down": 1345,
+  "flat": 51,
+  "netInflow": 1405913106,
+  "netInflowCount": 2042,
   "netInflowComplete": false,
-  "limitUpCount": 20,
+  "limitUpCount": 23,
   "downLimitCount": 0,
   "topSector": "半导体",
-  "topSectorCount": 4,
+  "topSectorCount": 3,
   "sectorLimitUps": [
     {
       "sector": "半导体",
-      "count": 4
+      "count": 3
+    },
+    {
+      "sector": "化学制品",
+      "count": 2
     },
     {
       "sector": "家电零部",
       "count": 2
     },
     {
-      "sector": "专业工程",
+      "sector": "电子化学",
       "count": 2
     },
     {
@@ -69,7 +73,7 @@
       "count": 1
     },
     {
-      "sector": "通信服务",
+      "sector": "环境治理",
       "count": 1
     },
     {
@@ -81,7 +85,11 @@
       "count": 1
     },
     {
-      "sector": "化学制品",
+      "sector": "汽车零部",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
       "count": 1
     },
     {
@@ -101,7 +109,11 @@
       "count": 1
     },
     {
-      "sector": "电子化学",
+      "sector": "塑料",
+      "count": 1
+    },
+    {
+      "sector": "专业工程",
       "count": 1
     }
   ],
@@ -128,11 +140,11 @@
       "changePct": 10
     },
     {
-      "code": "000889",
-      "name": "中嘉博创",
+      "code": "000711",
+      "name": "京蓝科技",
       "boards": 2,
-      "sector": "通信服务",
-      "changePct": 10.059171676635742
+      "sector": "环境治理",
+      "changePct": 10.05747127532959
     },
     {
       "code": "600156",
@@ -143,6 +155,6 @@
     }
   ],
   "errors": [
-    "breadth: page 30: 502 Bad Gateway"
+    "breadth: page 25: 502 Bad Gateway"
   ]
 }
