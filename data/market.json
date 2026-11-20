@@ -1,43 +1,43 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "tradingDate": "2026-11-20",
-  "generatedAt": "2026-11-20T04:12:10.706Z",
+  "generatedAt": "2026-11-20T16:58:29.678Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-20",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
-  "breadthComplete": true,
-  "breadthCounted": 5931,
-  "unpriced": 359,
+  "breadthComplete": false,
+  "breadthCounted": 3900,
+  "unpriced": 356,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3521.4,
-      "change": -56.22,
-      "changePct": -1.57
+      "price": 3533.79,
+      "change": -43.83,
+      "changePct": -1.23
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10365.76,
-      "change": -217.44,
-      "changePct": -2.05
+      "price": 10256.39,
+      "change": -326.81,
+      "changePct": -3.09
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2245.61,
-      "change": -47.73,
-      "changePct": -2.08
+      "price": 2212.13,
+      "change": -81.21,
+      "changePct": -3.54
     }
   ],
   "total": 5931,
-  "up": 690,
-  "down": 4808,
-  "flat": 74,
-  "netInflow": -29593405994,
-  "netInflowCount": 5572,
+  "up": 313,
+  "down": 3205,
+  "flat": 26,
+  "netInflow": -16207768947,
+  "netInflowCount": 3541,
   "netInflowComplete": false,
   "limitUpCount": 28,
   "downLimitCount": 0,
@@ -65,19 +65,23 @@
       "count": 2
     },
     {
+      "sector": "环保设备",
+      "count": 1
+    },
+    {
+      "sector": "通用设备",
+      "count": 1
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 1
+    },
+    {
       "sector": "广告营销",
       "count": 1
     },
     {
       "sector": "农产品加",
-      "count": 1
-    },
-    {
-      "sector": "通信服务",
-      "count": 1
-    },
-    {
-      "sector": "文娱用品",
       "count": 1
     },
     {
@@ -113,10 +117,6 @@
       "count": 1
     },
     {
-      "sector": "专用设备",
-      "count": 1
-    },
-    {
       "sector": "出版",
       "count": 1
     }
@@ -130,6 +130,13 @@
       "changePct": 10.013908386230469
     },
     {
+      "code": "603324",
+      "name": "盛剑科技",
+      "boards": 4,
+      "sector": "环保设备",
+      "changePct": 10.0039701461792
+    },
+    {
       "code": "002579",
       "name": "中京电子",
       "boards": 2,
@@ -137,5 +144,7 @@
       "changePct": 10.024651527404785
     }
   ],
-  "errors": []
+  "errors": [
+    "breadth: page 40: 502 Bad Gateway"
+  ]
 }
