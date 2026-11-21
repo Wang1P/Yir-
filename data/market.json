@@ -1,13 +1,13 @@
 {
   "date": "2026-11-21",
   "tradingDate": "2026-11-20",
-  "generatedAt": "2026-11-20T16:58:29.678Z",
+  "generatedAt": "2026-11-21T04:13:08.941Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-20",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 3900,
+  "breadthCounted": 2300,
   "unpriced": 356,
   "indices": [
     {
@@ -34,10 +34,10 @@
   ],
   "total": 5931,
   "up": 313,
-  "down": 3205,
+  "down": 1605,
   "flat": 26,
-  "netInflow": -16207768947,
-  "netInflowCount": 3541,
+  "netInflow": -2566831644,
+  "netInflowCount": 1941,
   "netInflowComplete": false,
   "limitUpCount": 28,
   "downLimitCount": 0,
@@ -145,6 +145,6 @@
     }
   ],
   "errors": [
-    "breadth: page 40: 502 Bad Gateway"
+    "breadth: page 24: 502 Bad Gateway"
   ]
 }
