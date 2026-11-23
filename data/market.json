@@ -1,95 +1,155 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "tradingDate": "2026-11-23",
-  "generatedAt": "2026-11-23T03:55:13.541Z",
+  "generatedAt": "2026-11-23T20:15:25.797Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-23",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 2900,
-  "unpriced": 361,
+  "breadthCounted": 2500,
+  "unpriced": 0,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3499.91,
-      "change": -33.88,
-      "changePct": -0.96
+      "price": 3538.95,
+      "change": 5.16,
+      "changePct": 0.15
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10280.58,
-      "change": 24.19,
-      "changePct": 0.24
+      "price": 10454.37,
+      "change": 197.98,
+      "changePct": 1.93
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2239.11,
-      "change": 26.98,
-      "changePct": 1.22
+      "price": 2280.2,
+      "change": 68.07,
+      "changePct": 3.08
     }
   ],
   "total": 5931,
-  "up": 1717,
-  "down": 732,
-  "flat": 90,
-  "netInflow": 8255384010,
-  "netInflowCount": 2539,
-  "netInflowComplete": false,
-  "limitUpCount": 60,
+  "up": 2500,
+  "down": 0,
+  "flat": 0,
+  "netInflow": 32708757157,
+  "netInflowCount": 2500,
+  "netInflowComplete": true,
+  "limitUpCount": 146,
   "downLimitCount": 0,
   "topSector": "汽车零部",
-  "topSectorCount": 9,
+  "topSectorCount": 23,
   "sectorLimitUps": [
     {
       "sector": "汽车零部",
-      "count": 9
-    },
-    {
-      "sector": "元件",
-      "count": 5
+      "count": 23
     },
     {
       "sector": "通用设备",
+      "count": 15
+    },
+    {
+      "sector": "元件",
+      "count": 7
+    },
+    {
+      "sector": "专用设备",
+      "count": 7
+    },
+    {
+      "sector": "自动化设",
+      "count": 6
+    },
+    {
+      "sector": "IT服务Ⅱ",
       "count": 5
     },
     {
       "sector": "化学制品",
-      "count": 4
+      "count": 5
     },
     {
       "sector": "计算机设",
       "count": 4
     },
     {
+      "sector": "影视院线",
+      "count": 4
+    },
+    {
+      "sector": "电机Ⅱ",
+      "count": 4
+    },
+    {
+      "sector": "塑料",
+      "count": 4
+    },
+    {
+      "sector": "燃气Ⅱ",
+      "count": 3
+    },
+    {
+      "sector": "饲料",
+      "count": 3
+    },
+    {
+      "sector": "一般零售",
+      "count": 3
+    },
+    {
+      "sector": "环境治理",
+      "count": 3
+    },
+    {
       "sector": "光学光电",
       "count": 3
     },
     {
-      "sector": "IT服务Ⅱ",
-      "count": 2
-    },
-    {
-      "sector": "环境治理",
-      "count": 2
-    },
-    {
       "sector": "消费电子",
+      "count": 3
+    },
+    {
+      "sector": "医疗服务",
+      "count": 3
+    },
+    {
+      "sector": "数字媒体",
       "count": 2
     },
     {
-      "sector": "影视院线",
+      "sector": "出版",
       "count": 2
     },
     {
-      "sector": "塑料",
+      "sector": "化学制药",
       "count": 2
     },
     {
-      "sector": "燃气Ⅱ",
+      "sector": "照明设备",
+      "count": 2
+    },
+    {
+      "sector": "服装家纺",
+      "count": 2
+    },
+    {
+      "sector": "家电零部",
+      "count": 2
+    },
+    {
+      "sector": "纺织制造",
+      "count": 2
+    },
+    {
+      "sector": "半导体",
+      "count": 2
+    },
+    {
+      "sector": "环保设备",
       "count": 1
     },
     {
@@ -97,7 +157,7 @@
       "count": 1
     },
     {
-      "sector": "数字媒体",
+      "sector": "渔业",
       "count": 1
     },
     {
@@ -113,7 +173,7 @@
       "count": 1
     },
     {
-      "sector": "医疗服务",
+      "sector": "通信服务",
       "count": 1
     },
     {
@@ -125,7 +185,15 @@
       "count": 1
     },
     {
+      "sector": "包装印刷",
+      "count": 1
+    },
+    {
       "sector": "电子化学",
+      "count": 1
+    },
+    {
+      "sector": "光伏设备",
       "count": 1
     },
     {
@@ -133,7 +201,19 @@
       "count": 1
     },
     {
-      "sector": "照明设备",
+      "sector": "教育",
+      "count": 1
+    },
+    {
+      "sector": "摩托车及",
+      "count": 1
+    },
+    {
+      "sector": "文娱用品",
+      "count": 1
+    },
+    {
+      "sector": "装修建材",
       "count": 1
     },
     {
@@ -149,7 +229,7 @@
       "count": 1
     },
     {
-      "sector": "纺织制造",
+      "sector": "通信设备",
       "count": 1
     },
     {
@@ -157,25 +237,46 @@
       "count": 1
     },
     {
-      "sector": "自动化设",
-      "count": 1
-    },
-    {
-      "sector": "半导体",
+      "sector": "广告营销",
       "count": 1
     },
     {
       "sector": "装修装饰",
       "count": 1
+    },
+    {
+      "sector": "电网设备",
+      "count": 1
     }
   ],
   "consecutiveLimitUps": [
+    {
+      "code": "002771",
+      "name": "真视通",
+      "boards": 5,
+      "sector": "IT服务Ⅱ",
+      "changePct": 9.987358093261719
+    },
+    {
+      "code": "603324",
+      "name": "盛剑科技",
+      "boards": 5,
+      "sector": "环保设备",
+      "changePct": 9.996391296386719
+    },
     {
       "code": "002579",
       "name": "中京电子",
       "boards": 3,
       "sector": "元件",
       "changePct": 10.007468223571777
+    },
+    {
+      "code": "000530",
+      "name": "冰山冷热",
+      "boards": 2,
+      "sector": "通用设备",
+      "changePct": 10.008136749267578
     },
     {
       "code": "000593",
@@ -199,6 +300,13 @@
       "changePct": 10.052909851074219
     },
     {
+      "code": "002548",
+      "name": "金新农",
+      "boards": 2,
+      "sector": "饲料",
+      "changePct": 10.106383323669434
+    },
+    {
       "code": "002642",
       "name": "荣联科技",
       "boards": 2,
@@ -211,6 +319,20 @@
       "boards": 2,
       "sector": "数字媒体",
       "changePct": 19.996620178222656
+    },
+    {
+      "code": "600327",
+      "name": "大东方",
+      "boards": 2,
+      "sector": "一般零售",
+      "changePct": 9.937888145446777
+    },
+    {
+      "code": "600467",
+      "name": "好当家",
+      "boards": 2,
+      "sector": "渔业",
+      "changePct": 10.139860153198242
     },
     {
       "code": "603004",
@@ -232,9 +354,16 @@
       "boards": 2,
       "sector": "汽车零部",
       "changePct": 10.038986206054688
+    },
+    {
+      "code": "605577",
+      "name": "龙版传媒",
+      "boards": 2,
+      "sector": "出版",
+      "changePct": 10.006176948547363
     }
   ],
   "errors": [
-    "breadth: page 30: 502 Bad Gateway"
+    "breadth: page 26: 502 Bad Gateway"
   ]
 }
