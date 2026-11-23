@@ -1,83 +1,95 @@
 {
-  "date": "2026-11-22",
-  "tradingDate": "2026-11-20",
-  "generatedAt": "2026-11-22T03:24:08.753Z",
+  "date": "2026-11-23",
+  "tradingDate": "2026-11-23",
+  "generatedAt": "2026-11-23T03:55:13.541Z",
   "source": "GitHub Actions · 东方财富公开接口",
-  "dataDate": "2026-11-20",
+  "dataDate": "2026-11-23",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 2000,
-  "unpriced": 356,
+  "breadthCounted": 2900,
+  "unpriced": 361,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3533.79,
-      "change": -43.83,
-      "changePct": -1.23
+      "price": 3499.91,
+      "change": -33.88,
+      "changePct": -0.96
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10256.39,
-      "change": -326.81,
-      "changePct": -3.09
+      "price": 10280.58,
+      "change": 24.19,
+      "changePct": 0.24
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2212.13,
-      "change": -81.21,
-      "changePct": -3.54
+      "price": 2239.11,
+      "change": 26.98,
+      "changePct": 1.22
     }
   ],
   "total": 5931,
-  "up": 313,
-  "down": 1305,
-  "flat": 26,
-  "netInflow": -565045955,
-  "netInflowCount": 1641,
+  "up": 1717,
+  "down": 732,
+  "flat": 90,
+  "netInflow": 8255384010,
+  "netInflowCount": 2539,
   "netInflowComplete": false,
-  "limitUpCount": 28,
+  "limitUpCount": 60,
   "downLimitCount": 0,
-  "topSector": "元件",
-  "topSectorCount": 6,
+  "topSector": "汽车零部",
+  "topSectorCount": 9,
   "sectorLimitUps": [
     {
+      "sector": "汽车零部",
+      "count": 9
+    },
+    {
       "sector": "元件",
-      "count": 6
+      "count": 5
+    },
+    {
+      "sector": "通用设备",
+      "count": 5
+    },
+    {
+      "sector": "化学制品",
+      "count": 4
+    },
+    {
+      "sector": "计算机设",
+      "count": 4
+    },
+    {
+      "sector": "光学光电",
+      "count": 3
     },
     {
       "sector": "IT服务Ⅱ",
       "count": 2
     },
     {
-      "sector": "数字媒体",
+      "sector": "环境治理",
       "count": 2
     },
     {
-      "sector": "化学制品",
+      "sector": "消费电子",
       "count": 2
     },
     {
-      "sector": "汽车零部",
+      "sector": "影视院线",
       "count": 2
     },
     {
-      "sector": "环保设备",
-      "count": 1
-    },
-    {
-      "sector": "通用设备",
-      "count": 1
+      "sector": "塑料",
+      "count": 2
     },
     {
       "sector": "燃气Ⅱ",
-      "count": 1
-    },
-    {
-      "sector": "广告营销",
       "count": 1
     },
     {
@@ -85,7 +97,31 @@
       "count": 1
     },
     {
-      "sector": "饲料",
+      "sector": "数字媒体",
+      "count": 1
+    },
+    {
+      "sector": "饰品",
+      "count": 1
+    },
+    {
+      "sector": "炼化及贸",
+      "count": 1
+    },
+    {
+      "sector": "电池",
+      "count": 1
+    },
+    {
+      "sector": "医疗服务",
+      "count": 1
+    },
+    {
+      "sector": "小家电",
+      "count": 1
+    },
+    {
+      "sector": "军工电子",
       "count": 1
     },
     {
@@ -93,15 +129,35 @@
       "count": 1
     },
     {
-      "sector": "农化制品",
+      "sector": "工程机械",
       "count": 1
     },
     {
-      "sector": "消费电子",
+      "sector": "照明设备",
       "count": 1
     },
     {
-      "sector": "一般零售",
+      "sector": "家居用品",
+      "count": 1
+    },
+    {
+      "sector": "造纸",
+      "count": 1
+    },
+    {
+      "sector": "铁路公路",
+      "count": 1
+    },
+    {
+      "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "软件开发",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
       "count": 1
     },
     {
@@ -109,42 +165,76 @@
       "count": 1
     },
     {
-      "sector": "种植业",
-      "count": 1
-    },
-    {
-      "sector": "渔业",
-      "count": 1
-    },
-    {
-      "sector": "出版",
+      "sector": "装修装饰",
       "count": 1
     }
   ],
   "consecutiveLimitUps": [
     {
-      "code": "002771",
-      "name": "真视通",
-      "boards": 4,
-      "sector": "IT服务Ⅱ",
-      "changePct": 10.013908386230469
-    },
-    {
-      "code": "603324",
-      "name": "盛剑科技",
-      "boards": 4,
-      "sector": "环保设备",
-      "changePct": 10.0039701461792
-    },
-    {
       "code": "002579",
       "name": "中京电子",
+      "boards": 3,
+      "sector": "元件",
+      "changePct": 10.007468223571777
+    },
+    {
+      "code": "000593",
+      "name": "德龙汇能",
+      "boards": 2,
+      "sector": "燃气Ⅱ",
+      "changePct": 9.99428939819336
+    },
+    {
+      "code": "002086",
+      "name": "东方海洋",
+      "boards": 2,
+      "sector": "农产品加",
+      "changePct": 10.133333206176758
+    },
+    {
+      "code": "002199",
+      "name": "东晶电子",
       "boards": 2,
       "sector": "元件",
-      "changePct": 10.024651527404785
+      "changePct": 10.052909851074219
+    },
+    {
+      "code": "002642",
+      "name": "荣联科技",
+      "boards": 2,
+      "sector": "IT服务Ⅱ",
+      "changePct": 10.055096626281738
+    },
+    {
+      "code": "301313",
+      "name": "凡拓数创",
+      "boards": 2,
+      "sector": "数字媒体",
+      "changePct": 19.996620178222656
+    },
+    {
+      "code": "603004",
+      "name": "鼎龙科技",
+      "boards": 2,
+      "sector": "化学制品",
+      "changePct": 9.989023208618164
+    },
+    {
+      "code": "603960",
+      "name": "克来机电",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 10.021474838256836
+    },
+    {
+      "code": "605018",
+      "name": "长华集团",
+      "boards": 2,
+      "sector": "汽车零部",
+      "changePct": 10.038986206054688
     }
   ],
   "errors": [
-    "breadth: page 14: 502 Bad Gateway"
+    "breadth: page 30: 502 Bad Gateway"
   ]
 }
