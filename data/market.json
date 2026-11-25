@@ -1,71 +1,67 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "tradingDate": "2026-11-25",
-  "generatedAt": "2026-11-25T05:37:02.653Z",
+  "generatedAt": "2026-11-25T18:39:14.068Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-25",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 4900,
-  "unpriced": 361,
+  "breadthCounted": 2400,
+  "unpriced": 356,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3495.74,
-      "change": -52.63,
-      "changePct": -1.48
+      "price": 3476.47,
+      "change": -71.9,
+      "changePct": -2.03
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10191.44,
-      "change": -232.16,
-      "changePct": -2.23
+      "price": 10086.36,
+      "change": -337.24,
+      "changePct": -3.24
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2208.81,
-      "change": -70.18,
-      "changePct": -3.08
+      "price": 2183.58,
+      "change": -95.41,
+      "changePct": -4.19
     }
   ],
   "total": 5931,
-  "up": 1060,
-  "down": 3335,
-  "flat": 144,
-  "netInflow": -11528846701,
-  "netInflowCount": 4539,
+  "up": 586,
+  "down": 1395,
+  "flat": 63,
+  "netInflow": 2140723869,
+  "netInflowCount": 2042,
   "netInflowComplete": false,
-  "limitUpCount": 59,
+  "limitUpCount": 51,
   "downLimitCount": 0,
   "topSector": "化学制药",
-  "topSectorCount": 10,
+  "topSectorCount": 8,
   "sectorLimitUps": [
     {
       "sector": "化学制药",
-      "count": 10
+      "count": 8
     },
     {
       "sector": "一般零售",
-      "count": 7
-    },
-    {
-      "sector": "汽车零部",
       "count": 4
     },
     {
       "sector": "中药Ⅱ",
-      "count": 4
-    },
-    {
-      "sector": "纺织制造",
       "count": 3
     },
     {
       "sector": "饲料",
+      "count": 2
+    },
+    {
+      "sector": "汽车零部",
       "count": 2
     },
     {
@@ -77,11 +73,7 @@
       "count": 2
     },
     {
-      "sector": "装修装饰",
-      "count": 2
-    },
-    {
-      "sector": "燃气Ⅱ",
+      "sector": "农化制品",
       "count": 2
     },
     {
@@ -89,8 +81,20 @@
       "count": 2
     },
     {
-      "sector": "医药商业",
+      "sector": "纺织制造",
       "count": 2
+    },
+    {
+      "sector": "IT服务Ⅱ",
+      "count": 2
+    },
+    {
+      "sector": "出版",
+      "count": 2
+    },
+    {
+      "sector": "元件",
+      "count": 1
     },
     {
       "sector": "小家电",
@@ -105,7 +109,11 @@
       "count": 1
     },
     {
-      "sector": "农产品加",
+      "sector": "装修装饰",
+      "count": 1
+    },
+    {
+      "sector": "燃气Ⅱ",
       "count": 1
     },
     {
@@ -114,10 +122,6 @@
     },
     {
       "sector": "电力",
-      "count": 1
-    },
-    {
-      "sector": "教育",
       "count": 1
     },
     {
@@ -133,15 +137,15 @@
       "count": 1
     },
     {
+      "sector": "造纸",
+      "count": 1
+    },
+    {
       "sector": "化妆品",
       "count": 1
     },
     {
-      "sector": "出版",
-      "count": 1
-    },
-    {
-      "sector": "包装印刷",
+      "sector": "医药商业",
       "count": 1
     },
     {
@@ -149,11 +153,11 @@
       "count": 1
     },
     {
-      "sector": "环保设备",
+      "sector": "医疗服务",
       "count": 1
     },
     {
-      "sector": "IT服务Ⅱ",
+      "sector": "环保设备",
       "count": 1
     },
     {
@@ -162,6 +166,13 @@
     }
   ],
   "consecutiveLimitUps": [
+    {
+      "code": "002579",
+      "name": "中京电子",
+      "boards": 5,
+      "sector": "元件",
+      "changePct": 10
+    },
     {
       "code": "002548",
       "name": "金新农",
@@ -245,9 +256,16 @@
       "boards": 2,
       "sector": "装修装饰",
       "changePct": 10.126582145690918
+    },
+    {
+      "code": "603360",
+      "name": "百傲化学",
+      "boards": 2,
+      "sector": "农化制品",
+      "changePct": 10
     }
   ],
   "errors": [
-    "breadth: page 33: 502 Bad Gateway"
+    "breadth: page 25: 502 Bad Gateway"
   ]
 }
