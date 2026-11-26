@@ -1,55 +1,55 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "tradingDate": "2026-11-26",
-  "generatedAt": "2026-11-26T05:20:52.567Z",
+  "generatedAt": "2026-11-26T18:25:47.670Z",
   "source": "GitHub Actions · 东方财富公开接口",
   "dataDate": "2026-11-26",
   "dataScope": "沪深京A股",
   "breadthProvider": "东方财富延迟行情",
   "breadthComplete": false,
-  "breadthCounted": 3431,
-  "unpriced": 141,
+  "breadthCounted": 1600,
+  "unpriced": 16,
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "price": 3489.25,
-      "change": 12.78,
-      "changePct": 0.37
+      "price": 3476.88,
+      "change": 0.41,
+      "changePct": 0.01
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "price": 10156.84,
-      "change": 70.48,
-      "changePct": 0.7
+      "price": 10084.04,
+      "change": -2.32,
+      "changePct": -0.02
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "price": 2199.44,
-      "change": 15.86,
-      "changePct": 0.73
+      "price": 2189.82,
+      "change": 6.24,
+      "changePct": 0.29
     }
   ],
   "total": 5931,
-  "up": 2200,
-  "down": 1034,
-  "flat": 56,
-  "netInflow": 17705892326,
-  "netInflowCount": 3290,
+  "up": 1566,
+  "down": 0,
+  "flat": 18,
+  "netInflow": 25990626897,
+  "netInflowCount": 1582,
   "netInflowComplete": false,
-  "limitUpCount": 70,
+  "limitUpCount": 65,
   "downLimitCount": 0,
-  "topSector": "元件",
-  "topSectorCount": 7,
+  "topSector": "通用设备",
+  "topSectorCount": 5,
   "sectorLimitUps": [
     {
-      "sector": "元件",
-      "count": 7
+      "sector": "通用设备",
+      "count": 5
     },
     {
-      "sector": "通用设备",
+      "sector": "元件",
       "count": 5
     },
     {
@@ -61,15 +61,19 @@
       "count": 4
     },
     {
+      "sector": "农化制品",
+      "count": 4
+    },
+    {
+      "sector": "一般零售",
+      "count": 3
+    },
+    {
       "sector": "装修装饰",
       "count": 3
     },
     {
       "sector": "造纸",
-      "count": 3
-    },
-    {
-      "sector": "半导体",
       "count": 3
     },
     {
@@ -81,15 +85,15 @@
       "count": 2
     },
     {
-      "sector": "一般零售",
-      "count": 2
-    },
-    {
       "sector": "渔业",
       "count": 2
     },
     {
-      "sector": "农化制品",
+      "sector": "半导体",
+      "count": 2
+    },
+    {
+      "sector": "农产品加",
       "count": 2
     },
     {
@@ -105,14 +109,6 @@
       "count": 2
     },
     {
-      "sector": "自动化设",
-      "count": 2
-    },
-    {
-      "sector": "专用设备",
-      "count": 2
-    },
-    {
       "sector": "航空装备",
       "count": 1
     },
@@ -122,6 +118,14 @@
     },
     {
       "sector": "纺织制造",
+      "count": 1
+    },
+    {
+      "sector": "出版",
+      "count": 1
+    },
+    {
+      "sector": "环保设备",
       "count": 1
     },
     {
@@ -141,14 +145,6 @@
       "count": 1
     },
     {
-      "sector": "工程机械",
-      "count": 1
-    },
-    {
-      "sector": "小金属",
-      "count": 1
-    },
-    {
       "sector": "软件开发",
       "count": 1
     },
@@ -157,23 +153,15 @@
       "count": 1
     },
     {
-      "sector": "塑料",
-      "count": 1
-    },
-    {
-      "sector": "电池",
-      "count": 1
-    },
-    {
-      "sector": "农产品加",
-      "count": 1
-    },
-    {
       "sector": "旅游零售",
       "count": 1
     },
     {
-      "sector": "种植业",
+      "sector": "专用设备",
+      "count": 1
+    },
+    {
+      "sector": "自动化设",
       "count": 1
     },
     {
@@ -187,10 +175,6 @@
     {
       "sector": "光学光电",
       "count": 1
-    },
-    {
-      "sector": "专业工程",
-      "count": 1
     }
   ],
   "consecutiveLimitUps": [
@@ -200,6 +184,13 @@
       "boards": 5,
       "sector": "汽车零部",
       "changePct": 10
+    },
+    {
+      "code": "600814",
+      "name": "杭州解百",
+      "boards": 4,
+      "sector": "一般零售",
+      "changePct": 10.059880256652832
     },
     {
       "code": "002651",
@@ -251,6 +242,20 @@
       "changePct": 10.052909851074219
     },
     {
+      "code": "600227",
+      "name": "赤天化",
+      "boards": 2,
+      "sector": "农化制品",
+      "changePct": 9.907120704650879
+    },
+    {
+      "code": "600229",
+      "name": "城市传媒",
+      "boards": 2,
+      "sector": "出版",
+      "changePct": 9.981515884399414
+    },
+    {
       "code": "600280",
       "name": "中央商场",
       "boards": 2,
@@ -263,9 +268,16 @@
       "boards": 2,
       "sector": "渔业",
       "changePct": 10
+    },
+    {
+      "code": "603324",
+      "name": "盛剑科技",
+      "boards": 2,
+      "sector": "环保设备",
+      "changePct": 10.009296417236328
     }
   ],
   "errors": [
-    "breadth: page 10: 502 Bad Gateway"
+    "breadth: page 14: 502 Bad Gateway"
   ]
 }
